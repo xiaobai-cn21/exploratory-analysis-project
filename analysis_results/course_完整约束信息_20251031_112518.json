@@ -1,0 +1,3713 @@
+{
+  "database_name": "course",
+  "mdb_path": "E:\\STUDY\\0-BIT\\5-Y3-1\\6-DataWarehouse&Mining\\project\\APIB24\\AP_IB_Course_2024.mdb",
+  "tables": {
+    "AP_IB_Course_2024": {
+      "row_count": 415765,
+      "column_count": 21,
+      "schema": [
+        {
+          "column_name": "REPORT_SCHOOL_YEAR",
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "ordinal_position": 1,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "aggregation_index",
+          "data_type": "VARCHAR",
+          "column_size": 1,
+          "nullable": 1,
+          "ordinal_position": 2,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "aggregation_type",
+          "data_type": "VARCHAR",
+          "column_size": 22,
+          "nullable": 1,
+          "ordinal_position": 3,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "aggregation_code",
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "ordinal_position": 4,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "aggregation_name",
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "ordinal_position": 5,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "INST_ID",
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "ordinal_position": 6,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "LEA_BEDS",
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "ordinal_position": 7,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "LEA_NAME",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 8,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "NRC_CODE",
+          "data_type": "VARCHAR",
+          "column_size": 10,
+          "nullable": 1,
+          "ordinal_position": 9,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "NRC_DESC",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 10,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "COUNTY_CODE",
+          "data_type": "VARCHAR",
+          "column_size": 4,
+          "nullable": 1,
+          "ordinal_position": 11,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "COUNTY_NAME",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 12,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "NYC_IND",
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "ordinal_position": 13,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "SUBGROUP_CODE",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 14,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "SUBGROUP_NAME",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 15,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "APIB_IND",
+          "data_type": "VARCHAR",
+          "column_size": 2,
+          "nullable": 1,
+          "ordinal_position": 16,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "SUBJECT_AREA",
+          "data_type": "VARCHAR",
+          "column_size": 50,
+          "nullable": 1,
+          "ordinal_position": 17,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "COURSE_ID",
+          "data_type": "VARCHAR",
+          "column_size": 24,
+          "nullable": 1,
+          "ordinal_position": 18,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "COURSE_DESC",
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "ordinal_position": 19,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "grade_level",
+          "data_type": "VARCHAR",
+          "column_size": 10,
+          "nullable": 1,
+          "ordinal_position": 20,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "student_count",
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "ordinal_position": 21,
+          "default": null,
+          "remarks": null
+        }
+      ],
+      "field_analysis": {
+        "REPORT_SCHOOL_YEAR": {
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 1,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "2023-24",
+              415765
+            ]
+          ]
+        },
+        "aggregation_index": {
+          "data_type": "VARCHAR",
+          "column_size": 1,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 5,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "4",
+              182850
+            ],
+            [
+              "3",
+              150941
+            ],
+            [
+              "2",
+              52924
+            ],
+            [
+              "1",
+              21692
+            ],
+            [
+              "0",
+              7358
+            ]
+          ]
+        },
+        "aggregation_type": {
+          "data_type": "VARCHAR",
+          "column_size": 22,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 5,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "School",
+              182850
+            ],
+            [
+              "District",
+              150941
+            ],
+            [
+              "County",
+              52924
+            ],
+            [
+              "Need/Resource Category",
+              21692
+            ],
+            [
+              "Statewide",
+              7358
+            ]
+          ]
+        },
+        "aggregation_code": {
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 1664,
+          "distinct_percentage": 0.4,
+          "top_50_values": [
+            [
+              "000000000000",
+              7358
+            ],
+            [
+              "000000000006",
+              4827
+            ],
+            [
+              "000000000005",
+              4345
+            ],
+            [
+              "660000000000",
+              3786
+            ],
+            [
+              "580000000000",
+              3519
+            ],
+            [
+              "280000000000",
+              3425
+            ],
+            [
+              "000000000001",
+              3203
+            ],
+            [
+              "000000000003",
+              2859
+            ],
+            [
+              "330000000000",
+              2805
+            ],
+            [
+              "000000000002",
+              2622
+            ],
+            [
+              "260000000000",
+              2502
+            ],
+            [
+              "000000000007",
+              2396
+            ],
+            [
+              "140000000000",
+              2382
+            ],
+            [
+              "320000000000",
+              1877
+            ],
+            [
+              "310000000000",
+              1793
+            ],
+            [
+              "500000000000",
+              1696
+            ],
+            [
+              "130000000000",
+              1535
+            ],
+            [
+              "420000000000",
+              1512
+            ],
+            [
+              "000000000004",
+              1440
+            ],
+            [
+              "480000000000",
+              1404
+            ],
+            [
+              "030000000000",
+              1364
+            ],
+            [
+              "340000000000",
+              1352
+            ],
+            [
+              "140600010000",
+              1254
+            ],
+            [
+              "440000000000",
+              1233
+            ],
+            [
+              "500101060000",
+              1189
+            ],
+            [
+              "261600010000",
+              1181
+            ],
+            [
+              "430000000000",
+              1171
+            ],
+            [
+              "530000000000",
+              1155
+            ],
+            [
+              "010000000000",
+              1147
+            ],
+            [
+              "310200010000",
+              1135
+            ],
+            [
+              "520000000000",
+              1044
+            ],
+            [
+              "580405060000",
+              1040
+            ],
+            [
+              "660501060004",
+              1029
+            ],
+            [
+              "660501060000",
+              1029
+            ],
+            [
+              "331500010000",
+              1003
+            ],
+            [
+              "662300010000",
+              981
+            ],
+            [
+              "280502060000",
+              967
+            ],
+            [
+              "280502060014",
+              967
+            ],
+            [
+              "570000000000",
+              936
+            ],
+            [
+              "661100010000",
+              915
+            ],
+            [
+              "661100010016",
+              915
+            ],
+            [
+              "331400010000",
+              911
+            ],
+            [
+              "580501030000",
+              893
+            ],
+            [
+              "580501030006",
+              893
+            ],
+            [
+              "580509030012",
+              881
+            ],
+            [
+              "580509030000",
+              881
+            ],
+            [
+              "500101060011",
+              881
+            ],
+            [
+              "662101060000",
+              871
+            ],
+            [
+              "662101060001",
+              871
+            ],
+            [
+              "280251070000",
+              866
+            ]
+          ]
+        },
+        "aggregation_name": {
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 1664,
+          "distinct_percentage": 0.4,
+          "top_50_values": [
+            [
+              "All Districts and Charters",
+              7358
+            ],
+            [
+              "LOW NEEDS",
+              4827
+            ],
+            [
+              "AVERAGE NEEDS",
+              4345
+            ],
+            [
+              "County:WESTCHESTER",
+              3871
+            ],
+            [
+              "County:SUFFOLK",
+              3532
+            ],
+            [
+              "County:NASSAU",
+              3422
+            ],
+            [
+              "NEW YORK CITY",
+              3203
+            ],
+            [
+              "URBAN/SUBURBAN/HIGH NEEDS",
+              2859
+            ],
+            [
+              "County:KINGS",
+              2805
+            ],
+            [
+              "LARGE CITY",
+              2622
+            ],
+            [
+              "County:MONROE",
+              2512
+            ],
+            [
+              "CHARTER SCHOOL",
+              2396
+            ],
+            [
+              "County:ERIE",
+              2346
+            ],
+            [
+              "County:BRONX",
+              1877
+            ],
+            [
+              "County:NEW YORK",
+              1793
+            ],
+            [
+              "County:ROCKLAND",
+              1696
+            ],
+            [
+              "County:ONONDAGA",
+              1594
+            ],
+            [
+              "County:DUTCHESS",
+              1535
+            ],
+            [
+              "RURAL HIGH NEEDS",
+              1440
+            ],
+            [
+              "County:PUTNAM",
+              1404
+            ],
+            [
+              "County:BROOME",
+              1364
+            ],
+            [
+              "County:QUEENS",
+              1352
+            ],
+            [
+              "BUFFALO",
+              1254
+            ],
+            [
+              "County:ORANGE",
+              1233
+            ],
+            [
+              "CLARKSTOWN",
+              1189
+            ],
+            [
+              "ROCHESTER",
+              1181
+            ],
+            [
+              "County:SCHENECTADY",
+              1155
+            ],
+            [
+              "County:ALBANY",
+              1147
+            ],
+            [
+              "NYC GEOG DIST # 2 - MANHATTAN",
+              1135
+            ],
+            [
+              "County:SARATOGA",
+              1070
+            ],
+            [
+              "HALF HOLLOW HILLS",
+              1040
+            ],
+            [
+              "HARRISON HIGH SCHOOL",
+              1029
+            ],
+            [
+              "HARRISON",
+              1029
+            ],
+            [
+              "NYC GEOG DIST #15 - BROOKLYN",
+              1003
+            ],
+            [
+              "County:ONTARIO",
+              986
+            ],
+            [
+              "YONKERS",
+              981
+            ],
+            [
+              "SYOSSET SENIOR HIGH SCHOOL",
+              967
+            ],
+            [
+              "SYOSSET",
+              967
+            ],
+            [
+              "County:STEUBEN",
+              966
+            ],
+            [
+              "NEW ROCHELLE",
+              915
+            ],
+            [
+              "NEW ROCHELLE HIGH SCHOOL",
+              915
+            ],
+            [
+              "NYC GEOG DIST #14 - BROOKLYN",
+              911
+            ],
+            [
+              "BAY SHORE SENIOR HIGH SCHOOL",
+              893
+            ],
+            [
+              "BAY SHORE",
+              893
+            ],
+            [
+              "WEST ISLIP SENIOR HIGH SCHOOL",
+              881
+            ],
+            [
+              "WEST ISLIP",
+              881
+            ],
+            [
+              "CLARKSTOWN NORTH SENIOR HS",
+              881
+            ],
+            [
+              "SOMERS SENIOR HIGH SCHOOL",
+              871
+            ],
+            [
+              "SOMERS",
+              871
+            ],
+            [
+              "VALLEY STREAM CHS",
+              866
+            ]
+          ]
+        },
+        "INST_ID": {
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 333791,
+          "null_count": 81974,
+          "null_percentage": 19.72,
+          "distinct_count": 1561,
+          "distinct_percentage": 0.47,
+          "top_50_values": [
+            [
+              "NULL",
+              81974
+            ],
+            [
+              "800000052968",
+              1254
+            ],
+            [
+              "800000039375",
+              1189
+            ],
+            [
+              "800000050065",
+              1181
+            ],
+            [
+              "800000048410",
+              1135
+            ],
+            [
+              "800000037344",
+              1030
+            ],
+            [
+              "800000035428",
+              1029
+            ],
+            [
+              "800000035425",
+              1029
+            ],
+            [
+              "800000045191",
+              1003
+            ],
+            [
+              "800000034777",
+              981
+            ],
+            [
+              "800000048929",
+              957
+            ],
+            [
+              "800000048948",
+              957
+            ],
+            [
+              "800000035130",
+              915
+            ],
+            [
+              "800000035159",
+              915
+            ],
+            [
+              "800000045345",
+              911
+            ],
+            [
+              "800000037240",
+              893
+            ],
+            [
+              "800000037217",
+              893
+            ],
+            [
+              "800000037070",
+              881
+            ],
+            [
+              "800000037081",
+              881
+            ],
+            [
+              "800000039346",
+              881
+            ],
+            [
+              "800000034906",
+              871
+            ],
+            [
+              "800000034907",
+              871
+            ],
+            [
+              "800000049260",
+              866
+            ],
+            [
+              "800000037340",
+              860
+            ],
+            [
+              "800000037329",
+              839
+            ],
+            [
+              "800000037281",
+              833
+            ],
+            [
+              "800000037384",
+              829
+            ],
+            [
+              "800000037378",
+              829
+            ],
+            [
+              "800000049241",
+              826
+            ],
+            [
+              "800000037678",
+              823
+            ],
+            [
+              "800000037263",
+              812
+            ],
+            [
+              "800000037350",
+              807
+            ],
+            [
+              "800000037376",
+              807
+            ],
+            [
+              "800000051994",
+              798
+            ],
+            [
+              "800000039353",
+              792
+            ],
+            [
+              "800000049062",
+              792
+            ],
+            [
+              "800000036899",
+              790
+            ],
+            [
+              "800000053047",
+              787
+            ],
+            [
+              "800000048951",
+              781
+            ],
+            [
+              "800000048966",
+              781
+            ],
+            [
+              "800000037718",
+              777
+            ],
+            [
+              "800000037732",
+              777
+            ],
+            [
+              "800000044521",
+              773
+            ],
+            [
+              "800000037153",
+              773
+            ],
+            [
+              "800000037137",
+              773
+            ],
+            [
+              "800000037260",
+              771
+            ],
+            [
+              "800000037254",
+              771
+            ],
+            [
+              "800000048907",
+              767
+            ],
+            [
+              "800000048920",
+              767
+            ],
+            [
+              "800000040250",
+              754
+            ]
+          ]
+        },
+        "LEA_BEDS": {
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 182850,
+          "null_count": 232915,
+          "null_percentage": 56.02,
+          "distinct_count": 645,
+          "distinct_percentage": 0.35,
+          "top_50_values": [
+            [
+              "NULL",
+              232915
+            ],
+            [
+              "140600010000",
+              2834
+            ],
+            [
+              "310200010000",
+              2606
+            ],
+            [
+              "280253070000",
+              1984
+            ],
+            [
+              "280251070000",
+              1838
+            ],
+            [
+              "280252070000",
+              1819
+            ],
+            [
+              "580405060000",
+              1731
+            ],
+            [
+              "261600010000",
+              1686
+            ],
+            [
+              "500101060000",
+              1673
+            ],
+            [
+              "580205060000",
+              1461
+            ],
+            [
+              "140203060000",
+              1408
+            ],
+            [
+              "580801060000",
+              1310
+            ],
+            [
+              "662300010000",
+              1215
+            ],
+            [
+              "280407030000",
+              1214
+            ],
+            [
+              "331400010000",
+              1208
+            ],
+            [
+              "331500010000",
+              1203
+            ],
+            [
+              "321000010000",
+              1200
+            ],
+            [
+              "353100010000",
+              1196
+            ],
+            [
+              "261401060000",
+              1162
+            ],
+            [
+              "261901060000",
+              1142
+            ],
+            [
+              "342800010000",
+              1076
+            ],
+            [
+              "342700010000",
+              1073
+            ],
+            [
+              "580211060000",
+              1053
+            ],
+            [
+              "280205030000",
+              1051
+            ],
+            [
+              "660501060000",
+              1029
+            ],
+            [
+              "331900010000",
+              998
+            ],
+            [
+              "260501060000",
+              983
+            ],
+            [
+              "280502060000",
+              967
+            ],
+            [
+              "142601030000",
+              958
+            ],
+            [
+              "343000010000",
+              919
+            ],
+            [
+              "661100010000",
+              915
+            ],
+            [
+              "580501030000",
+              893
+            ],
+            [
+              "580410030000",
+              882
+            ],
+            [
+              "280203030000",
+              881
+            ],
+            [
+              "580509030000",
+              881
+            ],
+            [
+              "441600010000",
+              876
+            ],
+            [
+              "662101060000",
+              871
+            ],
+            [
+              "342900010000",
+              855
+            ],
+            [
+              "320900010000",
+              852
+            ],
+            [
+              "580403030000",
+              829
+            ],
+            [
+              "421800010000",
+              813
+            ],
+            [
+              "280501060000",
+              811
+            ],
+            [
+              "580404030000",
+              807
+            ],
+            [
+              "280503060000",
+              778
+            ],
+            [
+              "580201060000",
+              777
+            ],
+            [
+              "580506030000",
+              773
+            ],
+            [
+              "580413030000",
+              771
+            ],
+            [
+              "331700010000",
+              769
+            ],
+            [
+              "571000010000",
+              733
+            ],
+            [
+              "280202030000",
+              730
+            ]
+          ]
+        },
+        "LEA_NAME": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 182850,
+          "null_count": 232915,
+          "null_percentage": 56.02,
+          "distinct_count": 645,
+          "distinct_percentage": 0.35,
+          "top_50_values": [
+            [
+              "NULL",
+              232915
+            ],
+            [
+              "BUFFALO",
+              2834
+            ],
+            [
+              "NYC GEOG DIST # 2 - MANHATTAN",
+              2606
+            ],
+            [
+              "BELLMORE-MERRICK",
+              1984
+            ],
+            [
+              "VALLEY STREAM CHS",
+              1838
+            ],
+            [
+              "SEWANHAKA",
+              1819
+            ],
+            [
+              "HALF HOLLOW HILLS",
+              1731
+            ],
+            [
+              "ROCHESTER",
+              1686
+            ],
+            [
+              "CLARKSTOWN",
+              1673
+            ],
+            [
+              "SACHEM",
+              1461
+            ],
+            [
+              "WILLIAMSVILLE",
+              1408
+            ],
+            [
+              "SMITHTOWN",
+              1310
+            ],
+            [
+              "YONKERS",
+              1215
+            ],
+            [
+              "GREAT NECK",
+              1214
+            ],
+            [
+              "NYC GEOG DIST #14 - BROOKLYN",
+              1208
+            ],
+            [
+              "NYC GEOG DIST #15 - BROOKLYN",
+              1203
+            ],
+            [
+              "NYC GEOG DIST #10 - BRONX",
+              1200
+            ],
+            [
+              "NYC GEOG DIST #31 - SI",
+              1196
+            ],
+            [
+              "PITTSFORD",
+              1162
+            ],
+            [
+              "WEBSTER",
+              1142
+            ],
+            [
+              "NYC GEOG DIST #28 - QUEENS",
+              1076
+            ],
+            [
+              "NYC GEOG DIST #27  - QUEENS",
+              1073
+            ],
+            [
+              "MIDDLE COUNTRY",
+              1053
+            ],
+            [
+              "LEVITTOWN",
+              1051
+            ],
+            [
+              "HARRISON",
+              1029
+            ],
+            [
+              "NYC GEOG DIST #19 - BROOKLYN",
+              998
+            ],
+            [
+              "GREECE",
+              983
+            ],
+            [
+              "SYOSSET",
+              967
+            ],
+            [
+              "KENMORE",
+              958
+            ],
+            [
+              "NYC GEOG DIST #30 - QUEENS",
+              919
+            ],
+            [
+              "NEW ROCHELLE",
+              915
+            ],
+            [
+              "BAY SHORE",
+              893
+            ],
+            [
+              "COMMACK",
+              882
+            ],
+            [
+              "WEST ISLIP",
+              881
+            ],
+            [
+              "EAST MEADOW",
+              881
+            ],
+            [
+              "NEWBURGH",
+              876
+            ],
+            [
+              "SOMERS",
+              871
+            ],
+            [
+              "NYC GEOG DIST #29 - QUEENS",
+              855
+            ],
+            [
+              "NYC GEOG DIST # 9 - BRONX",
+              852
+            ],
+            [
+              "HUNTINGTON",
+              829
+            ],
+            [
+              "SYRACUSE",
+              813
+            ],
+            [
+              "NORTH SHORE",
+              811
+            ],
+            [
+              "NORTHPORT",
+              807
+            ],
+            [
+              "LOCUST VALLEY",
+              778
+            ],
+            [
+              "THREE VILLAGE",
+              777
+            ],
+            [
+              "HAUPPAUGE",
+              773
+            ],
+            [
+              "SOUTH HUNTINGTON",
+              771
+            ],
+            [
+              "NYC GEOG DIST #17 - BROOKLYN",
+              769
+            ],
+            [
+              "CORNING",
+              733
+            ],
+            [
+              "UNIONDALE",
+              730
+            ]
+          ]
+        },
+        "NRC_CODE": {
+          "data_type": "VARCHAR",
+          "column_size": 10,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 355483,
+          "null_count": 60282,
+          "null_percentage": 14.5,
+          "distinct_count": 8,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "5",
+              130946
+            ],
+            [
+              "6",
+              121529
+            ],
+            [
+              "NULL",
+              60282
+            ],
+            [
+              "1",
+              39179
+            ],
+            [
+              "3",
+              24475
+            ],
+            [
+              "4",
+              14066
+            ],
+            [
+              "2",
+              13291
+            ],
+            [
+              "7",
+              11997
+            ]
+          ]
+        },
+        "NRC_DESC": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 355483,
+          "null_count": 60282,
+          "null_percentage": 14.5,
+          "distinct_count": 8,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "AVERAGE NEEDS",
+              130946
+            ],
+            [
+              "LOW NEEDS",
+              121529
+            ],
+            [
+              "NULL",
+              60282
+            ],
+            [
+              "NEW YORK CITY",
+              39179
+            ],
+            [
+              "URBAN/SUBURBAN/HIGH NEEDS",
+              24475
+            ],
+            [
+              "RURAL HIGH NEEDS",
+              14066
+            ],
+            [
+              "LARGE CITY",
+              13291
+            ],
+            [
+              "CHARTER SCHOOL",
+              11997
+            ]
+          ]
+        },
+        "COUNTY_CODE": {
+          "data_type": "VARCHAR",
+          "column_size": 4,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 386715,
+          "null_count": 29050,
+          "null_percentage": 6.99,
+          "distinct_count": 63,
+          "distinct_percentage": 0.02,
+          "all_values": [
+            [
+              "58",
+              58890
+            ],
+            [
+              "28",
+              56581
+            ],
+            [
+              "66",
+              40672
+            ],
+            [
+              "NULL",
+              29050
+            ],
+            [
+              "26",
+              21699
+            ],
+            [
+              "14",
+              20963
+            ],
+            [
+              "33",
+              18941
+            ],
+            [
+              "32",
+              11339
+            ],
+            [
+              "50",
+              10643
+            ],
+            [
+              "34",
+              10162
+            ],
+            [
+              "31",
+              9732
+            ],
+            [
+              "42",
+              8516
+            ],
+            [
+              "13",
+              8464
+            ],
+            [
+              "44",
+              7640
+            ],
+            [
+              "01",
+              7120
+            ],
+            [
+              "43",
+              6071
+            ],
+            [
+              "03",
+              5552
+            ],
+            [
+              "48",
+              5518
+            ],
+            [
+              "52",
+              5326
+            ],
+            [
+              "41",
+              4623
+            ],
+            [
+              "62",
+              4276
+            ],
+            [
+              "53",
+              4193
+            ],
+            [
+              "40",
+              3858
+            ],
+            [
+              "57",
+              3462
+            ],
+            [
+              "06",
+              3262
+            ],
+            [
+              "49",
+              3015
+            ],
+            [
+              "35",
+              2798
+            ],
+            [
+              "61",
+              2647
+            ],
+            [
+              "24",
+              2625
+            ],
+            [
+              "65",
+              2471
+            ],
+            [
+              "18",
+              2331
+            ],
+            [
+              "63",
+              2326
+            ],
+            [
+              "09",
+              2000
+            ],
+            [
+              "25",
+              1996
+            ],
+            [
+              "51",
+              1995
+            ],
+            [
+              "04",
+              1931
+            ],
+            [
+              "05",
+              1897
+            ],
+            [
+              "19",
+              1849
+            ],
+            [
+              "64",
+              1647
+            ],
+            [
+              "21",
+              1630
+            ],
+            [
+              "46",
+              1624
+            ],
+            [
+              "22",
+              1253
+            ],
+            [
+              "45",
+              1117
+            ],
+            [
+              "17",
+              1086
+            ],
+            [
+              "55",
+              1028
+            ],
+            [
+              "10",
+              930
+            ],
+            [
+              "59",
+              927
+            ],
+            [
+              "47",
+              847
+            ],
+            [
+              "11",
+              831
+            ],
+            [
+              "67",
+              769
+            ],
+            [
+              "08",
+              673
+            ],
+            [
+              "02",
+              644
+            ],
+            [
+              "15",
+              569
+            ],
+            [
+              "27",
+              569
+            ],
+            [
+              "60",
+              516
+            ],
+            [
+              "16",
+              504
+            ],
+            [
+              "56",
+              482
+            ],
+            [
+              "54",
+              381
+            ],
+            [
+              "23",
+              373
+            ],
+            [
+              "12",
+              270
+            ],
+            [
+              "07",
+              253
+            ],
+            [
+              "68",
+              252
+            ],
+            [
+              "20",
+              156
+            ]
+          ]
+        },
+        "COUNTY_NAME": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 386715,
+          "null_count": 29050,
+          "null_percentage": 6.99,
+          "distinct_count": 63,
+          "distinct_percentage": 0.02,
+          "all_values": [
+            [
+              "SUFFOLK",
+              58963
+            ],
+            [
+              "NASSAU",
+              56538
+            ],
+            [
+              "WESTCHESTER",
+              40927
+            ],
+            [
+              "NULL",
+              29050
+            ],
+            [
+              "MONROE",
+              21729
+            ],
+            [
+              "ERIE",
+              20827
+            ],
+            [
+              "KINGS",
+              18941
+            ],
+            [
+              "BRONX",
+              11339
+            ],
+            [
+              "ROCKLAND",
+              10643
+            ],
+            [
+              "QUEENS",
+              10162
+            ],
+            [
+              "NEW YORK",
+              9732
+            ],
+            [
+              "ONONDAGA",
+              8762
+            ],
+            [
+              "DUTCHESS",
+              8464
+            ],
+            [
+              "ORANGE",
+              7640
+            ],
+            [
+              "ALBANY",
+              7120
+            ],
+            [
+              "BROOME",
+              5552
+            ],
+            [
+              "PUTNAM",
+              5518
+            ],
+            [
+              "SARATOGA",
+              5432
+            ],
+            [
+              "ONTARIO",
+              5250
+            ],
+            [
+              "ONEIDA",
+              4623
+            ],
+            [
+              "ULSTER",
+              4276
+            ],
+            [
+              "SCHENECTADY",
+              4193
+            ],
+            [
+              "NIAGARA",
+              3858
+            ],
+            [
+              "STEUBEN",
+              3660
+            ],
+            [
+              "CHAUTAUQUA",
+              3398
+            ],
+            [
+              "RENSSELAER",
+              3015
+            ],
+            [
+              "TOMPKINS",
+              2955
+            ],
+            [
+              "RICHMOND",
+              2798
+            ],
+            [
+              "WAYNE",
+              2772
+            ],
+            [
+              "LIVINGSTON",
+              2625
+            ],
+            [
+              "WARREN",
+              2430
+            ],
+            [
+              "GENESEE",
+              2331
+            ],
+            [
+              "MADISON",
+              2056
+            ],
+            [
+              "CLINTON",
+              2000
+            ],
+            [
+              "SAINT LAWRENCE",
+              1995
+            ],
+            [
+              "GREENE",
+              1849
+            ],
+            [
+              "HERKIMER",
+              1630
+            ],
+            [
+              "OSWEGO",
+              1624
+            ],
+            [
+              "CATTARAUGUS",
+              1543
+            ],
+            [
+              "WASHINGTON",
+              1437
+            ],
+            [
+              "CAYUGA",
+              1283
+            ],
+            [
+              "JEFFERSON",
+              1253
+            ],
+            [
+              "ORLEANS",
+              1117
+            ],
+            [
+              "FULTON",
+              1086
+            ],
+            [
+              "ALLEGANY",
+              1032
+            ],
+            [
+              "COLUMBIA",
+              930
+            ],
+            [
+              "SULLIVAN",
+              927
+            ],
+            [
+              "OTSEGO",
+              847
+            ],
+            [
+              "CORTLAND",
+              831
+            ],
+            [
+              "WYOMING",
+              769
+            ],
+            [
+              "CHENANGO",
+              673
+            ],
+            [
+              "SENECA",
+              634
+            ],
+            [
+              "TIOGA",
+              622
+            ],
+            [
+              "ESSEX",
+              569
+            ],
+            [
+              "MONTGOMERY",
+              569
+            ],
+            [
+              "SCHUYLER",
+              512
+            ],
+            [
+              "FRANKLIN",
+              504
+            ],
+            [
+              "CHEMUNG",
+              465
+            ],
+            [
+              "SCHOHARIE",
+              381
+            ],
+            [
+              "LEWIS",
+              373
+            ],
+            [
+              "YATES",
+              305
+            ],
+            [
+              "DELAWARE",
+              270
+            ],
+            [
+              "HAMILTON",
+              156
+            ]
+          ]
+        },
+        "NYC_IND": {
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 386715,
+          "null_count": 29050,
+          "null_percentage": 6.99,
+          "distinct_count": 3,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "0.0",
+              333743
+            ],
+            [
+              "1.0",
+              52972
+            ],
+            [
+              "NULL",
+              29050
+            ]
+          ]
+        },
+        "SUBGROUP_CODE": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 24,
+          "distinct_percentage": 0.01,
+          "all_values": [
+            [
+              "01",
+              29798
+            ],
+            [
+              "23",
+              29790
+            ],
+            [
+              "18",
+              29789
+            ],
+            [
+              "25",
+              29773
+            ],
+            [
+              "21",
+              29686
+            ],
+            [
+              "12",
+              29585
+            ],
+            [
+              "10",
+              29489
+            ],
+            [
+              "16",
+              27409
+            ],
+            [
+              "02",
+              26671
+            ],
+            [
+              "03",
+              26229
+            ],
+            [
+              "08",
+              24891
+            ],
+            [
+              "15",
+              23233
+            ],
+            [
+              "06",
+              18403
+            ],
+            [
+              "07",
+              16234
+            ],
+            [
+              "05",
+              11907
+            ],
+            [
+              "09",
+              10787
+            ],
+            [
+              "11",
+              8776
+            ],
+            [
+              "20",
+              4948
+            ],
+            [
+              "13",
+              3405
+            ],
+            [
+              "04",
+              2321
+            ],
+            [
+              "24",
+              982
+            ],
+            [
+              "29",
+              765
+            ],
+            [
+              "22",
+              756
+            ],
+            [
+              "17",
+              138
+            ]
+          ]
+        },
+        "SUBGROUP_NAME": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 24,
+          "distinct_percentage": 0.01,
+          "all_values": [
+            [
+              "All Students",
+              29798
+            ],
+            [
+              "Not in Foster Care",
+              29790
+            ],
+            [
+              "Not Migrant",
+              29789
+            ],
+            [
+              "Parent Not in Armed Forces",
+              29773
+            ],
+            [
+              "Not Homeless",
+              29686
+            ],
+            [
+              "Not English Language Learner",
+              29585
+            ],
+            [
+              "General Education Students",
+              29489
+            ],
+            [
+              "Not Economically Disadvantaged",
+              27409
+            ],
+            [
+              "Female",
+              26671
+            ],
+            [
+              "Male",
+              26229
+            ],
+            [
+              "White",
+              24891
+            ],
+            [
+              "Economically Disadvantaged",
+              23233
+            ],
+            [
+              "Hispanic",
+              18403
+            ],
+            [
+              "Asian/Pacific Islander",
+              16234
+            ],
+            [
+              "Black",
+              11907
+            ],
+            [
+              "Multiracial",
+              10787
+            ],
+            [
+              "Students with Disabilities",
+              8776
+            ],
+            [
+              "Homeless",
+              4948
+            ],
+            [
+              "English Language Learner",
+              3405
+            ],
+            [
+              "American Indian/Alaska Native",
+              2321
+            ],
+            [
+              "Parent in Armed Forces",
+              982
+            ],
+            [
+              "Nonbinary",
+              765
+            ],
+            [
+              "In Foster Care",
+              756
+            ],
+            [
+              "Migrant",
+              138
+            ]
+          ]
+        },
+        "APIB_IND": {
+          "data_type": "VARCHAR",
+          "column_size": 2,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 2,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "AP",
+              341440
+            ],
+            [
+              "IB",
+              74325
+            ]
+          ]
+        },
+        "SUBJECT_AREA": {
+          "data_type": "VARCHAR",
+          "column_size": 50,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 13,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "Social Studies",
+              95559
+            ],
+            [
+              "Science",
+              86680
+            ],
+            [
+              "Mathematics",
+              52190
+            ],
+            [
+              "ELA",
+              45276
+            ],
+            [
+              "Computer Sciences",
+              39558
+            ],
+            [
+              "Second Languages",
+              36890
+            ],
+            [
+              "Fine and Performing Arts",
+              36723
+            ],
+            [
+              "Miscellaneous",
+              17821
+            ],
+            [
+              "Engineering",
+              2358
+            ],
+            [
+              "Business and Marketing",
+              1937
+            ],
+            [
+              "Physical Education",
+              307
+            ],
+            [
+              "Nonsubject Specific",
+              291
+            ],
+            [
+              "Religious Education",
+              175
+            ]
+          ]
+        },
+        "COURSE_ID": {
+          "data_type": "VARCHAR",
+          "column_size": 24,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 142,
+          "distinct_percentage": 0.03,
+          "all_values": [
+            [
+              "03056",
+              25103
+            ],
+            [
+              "10019",
+              21982
+            ],
+            [
+              "01005",
+              20624
+            ],
+            [
+              "04104",
+              17883
+            ],
+            [
+              "02124",
+              17492
+            ],
+            [
+              "02203",
+              16800
+            ],
+            [
+              "01006",
+              16468
+            ],
+            [
+              "10157",
+              16411
+            ],
+            [
+              "03106",
+              15827
+            ],
+            [
+              "04256",
+              15310
+            ],
+            [
+              "03207",
+              13824
+            ],
+            [
+              "04057",
+              13422
+            ],
+            [
+              "06112",
+              11205
+            ],
+            [
+              "03165",
+              10768
+            ],
+            [
+              "05172",
+              9784
+            ],
+            [
+              "22110",
+              9447
+            ],
+            [
+              "02125",
+              9250
+            ],
+            [
+              "04157",
+              8873
+            ],
+            [
+              "05114",
+              7550
+            ],
+            [
+              "04004",
+              5665
+            ],
+            [
+              "05174",
+              5638
+            ],
+            [
+              "22112",
+              5531
+            ],
+            [
+              "04056",
+              5444
+            ],
+            [
+              "03156",
+              4873
+            ],
+            [
+              "04054",
+              3871
+            ],
+            [
+              "04304",
+              3709
+            ],
+            [
+              "04159",
+              3625
+            ],
+            [
+              "06132",
+              3614
+            ],
+            [
+              "01007",
+              3572
+            ],
+            [
+              "04205",
+              3394
+            ],
+            [
+              "03057",
+              3384
+            ],
+            [
+              "05153",
+              3183
+            ],
+            [
+              "04204",
+              3128
+            ],
+            [
+              "05173",
+              3067
+            ],
+            [
+              "03166",
+              2661
+            ],
+            [
+              "71052",
+              2358
+            ],
+            [
+              "06131",
+              2318
+            ],
+            [
+              "04067",
+              2212
+            ],
+            [
+              "02114",
+              2112
+            ],
+            [
+              "06113",
+              2036
+            ],
+            [
+              "02132",
+              2035
+            ],
+            [
+              "03065",
+              1815
+            ],
+            [
+              "06114",
+              1813
+            ],
+            [
+              "04257",
+              1790
+            ],
+            [
+              "03107",
+              1787
+            ],
+            [
+              "56101",
+              1765
+            ],
+            [
+              "05175",
+              1747
+            ],
+            [
+              "04203",
+              1676
+            ],
+            [
+              "03208",
+              1583
+            ],
+            [
+              "06619",
+              1526
+            ],
+            [
+              "06152",
+              1508
+            ],
+            [
+              "03157",
+              1507
+            ],
+            [
+              "04158",
+              1503
+            ],
+            [
+              "05115",
+              1449
+            ],
+            [
+              "01011",
+              1434
+            ],
+            [
+              "01010",
+              1301
+            ],
+            [
+              "02131",
+              1272
+            ],
+            [
+              "03164",
+              1246
+            ],
+            [
+              "22109",
+              1236
+            ],
+            [
+              "12059",
+              1218
+            ],
+            [
+              "05194",
+              1111
+            ],
+            [
+              "04206",
+              1073
+            ],
+            [
+              "06116",
+              979
+            ],
+            [
+              "22108",
+              878
+            ],
+            [
+              "10159",
+              807
+            ],
+            [
+              "06151",
+              798
+            ],
+            [
+              "02142",
+              795
+            ],
+            [
+              "03064",
+              781
+            ],
+            [
+              "12060",
+              719
+            ],
+            [
+              "06118",
+              710
+            ],
+            [
+              "02139",
+              703
+            ],
+            [
+              "06412",
+              699
+            ],
+            [
+              "06115",
+              629
+            ],
+            [
+              "06313",
+              623
+            ],
+            [
+              "06618",
+              598
+            ],
+            [
+              "06311",
+              597
+            ],
+            [
+              "05012",
+              578
+            ],
+            [
+              "02140",
+              572
+            ],
+            [
+              "05017",
+              531
+            ],
+            [
+              "04003",
+              527
+            ],
+            [
+              "01013",
+              507
+            ],
+            [
+              "04262",
+              501
+            ],
+            [
+              "22113",
+              494
+            ],
+            [
+              "06212",
+              469
+            ],
+            [
+              "03206",
+              459
+            ],
+            [
+              "04169",
+              442
+            ],
+            [
+              "06211",
+              441
+            ],
+            [
+              "56121",
+              433
+            ],
+            [
+              "04253",
+              432
+            ],
+            [
+              "06134",
+              428
+            ],
+            [
+              "03154",
+              389
+            ],
+            [
+              "01015",
+              387
+            ],
+            [
+              "06411",
+              382
+            ],
+            [
+              "01012",
+              380
+            ],
+            [
+              "05014",
+              371
+            ],
+            [
+              "05196",
+              369
+            ],
+            [
+              "05015",
+              368
+            ],
+            [
+              "10007",
+              358
+            ],
+            [
+              "02134",
+              345
+            ],
+            [
+              "06117",
+              340
+            ],
+            [
+              "06415",
+              338
+            ],
+            [
+              "05018",
+              334
+            ],
+            [
+              "06156",
+              329
+            ],
+            [
+              "03163",
+              323
+            ],
+            [
+              "58040",
+              307
+            ],
+            [
+              "02135",
+              303
+            ],
+            [
+              "04309",
+              296
+            ],
+            [
+              "73041",
+              291
+            ],
+            [
+              "51007",
+              283
+            ],
+            [
+              "05120",
+              274
+            ],
+            [
+              "06137",
+              273
+            ],
+            [
+              "06136",
+              254
+            ],
+            [
+              "04050",
+              249
+            ],
+            [
+              "02130",
+              243
+            ],
+            [
+              "56141",
+              242
+            ],
+            [
+              "04168",
+              240
+            ],
+            [
+              "06155",
+              236
+            ],
+            [
+              "05013",
+              230
+            ],
+            [
+              "06150",
+              212
+            ],
+            [
+              "06290",
+              200
+            ],
+            [
+              "07017",
+              175
+            ],
+            [
+              "24042",
+              165
+            ],
+            [
+              "01014",
+              155
+            ],
+            [
+              "04311",
+              155
+            ],
+            [
+              "06902",
+              155
+            ],
+            [
+              "72260",
+              150
+            ],
+            [
+              "55202",
+              139
+            ],
+            [
+              "54171",
+              139
+            ],
+            [
+              "52132",
+              138
+            ],
+            [
+              "06431",
+              130
+            ],
+            [
+              "02133",
+              130
+            ],
+            [
+              "03109",
+              125
+            ],
+            [
+              "06153",
+              125
+            ],
+            [
+              "06432",
+              120
+            ],
+            [
+              "03215",
+              120
+            ],
+            [
+              "53203",
+              105
+            ],
+            [
+              "06731",
+              100
+            ],
+            [
+              "56821",
+              90
+            ],
+            [
+              "22111",
+              85
+            ],
+            [
+              "56801",
+              70
+            ],
+            [
+              "06135",
+              55
+            ],
+            [
+              "06154",
+              50
+            ]
+          ]
+        },
+        "COURSE_DESC": {
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 142,
+          "distinct_percentage": 0.03,
+          "all_values": [
+            [
+              "AP Biology",
+              25103
+            ],
+            [
+              "AP Computer Science Principles",
+              21982
+            ],
+            [
+              "AP Eng Lang & Comp",
+              20624
+            ],
+            [
+              "AP U.S. History",
+              17883
+            ],
+            [
+              "AP Calculus AB",
+              17492
+            ],
+            [
+              "AP Statistics",
+              16800
+            ],
+            [
+              "AP Eng Lit & Comp",
+              16468
+            ],
+            [
+              "AP Computer Science A",
+              16411
+            ],
+            [
+              "AP Chemistry",
+              15827
+            ],
+            [
+              "AP Psychology",
+              15310
+            ],
+            [
+              "AP Environmental Science",
+              13824
+            ],
+            [
+              "AP World History",
+              13422
+            ],
+            [
+              "AP Spanish Language and Culture",
+              11205
+            ],
+            [
+              "AP Physics 1",
+              10768
+            ],
+            [
+              "AP Studio Art-Draw Portfolio",
+              9784
+            ],
+            [
+              "AP Seminar",
+              9447
+            ],
+            [
+              "AP Calculus BC",
+              9250
+            ],
+            [
+              "AP U.S. Govt & Politics",
+              8873
+            ],
+            [
+              "AP Music Theory",
+              7550
+            ],
+            [
+              "AP Human Geography",
+              5665
+            ],
+            [
+              "AP Studio Art- 2D",
+              5638
+            ],
+            [
+              "AP Research",
+              5531
+            ],
+            [
+              "AP European History",
+              5444
+            ],
+            [
+              "AP Physics C",
+              4873
+            ],
+            [
+              "IB History - HL",
+              3871
+            ],
+            [
+              "IB Theory of Knowledge",
+              3709
+            ],
+            [
+              "AP Government",
+              3625
+            ],
+            [
+              "AP French Language and Culture",
+              3614
+            ],
+            [
+              "IB Language A (English)",
+              3572
+            ],
+            [
+              "AP Economics",
+              3394
+            ],
+            [
+              "IB Biology - SL",
+              3384
+            ],
+            [
+              "AP Art-History of Art",
+              3183
+            ],
+            [
+              "AP Macroeconomics",
+              3128
+            ],
+            [
+              "IB Art/Design",
+              3067
+            ],
+            [
+              "AP Physics 2",
+              2661
+            ],
+            [
+              "IB Tech, Mid Yrs Prog",
+              2358
+            ],
+            [
+              "IB Language B - French - HL",
+              2318
+            ],
+            [
+              "AP World History: Modern",
+              2212
+            ],
+            [
+              "AP Precalculus",
+              2112
+            ],
+            [
+              "AP Spanish Literature",
+              2036
+            ],
+            [
+              "IB Math High Lvl",
+              2035
+            ],
+            [
+              "IB Sports, Exercise, and Health Science",
+              1815
+            ],
+            [
+              "IB Language A: Language and Literature - Spanish - SL",
+              1813
+            ],
+            [
+              "IB Psychology - HL",
+              1790
+            ],
+            [
+              "IB Chemistry - SL",
+              1787
+            ],
+            [
+              "IB Lang B (Span), Mid Yrs Prog",
+              1765
+            ],
+            [
+              "AP Studio Art- 3D",
+              1747
+            ],
+            [
+              "AP Microeconomics",
+              1676
+            ],
+            [
+              "IB Environmental Science",
+              1583
+            ],
+            [
+              "IB Language B - Spanish - SL",
+              1526
+            ],
+            [
+              "AP Italian Lng. & Cult",
+              1508
+            ],
+            [
+              "IB Physics - HL",
+              1507
+            ],
+            [
+              "AP Comparative Govt & Politics",
+              1503
+            ],
+            [
+              "IB Music - HL",
+              1449
+            ],
+            [
+              "IB Language A: Language and Literature - English - HL",
+              1434
+            ],
+            [
+              "IB Language A: Language and Literature - English - SL",
+              1301
+            ],
+            [
+              "IB Mathematical Studies",
+              1272
+            ],
+            [
+              "AP Physics C: Mechanics",
+              1246
+            ],
+            [
+              "IB Extended Essay",
+              1236
+            ],
+            [
+              "IB Business and Management - HL",
+              1218
+            ],
+            [
+              "IB Film - SL",
+              1111
+            ],
+            [
+              "IB Economics - SL",
+              1073
+            ],
+            [
+              "IB Language Ab Initio - Spanish",
+              979
+            ],
+            [
+              "IB Creativity, Action, Service",
+              878
+            ],
+            [
+              "IB Computer Science - HL",
+              807
+            ],
+            [
+              "IB Language B - Italian - HL",
+              798
+            ],
+            [
+              "IB Mathematics: Applications and interpretation - SL",
+              795
+            ],
+            [
+              "IB Biology - HL",
+              781
+            ],
+            [
+              "IB Business and Management - SL",
+              719
+            ],
+            [
+              "IB Language A: Literature - Spanish - SL",
+              710
+            ],
+            [
+              "IB Mathematics: Applications and interpretation - HL",
+              703
+            ],
+            [
+              "AP Chinese Lng. & Cult",
+              699
+            ],
+            [
+              "IB Language A: Language and Literature - Spanish - HL",
+              629
+            ],
+            [
+              "AP Latin (Virg, Cat & Horace)",
+              623
+            ],
+            [
+              "IB Language B - Spanish - HL",
+              598
+            ],
+            [
+              "IB Classical Languages-Latin - SL",
+              597
+            ],
+            [
+              "IB Dance - SL",
+              578
+            ],
+            [
+              "IB Mathematics: Analysis and approaches - SL",
+              572
+            ],
+            [
+              "IB Theatre Arts - HL",
+              531
+            ],
+            [
+              "IB Geography - HL",
+              527
+            ],
+            [
+              "IB Language A: Literature - English - HL",
+              507
+            ],
+            [
+              "IB Psychology - SL",
+              501
+            ],
+            [
+              "IB Personal and Professional Skills",
+              494
+            ],
+            [
+              "AP German Language and Culture",
+              469
+            ],
+            [
+              "IB Design Technology - SL",
+              459
+            ],
+            [
+              "IB Global Politics - HL",
+              442
+            ],
+            [
+              "IB Language B - German - HL",
+              441
+            ],
+            [
+              "IB Lang B (Fren), Mid Yrs Prog",
+              433
+            ],
+            [
+              "IB Social Anthropology - HL",
+              432
+            ],
+            [
+              "IB Language A: Language and Literature - French - SL",
+              428
+            ],
+            [
+              "IB Physics - SL",
+              389
+            ],
+            [
+              "AP Seminar: English",
+              387
+            ],
+            [
+              "IB Language B - Chinese - SL",
+              382
+            ],
+            [
+              "IB Literature and Performance",
+              380
+            ],
+            [
+              "IB Visual Arts - HL",
+              371
+            ],
+            [
+              "IB Film - HL",
+              369
+            ],
+            [
+              "IB Visual Arts - SL",
+              368
+            ],
+            [
+              "IB Information technology in a Global Society - HL",
+              358
+            ],
+            [
+              "IB Further Mathematics-SL",
+              345
+            ],
+            [
+              "IB Language A: Literature - Spanish - HL",
+              340
+            ],
+            [
+              "IB Language Ab Initio - Chinese",
+              338
+            ],
+            [
+              "IB Theatre Arts - SL",
+              334
+            ],
+            [
+              "IB Language B - Italian - SL",
+              329
+            ],
+            [
+              "AP Physics C: Ele. and Mag.",
+              323
+            ],
+            [
+              "IB Phys Ed, Mid Yrs Prog",
+              307
+            ],
+            [
+              "IB Mathematics: Analysis and approaches - HL",
+              303
+            ],
+            [
+              "IB Philosophy - HL",
+              296
+            ],
+            [
+              "IB Primary Years Program",
+              291
+            ],
+            [
+              "IB Lang A (Eng), Mid Yrs Prog",
+              283
+            ],
+            [
+              "IB Music - SL",
+              274
+            ],
+            [
+              "IB Language B - French - SL",
+              273
+            ],
+            [
+              "IB Language Ab Initio - French",
+              254
+            ],
+            [
+              "IB History - SL",
+              249
+            ],
+            [
+              "IB Math SL",
+              243
+            ],
+            [
+              "IB Lang B (Ital), Mid Yrs Prog",
+              242
+            ],
+            [
+              "IB Global Politics - SL",
+              240
+            ],
+            [
+              "IB Language Ab Initio - Italian",
+              236
+            ],
+            [
+              "IB Dance - HL",
+              230
+            ],
+            [
+              "IB Language A (non-Eng)-Ital",
+              212
+            ],
+            [
+              "IB Language A: Language and Literature - Greek - SL",
+              200
+            ],
+            [
+              "IB World Religions",
+              175
+            ],
+            [
+              "IB Language B - English - HL",
+              165
+            ],
+            [
+              "IB Language B (American Sign Language), Middle Years Program",
+              155
+            ],
+            [
+              "IB Philosophy - SL",
+              155
+            ],
+            [
+              "IB Language A: Literature - English - SL",
+              155
+            ],
+            [
+              "IB Personal Proj, Mid Yrs Prog",
+              150
+            ],
+            [
+              "IB Arts, Middle Years Program",
+              139
+            ],
+            [
+              "IB Humanities, Mid Yrs Prog",
+              139
+            ],
+            [
+              "IB Math, Mid Yrs Prog",
+              138
+            ],
+            [
+              "IB Language B - Japanese - HL",
+              130
+            ],
+            [
+              "IB Further Mathematics-HL",
+              130
+            ],
+            [
+              "IB Language A: Language and Literature - Italian - SL",
+              125
+            ],
+            [
+              "IB Chemistry - HL",
+              125
+            ],
+            [
+              "IB Design Technology - HL",
+              120
+            ],
+            [
+              "AP Japanese Lng. & Cult",
+              120
+            ],
+            [
+              "IB Sciences, Mid Yrs Prog",
+              105
+            ],
+            [
+              "IB Language B - Arabic - SL",
+              100
+            ],
+            [
+              "IB Lang B (AIL), Mid Yrs Prog",
+              90
+            ],
+            [
+              "IB Approaches to Learning",
+              85
+            ],
+            [
+              "IB Lang B (ASL), Mid Yrs Prog",
+              70
+            ],
+            [
+              "IB Language A: Language and Literature - French - HL",
+              55
+            ],
+            [
+              "IB Language A: Language and Literature - Italian - HL",
+              50
+            ]
+          ]
+        },
+        "grade_level": {
+          "data_type": "VARCHAR",
+          "column_size": 10,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 5,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "12th Grade",
+              187489
+            ],
+            [
+              "11th Grade",
+              150157
+            ],
+            [
+              "10th Grade",
+              54864
+            ],
+            [
+              "9th Grade",
+              13346
+            ],
+            [
+              "Not HS",
+              9909
+            ]
+          ]
+        },
+        "student_count": {
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "total_rows": 415765,
+          "non_null_count": 415765,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 1957,
+          "distinct_percentage": 0.47,
+          "top_50_values": [
+            [
+              "1.0",
+              79628
+            ],
+            [
+              "2.0",
+              36653
+            ],
+            [
+              "3.0",
+              26611
+            ],
+            [
+              "4.0",
+              20833
+            ],
+            [
+              "5.0",
+              17981
+            ],
+            [
+              "6.0",
+              15303
+            ],
+            [
+              "7.0",
+              13712
+            ],
+            [
+              "8.0",
+              11144
+            ],
+            [
+              "9.0",
+              10660
+            ],
+            [
+              "10.0",
+              9362
+            ],
+            [
+              "11.0",
+              9171
+            ],
+            [
+              "12.0",
+              8532
+            ],
+            [
+              "13.0",
+              7383
+            ],
+            [
+              "14.0",
+              7009
+            ],
+            [
+              "15.0",
+              6547
+            ],
+            [
+              "16.0",
+              5910
+            ],
+            [
+              "17.0",
+              5575
+            ],
+            [
+              "18.0",
+              4925
+            ],
+            [
+              "20.0",
+              4692
+            ],
+            [
+              "19.0",
+              4663
+            ],
+            [
+              "21.0",
+              4079
+            ],
+            [
+              "23.0",
+              3982
+            ],
+            [
+              "22.0",
+              3762
+            ],
+            [
+              "24.0",
+              3642
+            ],
+            [
+              "25.0",
+              3516
+            ],
+            [
+              "26.0",
+              3225
+            ],
+            [
+              "27.0",
+              3062
+            ],
+            [
+              "28.0",
+              2649
+            ],
+            [
+              "30.0",
+              2512
+            ],
+            [
+              "29.0",
+              2490
+            ],
+            [
+              "31.0",
+              2399
+            ],
+            [
+              "34.0",
+              2204
+            ],
+            [
+              "32.0",
+              2170
+            ],
+            [
+              "33.0",
+              2046
+            ],
+            [
+              "35.0",
+              1974
+            ],
+            [
+              "37.0",
+              1916
+            ],
+            [
+              "36.0",
+              1858
+            ],
+            [
+              "40.0",
+              1645
+            ],
+            [
+              "41.0",
+              1555
+            ],
+            [
+              "38.0",
+              1549
+            ],
+            [
+              "39.0",
+              1282
+            ],
+            [
+              "42.0",
+              1282
+            ],
+            [
+              "43.0",
+              1254
+            ],
+            [
+              "50.0",
+              1249
+            ],
+            [
+              "44.0",
+              1241
+            ],
+            [
+              "47.0",
+              1199
+            ],
+            [
+              "46.0",
+              1172
+            ],
+            [
+              "45.0",
+              1078
+            ],
+            [
+              "53.0",
+              1011
+            ],
+            [
+              "49.0",
+              1010
+            ]
+          ]
+        }
+      },
+      "constraints": {
+        "primary_keys": [],
+        "foreign_keys": [],
+        "indexes": []
+      }
+    }
+  }
+}
