@@ -1,0 +1,5182 @@
+{
+  "database_name": "assessment",
+  "mdb_path": "E:\\STUDY\\0-BIT\\5-Y3-1\\6-DataWarehouse&Mining\\project\\APIB24\\AP_IB_Assessment_2024.mdb",
+  "tables": {
+    "AP_IB_Assessment_2024": {
+      "row_count": 467535,
+      "column_count": 29,
+      "schema": [
+        {
+          "column_name": "REPORT_SCHOOL_YEAR",
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "ordinal_position": 1,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "aggregation_index",
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "ordinal_position": 2,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "aggregation_type",
+          "data_type": "VARCHAR",
+          "column_size": 22,
+          "nullable": 1,
+          "ordinal_position": 3,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "aggregation_code",
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "ordinal_position": 4,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "aggregation_name",
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "ordinal_position": 5,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "INST_ID",
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "ordinal_position": 6,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "LEA_BEDS",
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "ordinal_position": 7,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "LEA_NAME",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 8,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "NRC_CODE",
+          "data_type": "VARCHAR",
+          "column_size": 10,
+          "nullable": 1,
+          "ordinal_position": 9,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "NRC_DESC",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 10,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "COUNTY_CODE",
+          "data_type": "VARCHAR",
+          "column_size": 4,
+          "nullable": 1,
+          "ordinal_position": 11,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "COUNTY_NAME",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 12,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "NYC_IND",
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "ordinal_position": 13,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "SUBGROUP_CODE",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 14,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "SUBGROUP_NAME",
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "ordinal_position": 15,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "APIB_IND",
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "ordinal_position": 16,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "SUBJECT_AREA",
+          "data_type": "VARCHAR",
+          "column_size": 25,
+          "nullable": 1,
+          "ordinal_position": 17,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "STATE_CODE",
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "ordinal_position": 18,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "ITEM_DESC",
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "ordinal_position": 19,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "GRADE_LEVEL",
+          "data_type": "VARCHAR",
+          "column_size": 10,
+          "nullable": 1,
+          "ordinal_position": 20,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "tested_student_cnt",
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "ordinal_position": 21,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "proficient_student_cnt",
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "ordinal_position": 22,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "level1_cnt",
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "ordinal_position": 23,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "level2_cnt",
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "ordinal_position": 24,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "level3_cnt",
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "ordinal_position": 25,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "level4_cnt",
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "ordinal_position": 26,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "level5_cnt",
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "ordinal_position": 27,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "level6_cnt",
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "ordinal_position": 28,
+          "default": null,
+          "remarks": null
+        },
+        {
+          "column_name": "level7_cnt",
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "ordinal_position": 29,
+          "default": null,
+          "remarks": null
+        }
+      ],
+      "field_analysis": {
+        "REPORT_SCHOOL_YEAR": {
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 1,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "2023-24",
+              467535
+            ]
+          ]
+        },
+        "aggregation_index": {
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 5,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "4.0",
+              228774
+            ],
+            [
+              "3.0",
+              168111
+            ],
+            [
+              "2.0",
+              47885
+            ],
+            [
+              "1.0",
+              17060
+            ],
+            [
+              "0.0",
+              5705
+            ]
+          ]
+        },
+        "aggregation_type": {
+          "data_type": "VARCHAR",
+          "column_size": 22,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 5,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "Public School",
+              228774
+            ],
+            [
+              "District",
+              168111
+            ],
+            [
+              "County",
+              47885
+            ],
+            [
+              "Need/Resource Category",
+              17060
+            ],
+            [
+              "Statewide",
+              5705
+            ]
+          ]
+        },
+        "aggregation_code": {
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 1561,
+          "distinct_percentage": 0.33,
+          "top_50_values": [
+            [
+              "000000000000",
+              5705
+            ],
+            [
+              "000000000006",
+              4106
+            ],
+            [
+              "000000000005",
+              4075
+            ],
+            [
+              "660000000000",
+              3823
+            ],
+            [
+              "580000000000",
+              3252
+            ],
+            [
+              "000000000001",
+              3153
+            ],
+            [
+              "280000000000",
+              2896
+            ],
+            [
+              "310000000000",
+              2493
+            ],
+            [
+              "330000000000",
+              2296
+            ],
+            [
+              "340000000000",
+              2260
+            ],
+            [
+              "000000000003",
+              2198
+            ],
+            [
+              "260000000000",
+              2081
+            ],
+            [
+              "140000000000",
+              1924
+            ],
+            [
+              "310200010000",
+              1886
+            ],
+            [
+              "320000000000",
+              1877
+            ],
+            [
+              "000000000002",
+              1682
+            ],
+            [
+              "500000000000",
+              1647
+            ],
+            [
+              "321000010000",
+              1487
+            ],
+            [
+              "331300010000",
+              1448
+            ],
+            [
+              "580205060000",
+              1438
+            ],
+            [
+              "342600010000",
+              1381
+            ],
+            [
+              "130000000000",
+              1365
+            ],
+            [
+              "342800010000",
+              1360
+            ],
+            [
+              "332200010000",
+              1293
+            ],
+            [
+              "310300010000",
+              1249
+            ],
+            [
+              "010000000000",
+              1244
+            ],
+            [
+              "342500010000",
+              1229
+            ],
+            [
+              "420000000000",
+              1225
+            ],
+            [
+              "343000010000",
+              1209
+            ],
+            [
+              "331700010000",
+              1183
+            ],
+            [
+              "580205060020",
+              1181
+            ],
+            [
+              "332000010000",
+              1177
+            ],
+            [
+              "332100010000",
+              1159
+            ],
+            [
+              "353100010000",
+              1154
+            ],
+            [
+              "350000000000",
+              1154
+            ],
+            [
+              "500101060000",
+              1100
+            ],
+            [
+              "331300011430",
+              1078
+            ],
+            [
+              "310200011475",
+              1071
+            ],
+            [
+              "140600010000",
+              1069
+            ],
+            [
+              "580405060000",
+              1069
+            ],
+            [
+              "280502060000",
+              1066
+            ],
+            [
+              "280502060014",
+              1066
+            ],
+            [
+              "000000000004",
+              1059
+            ],
+            [
+              "342700010000",
+              1055
+            ],
+            [
+              "530000000000",
+              1055
+            ],
+            [
+              "261401060000",
+              1045
+            ],
+            [
+              "280252070000",
+              1039
+            ],
+            [
+              "321000011445",
+              1015
+            ],
+            [
+              "480000000000",
+              999
+            ],
+            [
+              "140203060000",
+              995
+            ]
+          ]
+        },
+        "aggregation_name": {
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 1558,
+          "distinct_percentage": 0.33,
+          "top_50_values": [
+            [
+              "NEW YORK STATE",
+              5705
+            ],
+            [
+              "LOW NEEDS",
+              4106
+            ],
+            [
+              "AVERAGE NEEDS",
+              4075
+            ],
+            [
+              "County:WESTCHESTER",
+              3823
+            ],
+            [
+              "County:SUFFOLK",
+              3252
+            ],
+            [
+              "NEW YORK CITY",
+              3153
+            ],
+            [
+              "County:NASSAU",
+              2896
+            ],
+            [
+              "County:NEW YORK",
+              2493
+            ],
+            [
+              "County:KINGS",
+              2296
+            ],
+            [
+              "County:QUEENS",
+              2260
+            ],
+            [
+              "URBAN/SUBURBAN/HIGH NEEDS",
+              2198
+            ],
+            [
+              "County:MONROE",
+              2081
+            ],
+            [
+              "County:ERIE",
+              1924
+            ],
+            [
+              "NYC GEOG DIST # 2 - MANHATTAN",
+              1886
+            ],
+            [
+              "County:BRONX",
+              1877
+            ],
+            [
+              "LARGE CITY",
+              1682
+            ],
+            [
+              "County:ROCKLAND",
+              1647
+            ],
+            [
+              "NYC GEOG DIST #10 - BRONX",
+              1487
+            ],
+            [
+              "NYC GEOG DIST #13 - BROOKLYN",
+              1448
+            ],
+            [
+              "SACHEM",
+              1438
+            ],
+            [
+              "NYC GEOG DIST #26 - QUEENS",
+              1381
+            ],
+            [
+              "County:DUTCHESS",
+              1365
+            ],
+            [
+              "NYC GEOG DIST #28 - QUEENS",
+              1360
+            ],
+            [
+              "NYC GEOG DIST #22 - BROOKLYN",
+              1293
+            ],
+            [
+              "NYC GEOG DIST # 3 - MANHATTAN",
+              1249
+            ],
+            [
+              "County:ALBANY",
+              1244
+            ],
+            [
+              "NYC GEOG DIST #25 - QUEENS",
+              1229
+            ],
+            [
+              "County:ONONDAGA",
+              1225
+            ],
+            [
+              "NYC GEOG DIST #30 - QUEENS",
+              1209
+            ],
+            [
+              "NYC GEOG DIST #17 - BROOKLYN",
+              1183
+            ],
+            [
+              "SACHEM HIGH SCHOOL EAST",
+              1181
+            ],
+            [
+              "NYC GEOG DIST #20 - BROOKLYN",
+              1177
+            ],
+            [
+              "NYC GEOG DIST #21 - BROOKLYN",
+              1159
+            ],
+            [
+              "County:RICHMOND",
+              1154
+            ],
+            [
+              "NYC GEOG DIST #31 - SI",
+              1154
+            ],
+            [
+              "CLARKSTOWN",
+              1100
+            ],
+            [
+              "BROOKLYN TECHNICAL HS",
+              1078
+            ],
+            [
+              "STUYVESANT HIGH SCHOOL",
+              1071
+            ],
+            [
+              "BUFFALO",
+              1069
+            ],
+            [
+              "HALF HOLLOW HILLS",
+              1069
+            ],
+            [
+              "SYOSSET SENIOR HIGH SCHOOL",
+              1066
+            ],
+            [
+              "SYOSSET",
+              1066
+            ],
+            [
+              "RURAL HIGH NEEDS",
+              1059
+            ],
+            [
+              "County:SCHENECTADY",
+              1055
+            ],
+            [
+              "NYC GEOG DIST #27  - QUEENS",
+              1055
+            ],
+            [
+              "PITTSFORD",
+              1045
+            ],
+            [
+              "SEWANHAKA",
+              1039
+            ],
+            [
+              "BRONX HIGH SCHOOL OF SCIENCE",
+              1015
+            ],
+            [
+              "County:PUTNAM",
+              999
+            ],
+            [
+              "WILLIAMSVILLE",
+              995
+            ]
+          ]
+        },
+        "INST_ID": {
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 396885,
+          "null_count": 70650,
+          "null_percentage": 15.11,
+          "distinct_count": 1492,
+          "distinct_percentage": 0.38,
+          "top_50_values": [
+            [
+              "NULL",
+              70650
+            ],
+            [
+              "800000048410",
+              1886
+            ],
+            [
+              "800000046274",
+              1487
+            ],
+            [
+              "800000045563",
+              1448
+            ],
+            [
+              "800000037678",
+              1438
+            ],
+            [
+              "800000043080",
+              1381
+            ],
+            [
+              "800000042781",
+              1360
+            ],
+            [
+              "800000043961",
+              1293
+            ],
+            [
+              "800000047476",
+              1249
+            ],
+            [
+              "800000043248",
+              1229
+            ],
+            [
+              "800000042344",
+              1209
+            ],
+            [
+              "800000044895",
+              1183
+            ],
+            [
+              "800000057970",
+              1181
+            ],
+            [
+              "800000044422",
+              1177
+            ],
+            [
+              "800000044121",
+              1159
+            ],
+            [
+              "800000042056",
+              1154
+            ],
+            [
+              "800000039375",
+              1100
+            ],
+            [
+              "800000043516",
+              1078
+            ],
+            [
+              "800000046741",
+              1071
+            ],
+            [
+              "800000037344",
+              1069
+            ],
+            [
+              "800000052968",
+              1069
+            ],
+            [
+              "800000048948",
+              1066
+            ],
+            [
+              "800000048929",
+              1066
+            ],
+            [
+              "800000042958",
+              1055
+            ],
+            [
+              "800000050008",
+              1045
+            ],
+            [
+              "800000049235",
+              1039
+            ],
+            [
+              "800000045625",
+              1015
+            ],
+            [
+              "800000053047",
+              995
+            ],
+            [
+              "800000049062",
+              992
+            ],
+            [
+              "800000037658",
+              977
+            ],
+            [
+              "800000042116",
+              972
+            ],
+            [
+              "800000043407",
+              949
+            ],
+            [
+              "800000037340",
+              940
+            ],
+            [
+              "800000035159",
+              931
+            ],
+            [
+              "800000035130",
+              931
+            ],
+            [
+              "800000049260",
+              929
+            ],
+            [
+              "800000043511",
+              925
+            ],
+            [
+              "800000043472",
+              920
+            ],
+            [
+              "800000037281",
+              917
+            ],
+            [
+              "800000037263",
+              917
+            ],
+            [
+              "800000043525",
+              910
+            ],
+            [
+              "800000035507",
+              892
+            ],
+            [
+              "800000049241",
+              892
+            ],
+            [
+              "800000039353",
+              873
+            ],
+            [
+              "800000035499",
+              872
+            ],
+            [
+              "800000037732",
+              867
+            ],
+            [
+              "800000048532",
+              860
+            ],
+            [
+              "800000037240",
+              858
+            ],
+            [
+              "800000037217",
+              858
+            ],
+            [
+              "800000037378",
+              856
+            ]
+          ]
+        },
+        "LEA_BEDS": {
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 228774,
+          "null_count": 238761,
+          "null_percentage": 51.07,
+          "distinct_count": 524,
+          "distinct_percentage": 0.23,
+          "top_50_values": [
+            [
+              "NULL",
+              238761
+            ],
+            [
+              "310200010000",
+              8545
+            ],
+            [
+              "321000010000",
+              4506
+            ],
+            [
+              "342800010000",
+              4308
+            ],
+            [
+              "310300010000",
+              3252
+            ],
+            [
+              "353100010000",
+              3206
+            ],
+            [
+              "342500010000",
+              3205
+            ],
+            [
+              "331300010000",
+              3161
+            ],
+            [
+              "342700010000",
+              3035
+            ],
+            [
+              "280252070000",
+              2992
+            ],
+            [
+              "342600010000",
+              2876
+            ],
+            [
+              "332200010000",
+              2835
+            ],
+            [
+              "342400010000",
+              2727
+            ],
+            [
+              "332100010000",
+              2696
+            ],
+            [
+              "331700010000",
+              2647
+            ],
+            [
+              "140600010000",
+              2480
+            ],
+            [
+              "332000010000",
+              2455
+            ],
+            [
+              "343000010000",
+              2444
+            ],
+            [
+              "321100010000",
+              2304
+            ],
+            [
+              "580205060000",
+              2158
+            ],
+            [
+              "280253070000",
+              2065
+            ],
+            [
+              "331400010000",
+              1966
+            ],
+            [
+              "280251070000",
+              1962
+            ],
+            [
+              "310600010000",
+              1915
+            ],
+            [
+              "140203060000",
+              1898
+            ],
+            [
+              "342900010000",
+              1812
+            ],
+            [
+              "580405060000",
+              1806
+            ],
+            [
+              "320800010000",
+              1654
+            ],
+            [
+              "500101060000",
+              1645
+            ],
+            [
+              "280407030000",
+              1617
+            ],
+            [
+              "320900010000",
+              1613
+            ],
+            [
+              "261401060000",
+              1604
+            ],
+            [
+              "331900010000",
+              1518
+            ],
+            [
+              "310100010000",
+              1510
+            ],
+            [
+              "333200010000",
+              1426
+            ],
+            [
+              "310400010000",
+              1352
+            ],
+            [
+              "580801060000",
+              1323
+            ],
+            [
+              "320700010000",
+              1244
+            ],
+            [
+              "261901060000",
+              1224
+            ],
+            [
+              "310500010000",
+              1188
+            ],
+            [
+              "261600010000",
+              1140
+            ],
+            [
+              "331500010000",
+              1125
+            ],
+            [
+              "321200010000",
+              1107
+            ],
+            [
+              "280205030000",
+              1071
+            ],
+            [
+              "280502060000",
+              1066
+            ],
+            [
+              "580211060000",
+              1061
+            ],
+            [
+              "280203030000",
+              1037
+            ],
+            [
+              "662300010000",
+              992
+            ],
+            [
+              "331800010000",
+              972
+            ],
+            [
+              "661100010000",
+              931
+            ]
+          ]
+        },
+        "LEA_NAME": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 228774,
+          "null_count": 238761,
+          "null_percentage": 51.07,
+          "distinct_count": 524,
+          "distinct_percentage": 0.23,
+          "top_50_values": [
+            [
+              "NULL",
+              238761
+            ],
+            [
+              "NYC GEOG DIST # 2 - MANHATTAN",
+              8545
+            ],
+            [
+              "NYC GEOG DIST #10 - BRONX",
+              4506
+            ],
+            [
+              "NYC GEOG DIST #28 - QUEENS",
+              4308
+            ],
+            [
+              "NYC GEOG DIST # 3 - MANHATTAN",
+              3252
+            ],
+            [
+              "NYC GEOG DIST #31 - SI",
+              3206
+            ],
+            [
+              "NYC GEOG DIST #25 - QUEENS",
+              3205
+            ],
+            [
+              "NYC GEOG DIST #13 - BROOKLYN",
+              3161
+            ],
+            [
+              "NYC GEOG DIST #27  - QUEENS",
+              3035
+            ],
+            [
+              "SEWANHAKA",
+              2992
+            ],
+            [
+              "NYC GEOG DIST #26 - QUEENS",
+              2876
+            ],
+            [
+              "NYC GEOG DIST #22 - BROOKLYN",
+              2835
+            ],
+            [
+              "NYC GEOG DIST #24 - QUEENS",
+              2727
+            ],
+            [
+              "NYC GEOG DIST #21 - BROOKLYN",
+              2696
+            ],
+            [
+              "NYC GEOG DIST #17 - BROOKLYN",
+              2647
+            ],
+            [
+              "BUFFALO",
+              2480
+            ],
+            [
+              "NYC GEOG DIST #20 - BROOKLYN",
+              2455
+            ],
+            [
+              "NYC GEOG DIST #30 - QUEENS",
+              2444
+            ],
+            [
+              "NYC GEOG DIST #11 - BRONX",
+              2304
+            ],
+            [
+              "SACHEM",
+              2158
+            ],
+            [
+              "BELLMORE-MERRICK",
+              2065
+            ],
+            [
+              "NYC GEOG DIST #14 - BROOKLYN",
+              1966
+            ],
+            [
+              "VALLEY STREAM CHS",
+              1962
+            ],
+            [
+              "NYC GEOG DIST # 6 - MANHATTAN",
+              1915
+            ],
+            [
+              "WILLIAMSVILLE",
+              1898
+            ],
+            [
+              "NYC GEOG DIST #29 - QUEENS",
+              1812
+            ],
+            [
+              "HALF HOLLOW HILLS",
+              1806
+            ],
+            [
+              "NYC GEOG DIST # 8 - BRONX",
+              1654
+            ],
+            [
+              "CLARKSTOWN",
+              1645
+            ],
+            [
+              "GREAT NECK",
+              1617
+            ],
+            [
+              "NYC GEOG DIST # 9 - BRONX",
+              1613
+            ],
+            [
+              "PITTSFORD",
+              1604
+            ],
+            [
+              "NYC GEOG DIST #19 - BROOKLYN",
+              1518
+            ],
+            [
+              "NYC GEOG DIST # 1 - MANHATTAN",
+              1510
+            ],
+            [
+              "NYC GEOG DIST #32 - BROOKLYN",
+              1426
+            ],
+            [
+              "NYC GEOG DIST # 4 - MANHATTAN",
+              1352
+            ],
+            [
+              "SMITHTOWN",
+              1323
+            ],
+            [
+              "NYC GEOG DIST # 7 - BRONX",
+              1244
+            ],
+            [
+              "WEBSTER",
+              1224
+            ],
+            [
+              "NYC GEOG DIST # 5 - MANHATTAN",
+              1188
+            ],
+            [
+              "ROCHESTER",
+              1140
+            ],
+            [
+              "NYC GEOG DIST #15 - BROOKLYN",
+              1125
+            ],
+            [
+              "NYC GEOG DIST #12 - BRONX",
+              1107
+            ],
+            [
+              "LEVITTOWN",
+              1071
+            ],
+            [
+              "SYOSSET",
+              1066
+            ],
+            [
+              "MIDDLE COUNTRY",
+              1061
+            ],
+            [
+              "EAST MEADOW",
+              1037
+            ],
+            [
+              "YONKERS",
+              992
+            ],
+            [
+              "NYC GEOG DIST #18 - BROOKLYN",
+              972
+            ],
+            [
+              "NEW ROCHELLE",
+              931
+            ]
+          ]
+        },
+        "NRC_CODE": {
+          "data_type": "VARCHAR",
+          "column_size": 10,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 413945,
+          "null_count": 53590,
+          "null_percentage": 11.46,
+          "distinct_count": 8,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "6",
+              133555
+            ],
+            [
+              "5",
+              128782
+            ],
+            [
+              "1",
+              109472
+            ],
+            [
+              "NULL",
+              53590
+            ],
+            [
+              "3",
+              19885
+            ],
+            [
+              "4",
+              10131
+            ],
+            [
+              "2",
+              9126
+            ],
+            [
+              "7",
+              2994
+            ]
+          ]
+        },
+        "NRC_DESC": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 413945,
+          "null_count": 53590,
+          "null_percentage": 11.46,
+          "distinct_count": 8,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "LOW NEEDS",
+              133555
+            ],
+            [
+              "AVERAGE NEEDS",
+              128782
+            ],
+            [
+              "NEW YORK CITY",
+              109472
+            ],
+            [
+              "NULL",
+              53590
+            ],
+            [
+              "URBAN/SUBURBAN/HIGH NEEDS",
+              19885
+            ],
+            [
+              "RURAL HIGH NEEDS",
+              10131
+            ],
+            [
+              "LARGE CITY",
+              9126
+            ],
+            [
+              "CHARTER SCHOOL",
+              2994
+            ]
+          ]
+        },
+        "COUNTY_CODE": {
+          "data_type": "VARCHAR",
+          "column_size": 4,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 444770,
+          "null_count": 22765,
+          "null_percentage": 4.87,
+          "distinct_count": 63,
+          "distinct_percentage": 0.01,
+          "all_values": [
+            [
+              "28",
+              63254
+            ],
+            [
+              "58",
+              61298
+            ],
+            [
+              "66",
+              44910
+            ],
+            [
+              "33",
+              34686
+            ],
+            [
+              "34",
+              30780
+            ],
+            [
+              "31",
+              27386
+            ],
+            [
+              "NULL",
+              22765
+            ],
+            [
+              "26",
+              20491
+            ],
+            [
+              "14",
+              20106
+            ],
+            [
+              "32",
+              19658
+            ],
+            [
+              "50",
+              11123
+            ],
+            [
+              "42",
+              8257
+            ],
+            [
+              "01",
+              7400
+            ],
+            [
+              "13",
+              7305
+            ],
+            [
+              "44",
+              6420
+            ],
+            [
+              "35",
+              5514
+            ],
+            [
+              "52",
+              5204
+            ],
+            [
+              "43",
+              4488
+            ],
+            [
+              "41",
+              4423
+            ],
+            [
+              "62",
+              4373
+            ],
+            [
+              "48",
+              4331
+            ],
+            [
+              "53",
+              3957
+            ],
+            [
+              "40",
+              3604
+            ],
+            [
+              "03",
+              3110
+            ],
+            [
+              "49",
+              2774
+            ],
+            [
+              "06",
+              2609
+            ],
+            [
+              "61",
+              2598
+            ],
+            [
+              "24",
+              2345
+            ],
+            [
+              "57",
+              2228
+            ],
+            [
+              "18",
+              2054
+            ],
+            [
+              "63",
+              2010
+            ],
+            [
+              "65",
+              1878
+            ],
+            [
+              "25",
+              1790
+            ],
+            [
+              "09",
+              1510
+            ],
+            [
+              "46",
+              1505
+            ],
+            [
+              "51",
+              1480
+            ],
+            [
+              "19",
+              1467
+            ],
+            [
+              "64",
+              1281
+            ],
+            [
+              "05",
+              1259
+            ],
+            [
+              "17",
+              1058
+            ],
+            [
+              "10",
+              982
+            ],
+            [
+              "59",
+              864
+            ],
+            [
+              "45",
+              797
+            ],
+            [
+              "12",
+              785
+            ],
+            [
+              "04",
+              784
+            ],
+            [
+              "67",
+              729
+            ],
+            [
+              "22",
+              683
+            ],
+            [
+              "08",
+              674
+            ],
+            [
+              "27",
+              663
+            ],
+            [
+              "54",
+              646
+            ],
+            [
+              "11",
+              637
+            ],
+            [
+              "16",
+              555
+            ],
+            [
+              "07",
+              504
+            ],
+            [
+              "21",
+              498
+            ],
+            [
+              "47",
+              465
+            ],
+            [
+              "23",
+              450
+            ],
+            [
+              "15",
+              440
+            ],
+            [
+              "02",
+              439
+            ],
+            [
+              "56",
+              402
+            ],
+            [
+              "60",
+              348
+            ],
+            [
+              "20",
+              183
+            ],
+            [
+              "55",
+              174
+            ],
+            [
+              "68",
+              144
+            ]
+          ]
+        },
+        "COUNTY_NAME": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 444770,
+          "null_count": 22765,
+          "null_percentage": 4.87,
+          "distinct_count": 63,
+          "distinct_percentage": 0.01,
+          "all_values": [
+            [
+              "NASSAU",
+              63254
+            ],
+            [
+              "SUFFOLK",
+              61298
+            ],
+            [
+              "WESTCHESTER",
+              44910
+            ],
+            [
+              "KINGS",
+              34686
+            ],
+            [
+              "QUEENS",
+              30780
+            ],
+            [
+              "NEW YORK",
+              27386
+            ],
+            [
+              "NULL",
+              22765
+            ],
+            [
+              "MONROE",
+              20491
+            ],
+            [
+              "ERIE",
+              20106
+            ],
+            [
+              "BRONX",
+              19658
+            ],
+            [
+              "ROCKLAND",
+              11123
+            ],
+            [
+              "ONONDAGA",
+              8257
+            ],
+            [
+              "ALBANY",
+              7400
+            ],
+            [
+              "DUTCHESS",
+              7305
+            ],
+            [
+              "ORANGE",
+              6420
+            ],
+            [
+              "RICHMOND",
+              5514
+            ],
+            [
+              "SARATOGA",
+              5204
+            ],
+            [
+              "ONTARIO",
+              4488
+            ],
+            [
+              "ONEIDA",
+              4423
+            ],
+            [
+              "ULSTER",
+              4373
+            ],
+            [
+              "PUTNAM",
+              4331
+            ],
+            [
+              "SCHENECTADY",
+              3957
+            ],
+            [
+              "NIAGARA",
+              3604
+            ],
+            [
+              "BROOME",
+              3074
+            ],
+            [
+              "RENSSELAER",
+              2774
+            ],
+            [
+              "CHAUTAUQUA",
+              2609
+            ],
+            [
+              "TOMPKINS",
+              2598
+            ],
+            [
+              "LIVINGSTON",
+              2345
+            ],
+            [
+              "STEUBEN",
+              2228
+            ],
+            [
+              "GENESEE",
+              2054
+            ],
+            [
+              "WARREN",
+              2010
+            ],
+            [
+              "WAYNE",
+              1878
+            ],
+            [
+              "MADISON",
+              1790
+            ],
+            [
+              "CLINTON",
+              1510
+            ],
+            [
+              "OSWEGO",
+              1505
+            ],
+            [
+              "SAINT LAWRENCE",
+              1480
+            ],
+            [
+              "GREENE",
+              1467
+            ],
+            [
+              "WASHINGTON",
+              1281
+            ],
+            [
+              "CAYUGA",
+              1259
+            ],
+            [
+              "FULTON",
+              1058
+            ],
+            [
+              "COLUMBIA",
+              982
+            ],
+            [
+              "SULLIVAN",
+              864
+            ],
+            [
+              "DELAWARE",
+              821
+            ],
+            [
+              "ORLEANS",
+              797
+            ],
+            [
+              "CATTARAUGUS",
+              784
+            ],
+            [
+              "WYOMING",
+              729
+            ],
+            [
+              "JEFFERSON",
+              683
+            ],
+            [
+              "CHENANGO",
+              674
+            ],
+            [
+              "MONTGOMERY",
+              663
+            ],
+            [
+              "SCHOHARIE",
+              646
+            ],
+            [
+              "CORTLAND",
+              637
+            ],
+            [
+              "FRANKLIN",
+              555
+            ],
+            [
+              "CHEMUNG",
+              504
+            ],
+            [
+              "HERKIMER",
+              498
+            ],
+            [
+              "OTSEGO",
+              465
+            ],
+            [
+              "LEWIS",
+              450
+            ],
+            [
+              "ESSEX",
+              440
+            ],
+            [
+              "ALLEGANY",
+              439
+            ],
+            [
+              "SENECA",
+              402
+            ],
+            [
+              "TIOGA",
+              348
+            ],
+            [
+              "HAMILTON",
+              183
+            ],
+            [
+              "SCHUYLER",
+              174
+            ],
+            [
+              "YATES",
+              144
+            ]
+          ]
+        },
+        "NYC_IND": {
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 444770,
+          "null_count": 22765,
+          "null_percentage": 4.87,
+          "distinct_count": 3,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "0.0",
+              326746
+            ],
+            [
+              "1.0",
+              118024
+            ],
+            [
+              "NULL",
+              22765
+            ]
+          ]
+        },
+        "SUBGROUP_CODE": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 24,
+          "distinct_percentage": 0.01,
+          "all_values": [
+            [
+              "01",
+              34544
+            ],
+            [
+              "18",
+              34539
+            ],
+            [
+              "25",
+              34522
+            ],
+            [
+              "23",
+              34520
+            ],
+            [
+              "21",
+              34388
+            ],
+            [
+              "12",
+              34312
+            ],
+            [
+              "10",
+              34181
+            ],
+            [
+              "16",
+              30730
+            ],
+            [
+              "02",
+              29821
+            ],
+            [
+              "03",
+              29261
+            ],
+            [
+              "08",
+              26875
+            ],
+            [
+              "15",
+              25432
+            ],
+            [
+              "06",
+              20034
+            ],
+            [
+              "07",
+              19316
+            ],
+            [
+              "05",
+              12470
+            ],
+            [
+              "09",
+              10610
+            ],
+            [
+              "11",
+              8463
+            ],
+            [
+              "20",
+              5607
+            ],
+            [
+              "13",
+              2959
+            ],
+            [
+              "04",
+              2602
+            ],
+            [
+              "24",
+              954
+            ],
+            [
+              "29",
+              788
+            ],
+            [
+              "22",
+              538
+            ],
+            [
+              "17",
+              69
+            ]
+          ]
+        },
+        "SUBGROUP_NAME": {
+          "data_type": "VARCHAR",
+          "column_size": 100,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 24,
+          "distinct_percentage": 0.01,
+          "all_values": [
+            [
+              "All Students",
+              34544
+            ],
+            [
+              "Not Migrant",
+              34539
+            ],
+            [
+              "Parent Not in Armed Forces",
+              34522
+            ],
+            [
+              "Not in Foster Care",
+              34520
+            ],
+            [
+              "Not Homeless",
+              34388
+            ],
+            [
+              "Not English Language Learner",
+              34312
+            ],
+            [
+              "General Education Students",
+              34181
+            ],
+            [
+              "Not Economically Disadvantaged",
+              30730
+            ],
+            [
+              "Female",
+              29821
+            ],
+            [
+              "Male",
+              29261
+            ],
+            [
+              "White",
+              26875
+            ],
+            [
+              "Economically Disadvantaged",
+              25432
+            ],
+            [
+              "Hispanic",
+              20034
+            ],
+            [
+              "Asian/Pacific Islander",
+              19316
+            ],
+            [
+              "Black",
+              12470
+            ],
+            [
+              "Multiracial",
+              10610
+            ],
+            [
+              "Students with Disabilities",
+              8463
+            ],
+            [
+              "Homeless",
+              5607
+            ],
+            [
+              "English Language Learner",
+              2959
+            ],
+            [
+              "American Indian/Alaska Native",
+              2602
+            ],
+            [
+              "Parent in Armed Forces",
+              954
+            ],
+            [
+              "Nonbinary",
+              788
+            ],
+            [
+              "In Foster Care",
+              538
+            ],
+            [
+              "Migrant",
+              69
+            ]
+          ]
+        },
+        "APIB_IND": {
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 2,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "AP",
+              430343
+            ],
+            [
+              "IB",
+              37192
+            ]
+          ]
+        },
+        "SUBJECT_AREA": {
+          "data_type": "VARCHAR",
+          "column_size": 25,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 11,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "Science",
+              114039
+            ],
+            [
+              "Social Studies",
+              92215
+            ],
+            [
+              "Mathematics",
+              58762
+            ],
+            [
+              "ELA",
+              46606
+            ],
+            [
+              "Second Languages",
+              43961
+            ],
+            [
+              "Fine and Performing Arts",
+              39073
+            ],
+            [
+              "Computer Sciences",
+              38213
+            ],
+            [
+              "Global Studies",
+              18743
+            ],
+            [
+              "Other",
+              14339
+            ],
+            [
+              "Business and Marketing",
+              1424
+            ],
+            [
+              "Religious Education",
+              160
+            ]
+          ]
+        },
+        "STATE_CODE": {
+          "data_type": "VARCHAR",
+          "column_size": 12,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 115,
+          "distinct_percentage": 0.02,
+          "all_values": [
+            [
+              "00135",
+              27817
+            ],
+            [
+              "00136",
+              24096
+            ],
+            [
+              "00120",
+              23451
+            ],
+            [
+              "00A40",
+              22661
+            ],
+            [
+              "00A05",
+              20673
+            ],
+            [
+              "00A18",
+              19948
+            ],
+            [
+              "00121",
+              19763
+            ],
+            [
+              "00128",
+              19398
+            ],
+            [
+              "00A21",
+              19139
+            ],
+            [
+              "00137",
+              18743
+            ],
+            [
+              "00A01",
+              18353
+            ],
+            [
+              "00A19",
+              17259
+            ],
+            [
+              "00A38",
+              15261
+            ],
+            [
+              "00A23",
+              15036
+            ],
+            [
+              "00A04",
+              14934
+            ],
+            [
+              "00129",
+              11923
+            ],
+            [
+              "00A24",
+              10488
+            ],
+            [
+              "00A41",
+              9075
+            ],
+            [
+              "00A09",
+              8599
+            ],
+            [
+              "00A15",
+              8503
+            ],
+            [
+              "00A13",
+              7507
+            ],
+            [
+              "00A06",
+              7134
+            ],
+            [
+              "00A22",
+              7119
+            ],
+            [
+              "00A17",
+              6790
+            ],
+            [
+              "00A03",
+              6483
+            ],
+            [
+              "00A07",
+              5330
+            ],
+            [
+              "00A42",
+              5264
+            ],
+            [
+              "00A14",
+              5024
+            ],
+            [
+              "00A00",
+              4785
+            ],
+            [
+              "00A02",
+              4769
+            ],
+            [
+              "00A26",
+              4365
+            ],
+            [
+              "00A39",
+              3979
+            ],
+            [
+              "00A44",
+              3562
+            ],
+            [
+              "00A20",
+              3053
+            ],
+            [
+              "00A10",
+              2617
+            ],
+            [
+              "00A25",
+              2473
+            ],
+            [
+              "0I293",
+              1961
+            ],
+            [
+              "00I40",
+              1675
+            ],
+            [
+              "0I295",
+              1674
+            ],
+            [
+              "0I291",
+              1635
+            ],
+            [
+              "00A08",
+              1606
+            ],
+            [
+              "0I227",
+              1528
+            ],
+            [
+              "00I03",
+              1469
+            ],
+            [
+              "00A11",
+              1416
+            ],
+            [
+              "00I35",
+              1407
+            ],
+            [
+              "00I12",
+              1300
+            ],
+            [
+              "0I231",
+              1142
+            ],
+            [
+              "00I02",
+              1083
+            ],
+            [
+              "00I36",
+              1060
+            ],
+            [
+              "00I26",
+              1056
+            ],
+            [
+              "00A43",
+              1056
+            ],
+            [
+              "0I225",
+              1049
+            ],
+            [
+              "00I06",
+              1032
+            ],
+            [
+              "00I47",
+              988
+            ],
+            [
+              "00I05",
+              983
+            ],
+            [
+              "00A12",
+              891
+            ],
+            [
+              "00I24",
+              821
+            ],
+            [
+              "00I22",
+              808
+            ],
+            [
+              "0I290",
+              770
+            ],
+            [
+              "00I11",
+              691
+            ],
+            [
+              "00I21",
+              669
+            ],
+            [
+              "00I39",
+              641
+            ],
+            [
+              "0I247",
+              608
+            ],
+            [
+              "0I232",
+              573
+            ],
+            [
+              "0I241",
+              545
+            ],
+            [
+              "00I43",
+              541
+            ],
+            [
+              "00I23",
+              528
+            ],
+            [
+              "00I85",
+              517
+            ],
+            [
+              "00I28",
+              479
+            ],
+            [
+              "00I54",
+              460
+            ],
+            [
+              "00I04",
+              441
+            ],
+            [
+              "0I240",
+              391
+            ],
+            [
+              "0I242",
+              377
+            ],
+            [
+              "00I25",
+              373
+            ],
+            [
+              "0I228",
+              370
+            ],
+            [
+              "00I46",
+              346
+            ],
+            [
+              "0I226",
+              315
+            ],
+            [
+              "00I50",
+              295
+            ],
+            [
+              "0I237",
+              281
+            ],
+            [
+              "00I09",
+              275
+            ],
+            [
+              "00I34",
+              248
+            ],
+            [
+              "00I33",
+              246
+            ],
+            [
+              "00I16",
+              243
+            ],
+            [
+              "00I32",
+              204
+            ],
+            [
+              "0I234",
+              199
+            ],
+            [
+              "00I19",
+              164
+            ],
+            [
+              "00I67",
+              161
+            ],
+            [
+              "0I243",
+              160
+            ],
+            [
+              "00I53",
+              153
+            ],
+            [
+              "00I31",
+              141
+            ],
+            [
+              "00I76",
+              139
+            ],
+            [
+              "00124",
+              135
+            ],
+            [
+              "0I229",
+              130
+            ],
+            [
+              "0I289",
+              130
+            ],
+            [
+              "00I08",
+              129
+            ],
+            [
+              "0I288",
+              129
+            ],
+            [
+              "00125",
+              104
+            ],
+            [
+              "00I37",
+              100
+            ],
+            [
+              "00I82",
+              100
+            ],
+            [
+              "00126",
+              85
+            ],
+            [
+              "0I236",
+              85
+            ],
+            [
+              "00I42",
+              80
+            ],
+            [
+              "00I57",
+              75
+            ],
+            [
+              "00I56",
+              70
+            ],
+            [
+              "00I41",
+              70
+            ],
+            [
+              "0I287",
+              65
+            ],
+            [
+              "00I49",
+              65
+            ],
+            [
+              "00I55",
+              60
+            ],
+            [
+              "00I48",
+              60
+            ],
+            [
+              "0I233",
+              55
+            ],
+            [
+              "0I239",
+              50
+            ],
+            [
+              "00I78",
+              50
+            ],
+            [
+              "00I18",
+              50
+            ],
+            [
+              "0I292",
+              50
+            ],
+            [
+              "00I66",
+              50
+            ]
+          ]
+        },
+        "ITEM_DESC": {
+          "data_type": "VARCHAR",
+          "column_size": 200,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 115,
+          "distinct_percentage": 0.02,
+          "all_values": [
+            [
+              "AP Biology",
+              27817
+            ],
+            [
+              "AP US History",
+              24096
+            ],
+            [
+              "AP Language and Comp",
+              23451
+            ],
+            [
+              "AP Computer Science Principles",
+              22661
+            ],
+            [
+              "AP Environmental Science",
+              20673
+            ],
+            [
+              "AP Psychology",
+              19948
+            ],
+            [
+              "AP Literature and Comp",
+              19763
+            ],
+            [
+              "AP Calculus AB",
+              19398
+            ],
+            [
+              "AP Statistics",
+              19139
+            ],
+            [
+              "AP World History",
+              18743
+            ],
+            [
+              "AP Chemistry",
+              18353
+            ],
+            [
+              "AP Spanish Language and Culture",
+              17259
+            ],
+            [
+              "AP Physics 1",
+              15261
+            ],
+            [
+              "AP U.S. Government and Politics",
+              15036
+            ],
+            [
+              "AP Computer Science A",
+              14934
+            ],
+            [
+              "AP Calculus BC",
+              11923
+            ],
+            [
+              "AP Studio Art 2d Design",
+              10488
+            ],
+            [
+              "AP Seminar",
+              9075
+            ],
+            [
+              "AP Human Geography",
+              8599
+            ],
+            [
+              "AP Music Theory",
+              8503
+            ],
+            [
+              "AP Macroeconomics",
+              7507
+            ],
+            [
+              "AP European History",
+              7134
+            ],
+            [
+              "AP Studio Art Drawing",
+              7119
+            ],
+            [
+              "AP Physics C: Mechanics",
+              6790
+            ],
+            [
+              "AP Comparative Government and Politics",
+              6483
+            ],
+            [
+              "AP French Language and Culture",
+              5330
+            ],
+            [
+              "AP Research",
+              5264
+            ],
+            [
+              "AP Microeconomics",
+              5024
+            ],
+            [
+              "AP Art History",
+              4785
+            ],
+            [
+              "AP Chinese Language and Culture",
+              4769
+            ],
+            [
+              "AP Physics C: Electricity and Magnetism",
+              4365
+            ],
+            [
+              "AP Physics 2",
+              3979
+            ],
+            [
+              "AP Precalculus",
+              3562
+            ],
+            [
+              "AP Spanish Literature and Culture",
+              3053
+            ],
+            [
+              "AP Italian Language and Culture",
+              2617
+            ],
+            [
+              "AP Studio Art 3d Design",
+              2473
+            ],
+            [
+              "IB Mathematics: Applications and interpretation - SL",
+              1961
+            ],
+            [
+              "IB Language B - Spanish - SL",
+              1675
+            ],
+            [
+              "IB History HL: History of the Americas",
+              1674
+            ],
+            [
+              "IB Mathematics: Analysis and approaches - SL",
+              1635
+            ],
+            [
+              "AP German Language and Culture",
+              1606
+            ],
+            [
+              "IB Language A: Language and Literature - English - HL",
+              1528
+            ],
+            [
+              "IB Biology - SL",
+              1469
+            ],
+            [
+              "AP Japanese Language and Culture",
+              1416
+            ],
+            [
+              "IB Visual Arts - HL",
+              1407
+            ],
+            [
+              "IB Environmental Systems - SL",
+              1300
+            ],
+            [
+              "IB Sports, Exercise, and Health Science - SL",
+              1142
+            ],
+            [
+              "IB Biology - HL",
+              1083
+            ],
+            [
+              "IB Visual Arts - SL",
+              1060
+            ],
+            [
+              "AP African American Studies",
+              1056
+            ],
+            [
+              "IB Psychology - SL",
+              1056
+            ],
+            [
+              "IB Language A: Literature - English - HL",
+              1049
+            ],
+            [
+              "IB Chemistry - SL",
+              1032
+            ],
+            [
+              "IB Language B - French - SL",
+              988
+            ],
+            [
+              "IB Business and Management - SL",
+              983
+            ],
+            [
+              "AP Latin (Virgil, Catullus and Horace)",
+              891
+            ],
+            [
+              "IB Physics - SL",
+              821
+            ],
+            [
+              "IB Music - SL",
+              808
+            ],
+            [
+              "IB Mathematics: Analysis and approaches - HL",
+              770
+            ],
+            [
+              "IB Economics - SL",
+              691
+            ],
+            [
+              "IB Music - HL",
+              669
+            ],
+            [
+              "IB Language B - Spanish - HL",
+              641
+            ],
+            [
+              "IB History - HL",
+              608
+            ],
+            [
+              "IB Chemistry - HL",
+              573
+            ],
+            [
+              "IB Film - HL",
+              545
+            ],
+            [
+              "IB Language Ab Initio - Spanish - SL",
+              541
+            ],
+            [
+              "IB Physics - HL",
+              528
+            ],
+            [
+              "IB Language Ab Initio - Chinese - SL",
+              517
+            ],
+            [
+              "IB Social Anthropology - SL",
+              479
+            ],
+            [
+              "IB Language B - Italian - SL",
+              460
+            ],
+            [
+              "IB Business and Management - HL",
+              441
+            ],
+            [
+              "IB Philosophy - SL",
+              391
+            ],
+            [
+              "IB Film - SL",
+              377
+            ],
+            [
+              "IB Psychology - HL",
+              373
+            ],
+            [
+              "IB Language A: Language and Literature - English - SL",
+              370
+            ],
+            [
+              "IB Language B - French - HL",
+              346
+            ],
+            [
+              "IB Language A: Literature - English - SL",
+              315
+            ],
+            [
+              "IB Language Ab Initio - French - SL",
+              295
+            ],
+            [
+              "IB Global Politics - SL",
+              281
+            ],
+            [
+              "IB Computer Science - SL",
+              275
+            ],
+            [
+              "IB Theatre Arts - HL",
+              248
+            ],
+            [
+              "IB Dance - SL",
+              246
+            ],
+            [
+              "IB History - SL",
+              243
+            ],
+            [
+              "IB Dance - HL",
+              204
+            ],
+            [
+              "IB Design Technology - SL",
+              199
+            ],
+            [
+              "IB Information technology in a Global Society - SL",
+              164
+            ],
+            [
+              "IB Language B - German - SL",
+              161
+            ],
+            [
+              "IB World Religions - SL",
+              160
+            ],
+            [
+              "IB Language B - Italian - HL",
+              153
+            ],
+            [
+              "IB Theatre Arts - SL",
+              141
+            ],
+            [
+              "IB Classical Languages - Latin - SL",
+              139
+            ],
+            [
+              "IB Math Studies Std Lvl",
+              135
+            ],
+            [
+              "IB Language B - English - SL",
+              130
+            ],
+            [
+              "IB Literature and Performance - SL",
+              130
+            ],
+            [
+              "IB Computer Science - HL",
+              129
+            ],
+            [
+              "IB Language Ab Initio - English",
+              129
+            ],
+            [
+              "IB Math SL",
+              104
+            ],
+            [
+              "IB Language B - Chinese - SL",
+              100
+            ],
+            [
+              "IB Language A: Literature - Spanish - HL",
+              100
+            ],
+            [
+              "IB Math High Lvl",
+              85
+            ],
+            [
+              "IB Global Politics - HL",
+              85
+            ],
+            [
+              "IB Language A: Language and Literature - Spanish - SL",
+              80
+            ],
+            [
+              "IB Language Ab Initio - Italian - SL",
+              75
+            ],
+            [
+              "IB Language A: Language and Literature - Italian - SL",
+              70
+            ],
+            [
+              "IB Language A: Language and Literature - Spanish - HL",
+              70
+            ],
+            [
+              "IB Language B - English - HL",
+              65
+            ],
+            [
+              "IB Language A: Language and Literature - French - SL",
+              65
+            ],
+            [
+              "IB Language A: Language and Literature - French - HL",
+              60
+            ],
+            [
+              "IB Language A: Language and Literature - Italian - HL",
+              60
+            ],
+            [
+              "IB Design Technology - HL",
+              55
+            ],
+            [
+              "IB Classical Languages - Greek - SL",
+              50
+            ],
+            [
+              "IB Language B - German - HL",
+              50
+            ],
+            [
+              "IB Mathematics: Applications and interpretation - HL",
+              50
+            ],
+            [
+              "IB Philosophy - HL",
+              50
+            ],
+            [
+              "IB Information technology in a Global Society - HL",
+              50
+            ]
+          ]
+        },
+        "GRADE_LEVEL": {
+          "data_type": "VARCHAR",
+          "column_size": 10,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 5,
+          "distinct_percentage": 0.0,
+          "all_values": [
+            [
+              "12th Grade",
+              214414
+            ],
+            [
+              "11th Grade",
+              161781
+            ],
+            [
+              "10th Grade",
+              70455
+            ],
+            [
+              "9th Grade",
+              16884
+            ],
+            [
+              "Not HS",
+              4001
+            ]
+          ]
+        },
+        "tested_student_cnt": {
+          "data_type": "DOUBLE",
+          "column_size": 53,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 2114,
+          "distinct_percentage": 0.45,
+          "top_50_values": [
+            [
+              "1.0",
+              108751
+            ],
+            [
+              "2.0",
+              48603
+            ],
+            [
+              "3.0",
+              32576
+            ],
+            [
+              "4.0",
+              24526
+            ],
+            [
+              "5.0",
+              20455
+            ],
+            [
+              "6.0",
+              17142
+            ],
+            [
+              "7.0",
+              14930
+            ],
+            [
+              "8.0",
+              12693
+            ],
+            [
+              "9.0",
+              10729
+            ],
+            [
+              "10.0",
+              10383
+            ],
+            [
+              "11.0",
+              9481
+            ],
+            [
+              "12.0",
+              8348
+            ],
+            [
+              "13.0",
+              7551
+            ],
+            [
+              "14.0",
+              6986
+            ],
+            [
+              "15.0",
+              6430
+            ],
+            [
+              "17.0",
+              6007
+            ],
+            [
+              "16.0",
+              5632
+            ],
+            [
+              "18.0",
+              5040
+            ],
+            [
+              "19.0",
+              4709
+            ],
+            [
+              "20.0",
+              4263
+            ],
+            [
+              "21.0",
+              4113
+            ],
+            [
+              "22.0",
+              4061
+            ],
+            [
+              "23.0",
+              3724
+            ],
+            [
+              "25.0",
+              3307
+            ],
+            [
+              "24.0",
+              3267
+            ],
+            [
+              "26.0",
+              2914
+            ],
+            [
+              "27.0",
+              2687
+            ],
+            [
+              "28.0",
+              2598
+            ],
+            [
+              "30.0",
+              2437
+            ],
+            [
+              "29.0",
+              2405
+            ],
+            [
+              "31.0",
+              2134
+            ],
+            [
+              "32.0",
+              2124
+            ],
+            [
+              "33.0",
+              2022
+            ],
+            [
+              "35.0",
+              1834
+            ],
+            [
+              "34.0",
+              1769
+            ],
+            [
+              "36.0",
+              1492
+            ],
+            [
+              "37.0",
+              1488
+            ],
+            [
+              "39.0",
+              1486
+            ],
+            [
+              "40.0",
+              1441
+            ],
+            [
+              "38.0",
+              1424
+            ],
+            [
+              "41.0",
+              1415
+            ],
+            [
+              "44.0",
+              1231
+            ],
+            [
+              "43.0",
+              1198
+            ],
+            [
+              "45.0",
+              1110
+            ],
+            [
+              "42.0",
+              1086
+            ],
+            [
+              "47.0",
+              1075
+            ],
+            [
+              "46.0",
+              994
+            ],
+            [
+              "48.0",
+              955
+            ],
+            [
+              "50.0",
+              939
+            ],
+            [
+              "49.0",
+              924
+            ]
+          ]
+        },
+        "proficient_student_cnt": {
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 1666,
+          "distinct_percentage": 0.36,
+          "top_50_values": [
+            [
+              "-",
+              214456
+            ],
+            [
+              "     5",
+              19530
+            ],
+            [
+              "     6",
+              15350
+            ],
+            [
+              "     4",
+              14699
+            ],
+            [
+              "     7",
+              13255
+            ],
+            [
+              "     3",
+              11313
+            ],
+            [
+              "     8",
+              11229
+            ],
+            [
+              "     9",
+              9626
+            ],
+            [
+              "     2",
+              8812
+            ],
+            [
+              "     0",
+              8510
+            ],
+            [
+              "    10",
+              8375
+            ],
+            [
+              "     1",
+              8308
+            ],
+            [
+              "    11",
+              7993
+            ],
+            [
+              "    12",
+              6899
+            ],
+            [
+              "    13",
+              5909
+            ],
+            [
+              "    14",
+              5800
+            ],
+            [
+              "    15",
+              5013
+            ],
+            [
+              "    16",
+              4546
+            ],
+            [
+              "    17",
+              4229
+            ],
+            [
+              "    18",
+              3888
+            ],
+            [
+              "    19",
+              3810
+            ],
+            [
+              "    20",
+              3281
+            ],
+            [
+              "    21",
+              3076
+            ],
+            [
+              "    22",
+              2924
+            ],
+            [
+              "    23",
+              2868
+            ],
+            [
+              "    24",
+              2436
+            ],
+            [
+              "    25",
+              2158
+            ],
+            [
+              "    26",
+              2149
+            ],
+            [
+              "    27",
+              1926
+            ],
+            [
+              "    28",
+              1810
+            ],
+            [
+              "    30",
+              1721
+            ],
+            [
+              "    31",
+              1667
+            ],
+            [
+              "    29",
+              1551
+            ],
+            [
+              "    35",
+              1539
+            ],
+            [
+              "    32",
+              1514
+            ],
+            [
+              "    33",
+              1336
+            ],
+            [
+              "    37",
+              1263
+            ],
+            [
+              "    34",
+              1232
+            ],
+            [
+              "    36",
+              1215
+            ],
+            [
+              "    38",
+              1123
+            ],
+            [
+              "    39",
+              1060
+            ],
+            [
+              "    42",
+              1055
+            ],
+            [
+              "    40",
+              894
+            ],
+            [
+              "    41",
+              891
+            ],
+            [
+              "    44",
+              834
+            ],
+            [
+              "    45",
+              819
+            ],
+            [
+              "    43",
+              790
+            ],
+            [
+              "    47",
+              782
+            ],
+            [
+              "    48",
+              733
+            ],
+            [
+              "    51",
+              712
+            ]
+          ]
+        },
+        "level1_cnt": {
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 677,
+          "distinct_percentage": 0.14,
+          "top_50_values": [
+            [
+              "-",
+              214456
+            ],
+            [
+              "     0",
+              122870
+            ],
+            [
+              "     1",
+              37505
+            ],
+            [
+              "     2",
+              19815
+            ],
+            [
+              "     3",
+              13248
+            ],
+            [
+              "     4",
+              9206
+            ],
+            [
+              "     5",
+              7319
+            ],
+            [
+              "     6",
+              5946
+            ],
+            [
+              "     7",
+              4490
+            ],
+            [
+              "     8",
+              3428
+            ],
+            [
+              "     9",
+              2804
+            ],
+            [
+              "    10",
+              2406
+            ],
+            [
+              "    11",
+              2071
+            ],
+            [
+              "    13",
+              1735
+            ],
+            [
+              "    12",
+              1698
+            ],
+            [
+              "    14",
+              1241
+            ],
+            [
+              "    15",
+              1127
+            ],
+            [
+              "    16",
+              1021
+            ],
+            [
+              "    17",
+              964
+            ],
+            [
+              "    18",
+              856
+            ],
+            [
+              "    19",
+              621
+            ],
+            [
+              "    20",
+              548
+            ],
+            [
+              "    22",
+              528
+            ],
+            [
+              "    21",
+              508
+            ],
+            [
+              "    23",
+              396
+            ],
+            [
+              "    24",
+              389
+            ],
+            [
+              "    25",
+              384
+            ],
+            [
+              "    26",
+              366
+            ],
+            [
+              "    27",
+              319
+            ],
+            [
+              "    28",
+              304
+            ],
+            [
+              "    31",
+              296
+            ],
+            [
+              "    29",
+              279
+            ],
+            [
+              "    35",
+              263
+            ],
+            [
+              "    32",
+              240
+            ],
+            [
+              "    34",
+              238
+            ],
+            [
+              "    33",
+              238
+            ],
+            [
+              "    36",
+              213
+            ],
+            [
+              "    40",
+              210
+            ],
+            [
+              "    30",
+              207
+            ],
+            [
+              "    39",
+              186
+            ],
+            [
+              "    38",
+              185
+            ],
+            [
+              "    41",
+              171
+            ],
+            [
+              "    44",
+              165
+            ],
+            [
+              "    37",
+              164
+            ],
+            [
+              "    48",
+              157
+            ],
+            [
+              "    45",
+              135
+            ],
+            [
+              "    43",
+              127
+            ],
+            [
+              "    47",
+              125
+            ],
+            [
+              "    53",
+              121
+            ],
+            [
+              "    46",
+              121
+            ]
+          ]
+        },
+        "level2_cnt": {
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 834,
+          "distinct_percentage": 0.18,
+          "top_50_values": [
+            [
+              "-",
+              214456
+            ],
+            [
+              "     0",
+              56005
+            ],
+            [
+              "     1",
+              39209
+            ],
+            [
+              "     2",
+              30647
+            ],
+            [
+              "     3",
+              22915
+            ],
+            [
+              "     4",
+              17271
+            ],
+            [
+              "     5",
+              12955
+            ],
+            [
+              "     6",
+              10067
+            ],
+            [
+              "     7",
+              8053
+            ],
+            [
+              "     8",
+              6694
+            ],
+            [
+              "     9",
+              5476
+            ],
+            [
+              "    10",
+              4201
+            ],
+            [
+              "    11",
+              3752
+            ],
+            [
+              "    12",
+              3085
+            ],
+            [
+              "    13",
+              2327
+            ],
+            [
+              "    14",
+              2165
+            ],
+            [
+              "    15",
+              1978
+            ],
+            [
+              "    16",
+              1716
+            ],
+            [
+              "    17",
+              1611
+            ],
+            [
+              "    18",
+              1353
+            ],
+            [
+              "    19",
+              1239
+            ],
+            [
+              "    20",
+              1208
+            ],
+            [
+              "    21",
+              963
+            ],
+            [
+              "    24",
+              802
+            ],
+            [
+              "    26",
+              761
+            ],
+            [
+              "    22",
+              760
+            ],
+            [
+              "    28",
+              735
+            ],
+            [
+              "    23",
+              730
+            ],
+            [
+              "    25",
+              646
+            ],
+            [
+              "    27",
+              576
+            ],
+            [
+              "    29",
+              483
+            ],
+            [
+              "    30",
+              475
+            ],
+            [
+              "    32",
+              399
+            ],
+            [
+              "    35",
+              384
+            ],
+            [
+              "    31",
+              379
+            ],
+            [
+              "    37",
+              357
+            ],
+            [
+              "    36",
+              352
+            ],
+            [
+              "    33",
+              340
+            ],
+            [
+              "    34",
+              325
+            ],
+            [
+              "    39",
+              304
+            ],
+            [
+              "    44",
+              303
+            ],
+            [
+              "    38",
+              292
+            ],
+            [
+              "    40",
+              259
+            ],
+            [
+              "    41",
+              246
+            ],
+            [
+              "    43",
+              203
+            ],
+            [
+              "    42",
+              202
+            ],
+            [
+              "    47",
+              188
+            ],
+            [
+              "    46",
+              164
+            ],
+            [
+              "    45",
+              152
+            ],
+            [
+              "    50",
+              152
+            ]
+          ]
+        },
+        "level3_cnt": {
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 968,
+          "distinct_percentage": 0.21,
+          "top_50_values": [
+            [
+              "-",
+              214456
+            ],
+            [
+              "     1",
+              32198
+            ],
+            [
+              "     2",
+              31206
+            ],
+            [
+              "     0",
+              27237
+            ],
+            [
+              "     3",
+              26989
+            ],
+            [
+              "     4",
+              21041
+            ],
+            [
+              "     5",
+              16410
+            ],
+            [
+              "     6",
+              12794
+            ],
+            [
+              "     7",
+              10085
+            ],
+            [
+              "     8",
+              7960
+            ],
+            [
+              "     9",
+              7006
+            ],
+            [
+              "    10",
+              5614
+            ],
+            [
+              "    11",
+              4844
+            ],
+            [
+              "    12",
+              3906
+            ],
+            [
+              "    13",
+              3519
+            ],
+            [
+              "    14",
+              3030
+            ],
+            [
+              "    15",
+              2627
+            ],
+            [
+              "    16",
+              2248
+            ],
+            [
+              "    17",
+              2214
+            ],
+            [
+              "    18",
+              1945
+            ],
+            [
+              "    19",
+              1632
+            ],
+            [
+              "    21",
+              1537
+            ],
+            [
+              "    20",
+              1508
+            ],
+            [
+              "    22",
+              1431
+            ],
+            [
+              "    23",
+              1119
+            ],
+            [
+              "    24",
+              1087
+            ],
+            [
+              "    25",
+              1068
+            ],
+            [
+              "    26",
+              1008
+            ],
+            [
+              "    27",
+              912
+            ],
+            [
+              "    29",
+              812
+            ],
+            [
+              "    28",
+              810
+            ],
+            [
+              "    30",
+              706
+            ],
+            [
+              "    33",
+              624
+            ],
+            [
+              "    37",
+              615
+            ],
+            [
+              "    31",
+              575
+            ],
+            [
+              "    35",
+              574
+            ],
+            [
+              "    34",
+              519
+            ],
+            [
+              "    36",
+              480
+            ],
+            [
+              "    32",
+              473
+            ],
+            [
+              "    40",
+              359
+            ],
+            [
+              "    45",
+              347
+            ],
+            [
+              "    38",
+              342
+            ],
+            [
+              "    39",
+              309
+            ],
+            [
+              "    41",
+              305
+            ],
+            [
+              "    43",
+              253
+            ],
+            [
+              "    42",
+              251
+            ],
+            [
+              "    44",
+              249
+            ],
+            [
+              "    49",
+              230
+            ],
+            [
+              "    46",
+              207
+            ],
+            [
+              "    52",
+              195
+            ]
+          ]
+        },
+        "level4_cnt": {
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 977,
+          "distinct_percentage": 0.21,
+          "top_50_values": [
+            [
+              "-",
+              214456
+            ],
+            [
+              "     0",
+              32574
+            ],
+            [
+              "     1",
+              32158
+            ],
+            [
+              "     2",
+              31201
+            ],
+            [
+              "     3",
+              26085
+            ],
+            [
+              "     4",
+              19525
+            ],
+            [
+              "     5",
+              15189
+            ],
+            [
+              "     6",
+              11853
+            ],
+            [
+              "     7",
+              9385
+            ],
+            [
+              "     8",
+              7713
+            ],
+            [
+              "     9",
+              6202
+            ],
+            [
+              "    10",
+              5164
+            ],
+            [
+              "    11",
+              4853
+            ],
+            [
+              "    12",
+              3898
+            ],
+            [
+              "    13",
+              3335
+            ],
+            [
+              "    14",
+              2822
+            ],
+            [
+              "    16",
+              2559
+            ],
+            [
+              "    15",
+              2336
+            ],
+            [
+              "    17",
+              2129
+            ],
+            [
+              "    18",
+              2019
+            ],
+            [
+              "    19",
+              1753
+            ],
+            [
+              "    22",
+              1515
+            ],
+            [
+              "    21",
+              1493
+            ],
+            [
+              "    20",
+              1418
+            ],
+            [
+              "    23",
+              1244
+            ],
+            [
+              "    25",
+              1116
+            ],
+            [
+              "    24",
+              1012
+            ],
+            [
+              "    26",
+              937
+            ],
+            [
+              "    28",
+              829
+            ],
+            [
+              "    30",
+              803
+            ],
+            [
+              "    29",
+              760
+            ],
+            [
+              "    31",
+              740
+            ],
+            [
+              "    27",
+              644
+            ],
+            [
+              "    34",
+              589
+            ],
+            [
+              "    32",
+              580
+            ],
+            [
+              "    37",
+              537
+            ],
+            [
+              "    33",
+              513
+            ],
+            [
+              "    35",
+              508
+            ],
+            [
+              "    38",
+              446
+            ],
+            [
+              "    39",
+              411
+            ],
+            [
+              "    36",
+              391
+            ],
+            [
+              "    42",
+              381
+            ],
+            [
+              "    43",
+              363
+            ],
+            [
+              "    40",
+              355
+            ],
+            [
+              "    41",
+              351
+            ],
+            [
+              "    45",
+              320
+            ],
+            [
+              "    44",
+              298
+            ],
+            [
+              "    49",
+              266
+            ],
+            [
+              "    48",
+              251
+            ],
+            [
+              "    46",
+              249
+            ]
+          ]
+        },
+        "level5_cnt": {
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 750,
+          "distinct_percentage": 0.16,
+          "top_50_values": [
+            [
+              "-",
+              214456
+            ],
+            [
+              "     0",
+              72401
+            ],
+            [
+              "     1",
+              41247
+            ],
+            [
+              "     2",
+              27572
+            ],
+            [
+              "     3",
+              20232
+            ],
+            [
+              "     4",
+              14303
+            ],
+            [
+              "     5",
+              10952
+            ],
+            [
+              "     6",
+              8569
+            ],
+            [
+              "     7",
+              6632
+            ],
+            [
+              "     8",
+              5676
+            ],
+            [
+              "     9",
+              4665
+            ],
+            [
+              "    10",
+              3985
+            ],
+            [
+              "    11",
+              3131
+            ],
+            [
+              "    12",
+              2639
+            ],
+            [
+              "    13",
+              2244
+            ],
+            [
+              "    14",
+              1952
+            ],
+            [
+              "    15",
+              1798
+            ],
+            [
+              "    16",
+              1604
+            ],
+            [
+              "    18",
+              1309
+            ],
+            [
+              "    19",
+              1289
+            ],
+            [
+              "    17",
+              1275
+            ],
+            [
+              "    20",
+              924
+            ],
+            [
+              "    22",
+              860
+            ],
+            [
+              "    21",
+              829
+            ],
+            [
+              "    24",
+              678
+            ],
+            [
+              "    23",
+              669
+            ],
+            [
+              "    27",
+              653
+            ],
+            [
+              "    28",
+              606
+            ],
+            [
+              "    25",
+              563
+            ],
+            [
+              "    26",
+              524
+            ],
+            [
+              "    30",
+              482
+            ],
+            [
+              "    32",
+              472
+            ],
+            [
+              "    33",
+              412
+            ],
+            [
+              "    34",
+              406
+            ],
+            [
+              "    29",
+              388
+            ],
+            [
+              "    31",
+              346
+            ],
+            [
+              "    36",
+              337
+            ],
+            [
+              "    35",
+              298
+            ],
+            [
+              "    39",
+              277
+            ],
+            [
+              "    37",
+              260
+            ],
+            [
+              "    40",
+              258
+            ],
+            [
+              "    42",
+              250
+            ],
+            [
+              "    41",
+              246
+            ],
+            [
+              "    38",
+              242
+            ],
+            [
+              "    45",
+              211
+            ],
+            [
+              "    43",
+              199
+            ],
+            [
+              "    49",
+              196
+            ],
+            [
+              "    46",
+              180
+            ],
+            [
+              "    50",
+              175
+            ],
+            [
+              "    44",
+              172
+            ]
+          ]
+        },
+        "level6_cnt": {
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 72,
+          "distinct_percentage": 0.02,
+          "top_50_values": [
+            [
+              "     0",
+              241665
+            ],
+            [
+              "-",
+              214456
+            ],
+            [
+              "     1",
+              3737
+            ],
+            [
+              "     2",
+              2163
+            ],
+            [
+              "     3",
+              1130
+            ],
+            [
+              "     4",
+              931
+            ],
+            [
+              "     5",
+              655
+            ],
+            [
+              "     6",
+              354
+            ],
+            [
+              "     7",
+              316
+            ],
+            [
+              "     9",
+              313
+            ],
+            [
+              "     8",
+              265
+            ],
+            [
+              "    12",
+              180
+            ],
+            [
+              "    10",
+              158
+            ],
+            [
+              "    16",
+              141
+            ],
+            [
+              "    11",
+              109
+            ],
+            [
+              "    17",
+              108
+            ],
+            [
+              "    15",
+              104
+            ],
+            [
+              "    13",
+              103
+            ],
+            [
+              "    14",
+              73
+            ],
+            [
+              "    19",
+              57
+            ],
+            [
+              "    29",
+              51
+            ],
+            [
+              "    21",
+              42
+            ],
+            [
+              "    23",
+              40
+            ],
+            [
+              "    20",
+              37
+            ],
+            [
+              "    33",
+              32
+            ],
+            [
+              "    18",
+              26
+            ],
+            [
+              "    22",
+              20
+            ],
+            [
+              "    32",
+              18
+            ],
+            [
+              "    38",
+              17
+            ],
+            [
+              "    35",
+              17
+            ],
+            [
+              "    41",
+              17
+            ],
+            [
+              "    24",
+              16
+            ],
+            [
+              "    36",
+              15
+            ],
+            [
+              "    34",
+              14
+            ],
+            [
+              "    52",
+              14
+            ],
+            [
+              "    57",
+              13
+            ],
+            [
+              "    31",
+              12
+            ],
+            [
+              "    26",
+              11
+            ],
+            [
+              "    30",
+              10
+            ],
+            [
+              "    25",
+              9
+            ],
+            [
+              "    42",
+              8
+            ],
+            [
+              "    44",
+              8
+            ],
+            [
+              "    78",
+              7
+            ],
+            [
+              "   130",
+              7
+            ],
+            [
+              "   107",
+              7
+            ],
+            [
+              "    55",
+              7
+            ],
+            [
+              "   104",
+              5
+            ],
+            [
+              "    45",
+              5
+            ],
+            [
+              "    28",
+              4
+            ],
+            [
+              "    27",
+              3
+            ]
+          ]
+        },
+        "level7_cnt": {
+          "data_type": "VARCHAR",
+          "column_size": 6,
+          "nullable": 1,
+          "total_rows": 467535,
+          "non_null_count": 467535,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "distinct_count": 25,
+          "distinct_percentage": 0.01,
+          "top_50_values": [
+            [
+              "     0",
+              248737
+            ],
+            [
+              "-",
+              214456
+            ],
+            [
+              "     1",
+              2236
+            ],
+            [
+              "     2",
+              819
+            ],
+            [
+              "     3",
+              403
+            ],
+            [
+              "     4",
+              366
+            ],
+            [
+              "     6",
+              154
+            ],
+            [
+              "     5",
+              136
+            ],
+            [
+              "     7",
+              92
+            ],
+            [
+              "     8",
+              18
+            ],
+            [
+              "    14",
+              17
+            ],
+            [
+              "    17",
+              15
+            ],
+            [
+              "    15",
+              14
+            ],
+            [
+              "    11",
+              11
+            ],
+            [
+              "    13",
+              9
+            ],
+            [
+              "    19",
+              9
+            ],
+            [
+              "    16",
+              9
+            ],
+            [
+              "    10",
+              7
+            ],
+            [
+              "    31",
+              7
+            ],
+            [
+              "    20",
+              6
+            ],
+            [
+              "    12",
+              6
+            ],
+            [
+              "     9",
+              4
+            ],
+            [
+              "    18",
+              2
+            ],
+            [
+              "    21",
+              1
+            ],
+            [
+              "    30",
+              1
+            ]
+          ]
+        }
+      },
+      "constraints": {
+        "primary_keys": [],
+        "foreign_keys": [],
+        "indexes": []
+      },
+      "rule_checks": {
+        "levels_sum_check": {
+          "total_rows": 467535,
+          "mismatch_rows": 214456,
+          "mismatch_percentage": 45.8695
+        },
+        "ap_proficient_check": {
+          "total_rows": 430343,
+          "mismatch_rows": 0,
+          "mismatch_percentage": 0.0
+        },
+        "ib_proficient_check": {
+          "total_rows": 37192,
+          "mismatch_rows": 0,
+          "mismatch_percentage": 0.0
+        }
+      }
+    }
+  }
+}
