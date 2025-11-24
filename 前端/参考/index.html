@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="纽约州AP/IB课程与评估数据的教育公平性分析与预测项目">
+    <title>纽约州教育数据分析项目 | NYSED AP/IB Data Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🗽</span>
+                <span class="logo-text">NY教育数据分析</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">首页</a></li>
+                <li><a href="#about" class="nav-link">项目简介</a></li>
+                <li><a href="#research" class="nav-link">研究问题</a></li>
+                <li><a href="dataset.html" class="nav-link">数据集</a></li>
+                <li><a href="charts-library.html" class="nav-link">图表库</a></li>
+                <li><a href="#methodology" class="nav-link">技术路线</a></li>
+                <li><a href="#timeline" class="nav-link">项目进度</a></li>
+                <li><a href="#contact" class="nav-link">联系我们</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页Hero区域 -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-main">纽约州AP/IB课程</span>
+                <span class="title-sub">教育公平性分析与预测</span>
+            </h1>
+            <p class="hero-description">
+                基于纽约州教育部官方数据，运用数据挖掘技术深度分析教育资源分配现状，
+                构建预测模型，为教育公平性提供数据驱动的洞察与建议
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">114,685</div>
+                    <div class="stat-label">评估数据记录</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2023-2024</div>
+                    <div class="stat-label">学年数据</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4周</div>
+                    <div class="stat-label">项目周期</div>
+                </div>
+            </div>
+            <a href="#about" class="cta-button">探索项目</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- 项目简介 -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">项目简介</h2>
+                <p class="section-subtitle">Project Overview</p>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="card-icon">📊</div>
+                    <h3>数据来源</h3>
+                    <p>纽约州教育部（NYSED）官方数据门户，包含2023-2024学年的AP/IB课程与评估完整数据</p>
+                    <a href="https://data.nysed.gov/downloads.php" target="_blank" class="card-link">访问数据源 →</a>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>研究目标</h3>
+                    <p>揭示教育资源分配不平等现状，构建准确的学生表现预测模型，提供可操作的教育政策建议</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🤖</div>
+                    <h3>技术栈</h3>
+                    <p>Python数据科学生态（pandas, scikit-learn, XGBoost），机器学习模型，交互式可视化Dashboard</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 研究问题 -->
+    <section id="research" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">核心研究问题</h2>
+                <p class="section-subtitle">Research Questions</p>
+            </div>
+            <div class="research-grid">
+                <a href="research1.html" class="research-card-link">
+                    <div class="research-card">
+                        <div class="research-number">01</div>
+                        <h3>教育公平性分析</h3>
+                        <ul class="research-list">
+                            <li>不同社会经济背景学生的AP/IB课程参与度差异</li>
+                            <li>经济困难、种族、性别等因素对课程选择的影响</li>
+                            <li>教育资源分配的公平性量化评估</li>
+                        </ul>
+                        <div class="research-card-arrow">→</div>
+                    </div>
+                </a>
+                <a href="research2.html" class="research-card-link">
+                    <div class="research-card">
+                        <div class="research-number">02</div>
+                        <h3>地理分布与资源配置</h3>
+                        <ul class="research-list">
+                            <li>纽约州各地区AP/IB项目覆盖率分析</li>
+                            <li>城市vs农村、高N/RC vs低N/RC学区差异</li>
+                            <li>地理因素对教育机会的影响</li>
+                        </ul>
+                        <div class="research-card-arrow">→</div>
+                    </div>
+                </a>
+                <a href="research3.html" class="research-card-link">
+                    <div class="research-card">
+                        <div class="research-number">03</div>
+                        <h3>成绩预测与影响因素</h3>
+                        <ul class="research-list">
+                            <li>基于学生特征预测AP/IB考试表现</li>
+                            <li>识别影响考试达标率的关键因素</li>
+                            <li>构建高准确率的预测模型（目标>85%）</li>
+                        </ul>
+                        <div class="research-card-arrow">→</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术路线 -->
+    <section id="methodology" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">技术路线</h2>
+                <p class="section-subtitle">Methodology</p>
+            </div>
+            <div class="methodology-flow">
+                <div class="flow-step">
+                    <div class="step-icon">📥</div>
+                    <h4>数据获取</h4>
+                    <p>Access数据库读取与格式转换</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="step-icon">🧹</div>
+                    <h4>数据预处理</h4>
+                    <p>清洗整合、缺失值处理、特征编码</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="step-icon">🔍</div>
+                    <h4>探索性分析</h4>
+                    <p>统计可视化、相关性分析、分布分析</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="step-icon">⚙️</div>
+                    <h4>特征工程</h4>
+                    <p>特征选择、特征构造、维度规约</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="step-icon">🤖</div>
+                    <h4>模型构建</h4>
+                    <p>分类、聚类、关联规则、回归</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="step-icon">📊</div>
+                    <h4>结果评估</h4>
+                    <p>交叉验证、性能指标、误差分析</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="step-icon">🎨</div>
+                    <h4>可视化呈现</h4>
+                    <p>交互式Dashboard、图表集</p>
+                </div>
+            </div>
+            <div class="algorithms-section">
+                <h3>使用的算法与方法</h3>
+                <div class="algorithms-grid">
+                    <div class="algorithm-tag">逻辑回归</div>
+                    <div class="algorithm-tag">决策树</div>
+                    <div class="algorithm-tag">随机森林</div>
+                    <div class="algorithm-tag">XGBoost</div>
+                    <div class="algorithm-tag">K-means聚类</div>
+                    <div class="algorithm-tag">Apriori算法</div>
+                    <div class="algorithm-tag">SHAP解释</div>
+                    <div class="algorithm-tag">PCA降维</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目进度 -->
+    <section id="timeline" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">项目进度</h2>
+                <p class="section-subtitle">Project Timeline</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker week1"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-week">Week 1</div>
+                        <h3>数据收集与预处理</h3>
+                        <p>数据读取、整合、清洗、缺失值处理、特征编码</p>
+                        <span class="timeline-status status-in-progress">进行中</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker week2"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-week">Week 2</div>
+                        <h3>探索性分析与特征工程</h3>
+                        <p>描述性统计、可视化分析、特征选择与构造</p>
+                        <span class="timeline-status status-pending">待开始</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker week3"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-week">Week 3</div>
+                        <h3>模型构建与训练</h3>
+                        <p>分类、聚类、关联规则、回归模型训练与优化</p>
+                        <span class="timeline-status status-pending">待开始</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker week4"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-week">Week 4</div>
+                        <h3>评估、可视化与报告</h3>
+                        <p>模型评估、Dashboard开发、报告撰写、PPT制作</p>
+                        <span class="timeline-status status-pending">待开始</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 预期成果 -->
+    <section id="results" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">预期成果</h2>
+                <p class="section-subtitle">Expected Outcomes</p>
+            </div>
+            <div class="results-grid">
+                <div class="result-card">
+                    <h3>📄 完整报告</h3>
+                    <p>30-40页数据挖掘报告，包含完整分析流程与结果解读</p>
+                </div>
+                <div class="result-card">
+                    <h3>🎯 预测模型</h3>
+                    <p>准确率>85%的学生达标预测模型，识别Top 10关键影响因素</p>
+                </div>
+                <div class="result-card">
+                    <h3>📊 交互式Dashboard</h3>
+                    <p>实时数据查询、可视化展示、模型预测演示</p>
+                </div>
+                <div class="result-card">
+                    <h3>📈 可视化图表集</h3>
+                    <p>20+专业数据可视化图表，多维度展示分析结果</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">联系我们</h2>
+                <p class="section-subtitle">Get In Touch</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>项目信息</h3>
+                    <p>这是一个4人小组的数据挖掘项目，专注于纽约州教育公平性分析。</p>
+                    <div class="contact-links">
+                        <a href="https://data.nysed.gov/" target="_blank" class="contact-link">
+                            <span>🌐</span> NYSED官方网站
+                        </a>
+                        <a href="https://github.com/awesomedata/awesome-public-datasets" target="_blank" class="contact-link">
+                            <span>💻</span> GitHub数据集
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-stats">
+                    <div class="contact-stat">
+                        <div class="contact-stat-number">4</div>
+                        <div class="contact-stat-label">团队成员</div>
+                    </div>
+                    <div class="contact-stat">
+                        <div class="contact-stat-number">1</div>
+                        <div class="contact-stat-label">个月周期</div>
+                    </div>
+                    <div class="contact-stat">
+                        <div class="contact-stat-number">3</div>
+                        <div class="contact-stat-label">核心问题</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🗽</span>
+                    <span>纽约州教育数据分析项目</span>
+                </div>
+                <p class="footer-text">© 2024 NYSED AP/IB Data Analysis Project. 基于数据驱动的教育公平性研究</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,344 @@
+/* ============================================
+   数据集页面专用样式
+   ============================================ */
+
+/* 数据集头部 */
+.dataset-header {
+    padding-top: 8rem;
+    margin-top: 70px;
+}
+
+.dataset-intro {
+    max-width: 900px;
+    margin: 2rem auto 0;
+    text-align: center;
+}
+
+.dataset-intro p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--medium-gray);
+    margin-bottom: 2rem;
+}
+
+.dataset-stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.stat-box {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    min-width: 150px;
+    transition: var(--transition-normal);
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: var(--medium-gray);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* 数据表概览 */
+.tables-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.table-card {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-normal);
+    border-top: 4px solid var(--accent-blue);
+}
+
+.table-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-xl);
+}
+
+.table-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 1.5rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.table-info {
+    background: var(--light-blue);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.table-info p {
+    margin: 0.5rem 0;
+    color: var(--dark-gray);
+    font-weight: var(--font-weight-medium);
+}
+
+.table-description {
+    color: var(--medium-gray);
+    line-height: 1.8;
+}
+
+/* 地图容器 */
+.ny-map-container {
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    margin: 2rem 0;
+    background: var(--light-gray);
+}
+
+.map-info {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--medium-gray);
+}
+
+.map-info.active {
+    background: var(--light-blue);
+    color: var(--primary-blue);
+}
+
+.map-info h4 {
+    font-size: 1.25rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.map-info-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.map-stat {
+    text-align: center;
+}
+
+.map-stat-value {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-blue);
+}
+
+.map-stat-label {
+    font-size: 0.875rem;
+    color: var(--medium-gray);
+    margin-top: 0.25rem;
+}
+
+/* 字段详情 */
+.fields-section {
+    margin-bottom: 3rem;
+}
+
+.fields-section h3 {
+    font-size: 1.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-blue);
+}
+
+.fields-table-container {
+    overflow-x: auto;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+    padding: 1rem;
+}
+
+.fields-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.fields-table thead {
+    background: var(--primary-blue);
+    color: var(--white);
+}
+
+.fields-table th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: var(--font-weight-bold);
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.fields-table tbody tr {
+    border-bottom: 1px solid var(--light-gray);
+    transition: var(--transition-fast);
+}
+
+.fields-table tbody tr:hover {
+    background: var(--light-blue);
+}
+
+.fields-table td {
+    padding: 1rem;
+    color: var(--dark-gray);
+}
+
+.fields-table code {
+    background: var(--light-blue);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: var(--primary-blue);
+    font-weight: var(--font-weight-medium);
+}
+
+/* 数据来源 */
+.data-source {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.source-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--accent-blue);
+}
+
+.source-card h3 {
+    font-size: 1.25rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.source-card p {
+    color: var(--medium-gray);
+    line-height: 1.8;
+    margin: 0.5rem 0;
+}
+
+.source-card a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    transition: var(--transition-fast);
+}
+
+.source-card a:hover {
+    color: var(--primary-blue);
+    text-decoration: underline;
+}
+
+.source-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.source-card li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--medium-gray);
+    line-height: 1.8;
+}
+
+.source-card li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--accent-blue);
+    font-weight: var(--font-weight-bold);
+    font-size: 1.25rem;
+}
+
+/* Leaflet地图样式覆盖 */
+.leaflet-container {
+    font-family: var(--font-primary);
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 10px;
+    box-shadow: var(--shadow-lg);
+}
+
+.leaflet-popup-content {
+    margin: 1rem;
+    font-size: 0.9rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .dataset-stats {
+        gap: 1rem;
+    }
+    
+    .stat-box {
+        min-width: 120px;
+        padding: 1.5rem;
+    }
+    
+    .stat-value {
+        font-size: 2rem;
+    }
+    
+    .tables-overview {
+        grid-template-columns: 1fr;
+    }
+    
+    .ny-map-container {
+        height: 400px;
+    }
+    
+    .fields-table {
+        font-size: 0.8rem;
+    }
+    
+    .fields-table th,
+    .fields-table td {
+        padding: 0.5rem;
+    }
+    
+    .data-source {
+        grid-template-columns: 1fr;
+    }
+}

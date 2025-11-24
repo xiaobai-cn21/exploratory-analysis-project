@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教育公平性分析 | 纽约州AP/IB数据分析项目</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="research-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🗽</span>
+                <span class="logo-text">NY教育数据分析</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="index.html#about" class="nav-link">项目简介</a></li>
+                <li><a href="index.html#research" class="nav-link">研究问题</a></li>
+                <li><a href="dataset.html" class="nav-link">数据集</a></li>
+                <li><a href="index.html#contact" class="nav-link">联系我们</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面头部 -->
+    <section class="research-header">
+        <div class="container">
+            <div class="research-header-content">
+                <div class="research-number-large">01</div>
+                <h1 class="research-title">教育公平性分析</h1>
+                <p class="research-subtitle">Educational Equity Analysis</p>
+                <p class="research-description">
+                    深入分析不同社会经济背景、种族、性别等因素如何影响学生在AP/IB课程中的参与度和表现，
+                    量化教育资源分配的公平性，为教育政策制定提供数据支持。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 研究内容 -->
+    <section class="research-content section">
+        <div class="container">
+            <div class="research-section">
+                <h2>研究目标</h2>
+                <div class="research-goals">
+                    <div class="goal-card">
+                        <div class="goal-icon">📊</div>
+                        <h3>参与度差异分析</h3>
+                        <p>分析不同社会经济背景学生在AP/IB课程参与度上的显著差异，识别影响参与的关键因素</p>
+                    </div>
+                    <div class="goal-card">
+                        <div class="goal-icon">👥</div>
+                        <h3>人口统计因素影响</h3>
+                        <p>量化经济困难、种族、性别等因素对高级课程选择的影响程度</p>
+                    </div>
+                    <div class="goal-card">
+                        <div class="goal-icon">⚖️</div>
+                        <h3>公平性量化评估</h3>
+                        <p>构建综合评估指标体系，量化教育资源分配的公平性水平</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-section">
+                <h2>分析方法</h2>
+                <div class="analysis-methods">
+                    <div class="method-item">
+                        <h3>1. 描述性统计分析</h3>
+                        <ul>
+                            <li>各人口统计分组的AP/IB课程注册率对比</li>
+                            <li>不同经济背景学生的参与率分布</li>
+                            <li>性别、种族维度的参与度差异统计</li>
+                        </ul>
+                    </div>
+                    <div class="method-item">
+                        <h3>2. 统计假设检验</h3>
+                        <ul>
+                            <li>卡方检验：检验分组间参与率差异的显著性</li>
+                            <li>T检验：比较不同组别的平均参与率</li>
+                            <li>方差分析（ANOVA）：多组别比较</li>
+                        </ul>
+                    </div>
+                    <div class="method-item">
+                        <h3>3. 可视化分析</h3>
+                        <ul>
+                            <li>分组柱状图：不同人口统计特征的参与率对比</li>
+                            <li>堆叠条形图：展示各分组在课程选择上的分布</li>
+                            <li>热力图：多维度公平性指标可视化</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-section">
+                <h2>关键数据字段</h2>
+                <div class="data-fields">
+                    <div class="field-group">
+                        <h3>人口统计分组</h3>
+                        <ul>
+                            <li><code>SUBGROUP_CODE</code> - 人口统计分组代码</li>
+                            <li><code>SUBGROUP_NAME</code> - 分组名称（经济困难、种族、性别等）</li>
+                        </ul>
+                    </div>
+                    <div class="field-group">
+                        <h3>参与度指标</h3>
+                        <ul>
+                            <li><code>STUDENT_COUNT</code> - 注册课程的学生数</li>
+                            <li><code>TESTED_STUDENT_CNT</code> - 参加评估的学生数</li>
+                        </ul>
+                    </div>
+                    <div class="field-group">
+                        <h3>成绩指标</h3>
+                        <ul>
+                            <li><code>PROFICIENT_STUDENT_CNT</code> - 达标学生数（AP≥3分，IB≥4分）</li>
+                            <li><code>LEVEL1_CNT</code> ~ <code>LEVEL7_CNT</code> - 各等级成绩分布</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-section">
+                <h2>预期发现</h2>
+                <div class="expected-findings">
+                    <div class="finding-card">
+                        <h3>🔍 假设1</h3>
+                        <p>经济困难学生的AP/IB课程参与率显著低于非经济困难学生</p>
+                    </div>
+                    <div class="finding-card">
+                        <h3>🔍 假设2</h3>
+                        <p>不同种族背景的学生在课程选择和成绩表现上存在显著差异</p>
+                    </div>
+                    <div class="finding-card">
+                        <h3>🔍 假设3</h3>
+                        <p>性别因素在特定学科领域（如STEM）的参与度上存在差异</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 返回按钮 -->
+    <div class="back-to-research">
+        <a href="index.html#research" class="back-button">← 返回研究问题</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
