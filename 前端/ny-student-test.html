@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="New York State student test spotlight inspired by the GTD analysis aesthetic.">
+	<title>New York Student Test Spotlight</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/midnight-styles.css">
+	<link rel="stylesheet" href="css/ny-student-test.css">
+</head>
+
+<body class="ny-site">
+	<header class="hero">
+		<div class="wrapper hero__inner">
+			<nav class="hero__nav">
+				<a class="logo" href="./index.html">GTD Heritage</a>
+				<div class="hero__links">
+					<a class="btn ghost" href="https://www.schools.nyc.gov/learning/testing" target="_blank" rel="noopener">NYC DOE Testing</a>
+					<a class="btn ghost" href="https://www.nysed.gov/state-assessment" target="_blank" rel="noopener">State Guidance</a>
+				</div>
+			</nav>
+			<div class="hero__content">
+				<p class="eyebrow">Citywide Briefing · 2025 Preview</p>
+				<h1>New York Student Test Pulse</h1>
+				<p class="lede">
+					A quick, data-forward look at how New York City students are preparing for the statewide English Language Arts and Math assessments, keeping the confident, midnight aesthetic from the GTD project.
+				</p>
+				<div class="hero__actions">
+					<a class="btn primary" href="#performance">Explore performance</a>
+					<button class="btn secondary" id="scroll-updates">Latest updates</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="wrapper">
+		<section class="stats">
+			<header class="section-heading">
+				<p class="eyebrow">City snapshot</p>
+				<h2>2024 benchmark results</h2>
+				<p>These headline metrics set the tone for the 2025 administration cycle.</p>
+			</header>
+			<div class="stats-grid">
+				<article class="stat-card">
+					<p class="stat-label">Participation</p>
+					<p class="stat-value">91%</p>
+					<p class="stat-footnote">+2 pp vs. 2023 opt-in rate</p>
+				</article>
+				<article class="stat-card">
+					<p class="stat-label">ELA proficiency</p>
+					<p class="stat-value">64%</p>
+					<p class="stat-footnote">City goal: 70% by 2026</p>
+				</article>
+				<article class="stat-card">
+					<p class="stat-label">Math proficiency</p>
+					<p class="stat-value">59%</p>
+					<p class="stat-footnote">Surged 4 pp in Queens</p>
+				</article>
+				<article class="stat-card">
+					<p class="stat-label">Extended time usage</p>
+					<p class="stat-value">18%</p>
+					<p class="stat-footnote">+3 pp for multilingual learners</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="performance" id="performance">
+			<header class="section-heading">
+				<p class="eyebrow">Performance explorer</p>
+				<h2>Grade-focused readiness dashboard</h2>
+				<p>Select a grade to see projected trends, borough gaps, and actionable insights.</p>
+			</header>
+			<div class="performance__controls">
+				<label for="grade-select">Grade focus</label>
+				<select id="grade-select">
+					<option value="grade3">Grade 3</option>
+					<option value="grade5">Grade 5</option>
+					<option value="grade8">Grade 8</option>
+				</select>
+				<p class="control-note" data-field="growth-note">
+					Projected growth highlights appear here.
+				</p>
+			</div>
+
+			<div class="highlights">
+				<article class="highlight-card">
+					<p class="eyebrow">ELA composite</p>
+					<p class="highlight-value" data-field="ela-score">--</p>
+					<p class="highlight-change" data-field="ela-change">--</p>
+				</article>
+				<article class="highlight-card">
+					<p class="eyebrow">Math composite</p>
+					<p class="highlight-value" data-field="math-score">--</p>
+					<p class="highlight-change" data-field="math-change">--</p>
+				</article>
+				<article class="highlight-card">
+					<p class="eyebrow">Participation</p>
+					<p class="highlight-value" data-field="participation">--</p>
+					<p class="highlight-change" data-field="participation-change">--</p>
+				</article>
+			</div>
+
+			<div class="proficiency">
+				<div class="proficiency-card">
+					<div>
+						<p class="eyebrow">ELA proficiency</p>
+						<p class="proficiency-value" data-field="ela-proficiency-label">--</p>
+					</div>
+					<div class="progress-bar">
+						<span class="progress-fill" data-field="ela-proficiency"></span>
+					</div>
+				</div>
+				<div class="proficiency-card">
+					<div>
+						<p class="eyebrow">Math proficiency</p>
+						<p class="proficiency-value" data-field="math-proficiency-label">--</p>
+					</div>
+					<div class="progress-bar">
+						<span class="progress-fill" data-field="math-proficiency"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="trend-panel">
+				<div class="trend-panel__header">
+					<div>
+						<p class="eyebrow">Year-over-year trend</p>
+						<h3 data-field="trend-title">Projected proficiency</h3>
+					</div>
+					<p class="trend-note">Hover columns for exact proficiency.</p>
+				</div>
+				<div class="trend-chart" id="trend-chart"></div>
+			</div>
+
+			<div class="split-layout">
+				<div class="table-card">
+					<div class="trend-panel__header">
+						<div>
+							<p class="eyebrow">Borough spread</p>
+							<h3>Top city performers</h3>
+						</div>
+					</div>
+					<table class="borough-table">
+						<thead>
+							<tr>
+								<th>Borough</th>
+								<th>ELA</th>
+								<th>Math</th>
+								<th>Momentum</th>
+							</tr>
+						</thead>
+						<tbody id="borough-table-body">
+							<tr>
+								<td colspan="4">数据加载中...</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="insights-card">
+					<div class="trend-panel__header">
+						<div>
+							<p class="eyebrow">What educators say</p>
+							<h3>Quick action notes</h3>
+						</div>
+					</div>
+					<ul class="insight-list" id="insight-list">
+						<li>加载中...</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="timeline" id="updates">
+			<header class="section-heading">
+				<p class="eyebrow">What’s next</p>
+				<h2>Key milestones & supports</h2>
+				<p>Use the checkpoints below to keep families, students, and staff aligned.</p>
+			</header>
+			<div class="timeline-grid">
+				<article class="timeline-card">
+					<p class="timeline-date">Dec–Jan</p>
+					<h3>Unit diagnostics</h3>
+					<p>Schools finalize mid-year benchmark exams and flag intervention cohorts.</p>
+				</article>
+				<article class="timeline-card">
+					<p class="timeline-date">Feb</p>
+					<h3>Family workshops</h3>
+					<p>Translation-ready guides released for each borough, aligned with DOE rubrics.</p>
+				</article>
+				<article class="timeline-card">
+					<p class="timeline-date">Mar</p>
+					<h3>Simulation week</h3>
+					<p>Citywide mock tests, device checks, and proctor refreshers mimic the real flow.</p>
+				</article>
+				<article class="timeline-card">
+					<p class="timeline-date">Apr–May</p>
+					<h3>Test administration</h3>
+					<p>ELA followed by Math with rapid scoring pilots in 42 networked schools.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="cta">
+			<header class="section-heading">
+				<p class="eyebrow">Stay ready</p>
+				<h2>Resonating actions for schools</h2>
+			</header>
+			<div class="cta-grid">
+				<article class="cta-card">
+					<h3>Instructional playbooks</h3>
+					<p>把 NYC Reads 方案拆成「周冲刺—分层文本—会议反馈」三段节奏，方便教研组直接复制到周计划里。</p>
+					<a class="btn link" href="https://www.schools.nyc.gov/learning/nyc-reads" target="_blank" rel="noopener">下载 NYC Reads 提示单</a>
+				</article>
+				<article class="cta-card">
+					<h3>Math studio cycles</h3>
+					<p>以模拟 Regents 的 3 步脚手架练习配合课堂观察清单，锁定 8 年级代数断层的易错点。</p>
+					<a class="btn link" href="https://www.schools.nyc.gov/learning/testing/math-state-test" target="_blank" rel="noopener">获取脚手架包</a>
+				</article>
+				<article class="cta-card">
+					<h3>Student voice toolkit</h3>
+					<p>让学生使用自述版数据日志追踪练习卷差值，并在家长会前自动生成要点。</p>
+					<a class="btn link" href="https://www.schools.nyc.gov/studentpathways" target="_blank" rel="noopener">领取学生日志模板</a>
+				</article>
+			</div>
+		</section>
+		<section class="plotly-lab" id="plot-lab">
+			<header class="section-heading">
+				<p class="eyebrow">Interactive lab</p>
+				<h2>Plotly-ready EDA narratives</h2>
+				<p>逐图复现一场端到端的样本 EDA：从参与率剖面、增长动能、干预效率到目标对齐，团队只需复制代码即可在任意 Plotly 画布重播。</p>
+			</header>
+
+			<div class="plotly-grid">
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">City mix</p>
+						<h3>Grade-level proficiency blend</h3>
+						<p class="plot-note">Grouped bars compare projected ELA vs Math proficiency by grade.</p>
+						<p class="plot-thread">“参与率委员会关心 2025 目标，这张柱状对照让他们瞬间看见八年级已逼近 70%。”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-grade-blend"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-grade-blend"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-grade-blend">复制代码</button>
+					</details>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Momentum view</p>
+						<h3>Three-grade growth lines</h3>
+						<p class="plot-note">Overlay grade trends to show how fast each cohort is climbing.</p>
+						<p class="plot-thread">“督学提醒：如果 2022—2025 的斜率还在抬升，就不能撤掉加速课堂。”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-growth-lines"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-growth-lines"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-growth-lines">复制代码</button>
+					</details>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Borough signals</p>
+						<h3>ELA vs Math scatter</h3>
+						<p class="plot-note">Each point is a borough+grade combo with hover text for talking points.</p>
+						<p class="plot-thread">“区级督导讨论：Queens 的双语项目到底给 Math 还是 ELA 带来了更大弹性？”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-borough-scatter"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-borough-scatter"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-borough-scatter">复制代码</button>
+					</details>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Support lift</p>
+						<h3>Readiness investment donut</h3>
+						<p class="plot-note">Slice participation supports to explain where extended time is spent.</p>
+						<p class="plot-thread">“财政伙伴关注每一美元的用途，圆环把辅助时数的重心说得非常清楚。”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-support-donut"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-support-donut"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-support-donut">复制代码</button>
+					</details>
+				</article>
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Readiness tiers</p>
+						<h3>Stacked proficiency mix</h3>
+						<p class="plot-note">Show emerging vs. on-track vs. excelling students by grade.</p>
+						<p class="plot-thread">“课堂支援小组盯着 Emerging 人数下降，这一堆叠图是他们的周会封面。”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-proficiency-stack"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-proficiency-stack"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-proficiency-stack">复制代码</button>
+					</details>
+				</article>
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Benchmark spread</p>
+						<h3>Scale score box plot</h3>
+						<p class="plot-note">Compare quartiles for winter diagnostics across grades.</p>
+						<p class="plot-thread">“诊断评估室只问一句：离群点在谁家？箱线图立刻点名。”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-benchmark-box"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-benchmark-box"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-benchmark-box">复制代码</button>
+					</details>
+				</article>
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Pipeline view</p>
+						<h3>Readiness funnel</h3>
+						<p class="plot-note">Track how many students make it from enrollment to mastery.</p>
+						<p class="plot-thread">“项目办公室用这条漏斗解释：为什么测试人数足够，但精通率还需要下一轮干预。”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-mastery-funnel"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-mastery-funnel"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-mastery-funnel">复制代码</button>
+					</details>
+				</article>
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Instruction focus</p>
+						<h3>Five-pillar radar</h3>
+						<p class="plot-note">Plot where each grade concentrates coaching minutes.</p>
+						<p class="plot-thread">“教练团队协商：Grade 8 的 Coaching 时间必须更多押在 Math reasoning 上。”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-focus-radar"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-focus-radar"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-focus-radar">复制代码</button>
+					</details>
+				</article>
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Support saturation</p>
+						<h3>Borough vs. support heatmap</h3>
+						<p class="plot-note">Reveal which interventions see the highest utilization.</p>
+						<p class="plot-thread">“运营端需要一张热力图来看资源是不是卡在 Queens 和 Bronx。”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-support-heatmap"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-support-heatmap"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-support-heatmap">复制代码</button>
+					</details>
+				</article>
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Target glidepath</p>
+						<h3>Projected vs. target area</h3>
+						<p class="plot-note">Layer current trajectory against DOE stretch goals.</p>
+						<p class="plot-thread">“市级 KPI 小组只在乎一句话：Projected 有没有快到 Target，这片面积是答案。”</p>
+					</div>
+					<div class="plotly-canvas" id="plot-growth-area"></div>
+					<details class="code-copy">
+						<summary>复制 Plotly 代码</summary>
+						<pre><code id="code-growth-area"></code></pre>
+						<button class="btn secondary copy-code" data-copy-target="code-growth-area">复制代码</button>
+					</details>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="wrapper footer__inner">
+			<p>Built with the midnight aesthetic of the GTD Analysis project · MIT License</p>
+			<p>Last refresh: November 2025</p>
+		</div>
+	</footer>
+
+	<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+	<script src="js/ny-student-test.js"></script>
+</body>
+
+</html>
