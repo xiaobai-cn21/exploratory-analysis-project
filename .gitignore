@@ -2,6 +2,9 @@
 *.mdb
 *.accdb
 数据/数据/
+analysis_results/
+assessment_by_level/
+cleaned_data/
 
 # 虚拟环境
 venv/
