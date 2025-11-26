@@ -1,0 +1,86 @@
+[
+  {
+    "APIB_IND": "AP",
+    "level": "level1_cnt",
+    "student_count": 34185.0,
+    "share": 0.114744
+  },
+  {
+    "APIB_IND": "AP",
+    "level": "level2_cnt",
+    "student_count": 57704.0,
+    "share": 0.193688
+  },
+  {
+    "APIB_IND": "AP",
+    "level": "level3_cnt",
+    "student_count": 76012.0,
+    "share": 0.25514
+  },
+  {
+    "APIB_IND": "AP",
+    "level": "level4_cnt",
+    "student_count": 79400.0,
+    "share": 0.266512
+  },
+  {
+    "APIB_IND": "AP",
+    "level": "level5_cnt",
+    "student_count": 50622.0,
+    "share": 0.169916
+  },
+  {
+    "APIB_IND": "AP",
+    "level": "level6_cnt",
+    "student_count": 0.0,
+    "share": 0.0
+  },
+  {
+    "APIB_IND": "AP",
+    "level": "level7_cnt",
+    "student_count": 0.0,
+    "share": 0.0
+  },
+  {
+    "APIB_IND": "IB",
+    "level": "level1_cnt",
+    "student_count": 136.0,
+    "share": 0.010448
+  },
+  {
+    "APIB_IND": "IB",
+    "level": "level2_cnt",
+    "student_count": 915.0,
+    "share": 0.070293
+  },
+  {
+    "APIB_IND": "IB",
+    "level": "level3_cnt",
+    "student_count": 2644.0,
+    "share": 0.203119
+  },
+  {
+    "APIB_IND": "IB",
+    "level": "level4_cnt",
+    "student_count": 4577.0,
+    "share": 0.351617
+  },
+  {
+    "APIB_IND": "IB",
+    "level": "level5_cnt",
+    "student_count": 3260.0,
+    "share": 0.250442
+  },
+  {
+    "APIB_IND": "IB",
+    "level": "level6_cnt",
+    "student_count": 1259.0,
+    "share": 0.09672
+  },
+  {
+    "APIB_IND": "IB",
+    "level": "level7_cnt",
+    "student_count": 226.0,
+    "share": 0.017362
+  }
+]

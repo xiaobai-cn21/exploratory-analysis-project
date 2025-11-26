@@ -146,6 +146,14 @@ main {
 	margin-top: 1.5rem;
 }
 
+/* research1.html · AP/IB 核心指标：在桌面端固定为 3 列，让卡片排布更均匀。
+   这里直接作用于所有 .stats-grid，ny-student-test 的 4 张卡也会排成 3+1，更稳定。 */
+@media (min-width: 900px) {
+	.stats-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
 .stat-card {
 	background: var(--card);
 	border: 1px solid var(--border);
@@ -446,6 +454,12 @@ main {
 	height: 360px;
 }
 
+/* N/RC 雷达图需要更大的显示区域 */
+#equity-nrc {
+	height: 480px;
+	min-height: 480px;
+}
+
 .plot-card details {
 	background: var(--card-muted);
 	border: 1px solid var(--border);
@@ -473,6 +487,106 @@ main {
 .plot-card code {
 	color: var(--text);
 	font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* --- County league · Top/Bottom 榜单布局 --- */
+.county-league {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	gap: 1rem;
+	margin-top: 0.75rem;
+	width: 100%;
+}
+
+@media (min-width: 960px) {
+	.county-league {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}
+
+.county-column h4 {
+	margin: 0 0 0.5rem;
+	font-size: 0.95rem;
+	color: var(--accent);
+}
+
+.county-column ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.county-column li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 0.9rem;
+	color: var(--text-muted);
+	padding: 0.25rem 0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.06);
+}
+
+.county-column li:last-child {
+	border-bottom: none;
+}
+
+.county-column li span:first-child {
+	flex: 1;
+	padding-right: 0.25rem;
+	word-break: break-word;
+}
+
+.county-column li span:last-child {
+	font-variant-numeric: tabular-nums;
+	color: var(--text);
+}
+
+/* --- Suppression watch · 抑制热点列表 --- */
+.suppression-list {
+	list-style: none;
+	margin: 0.75rem 0 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	max-height: 260px;
+	overflow-y: auto;
+	scrollbar-width: thin;
+}
+
+.suppression-list li {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 0.75rem;
+	padding: 0.6rem 0.9rem;
+	background: var(--card-muted);
+	border-radius: 0.9rem;
+	border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.suppression-list strong {
+	font-size: 0.9rem;
+}
+
+.suppression-list p {
+	margin: 0.1rem 0 0;
+	color: var(--text-muted);
+	font-size: 0.85rem;
+}
+
+.suppression-chip {
+	padding: 0.15rem 0.6rem;
+	border-radius: 999px;
+	background: rgba(240, 140, 103, 0.16);
+	color: var(--warning);
+	font-size: 0.8rem;
+	font-weight: 600;
+	white-space: nowrap;
 }
 
 .copy-code {
