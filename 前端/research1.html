@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="AP/IB 教育公平性分析页面，沿用 GTD Midnight 视觉语言。">
+	<title>AP/IB 教育公平性分析</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/midnight-styles.css">
+	<link rel="stylesheet" href="css/ny-student-test.css">
+</head>
+
+<body class="ny-site">
+	<header class="hero">
+		<div class="wrapper hero__inner">
+			<nav class="hero__nav">
+				<a class="logo" href="./index.html">GTD Heritage</a>
+				<div class="hero__links">
+					<a class="btn ghost" href="https://www.nysed.gov/state-assessment/advanced-placement" target="_blank" rel="noopener">NYS AP Guidance</a>
+					<a class="btn ghost" href="https://www.ibo.org/programmes/diploma-programme/curriculum" target="_blank" rel="noopener">IB Diploma Brief</a>
+				</div>
+			</nav>
+			<div class="hero__content">
+				<p class="eyebrow">Statewide Equity Pulse · 2024 data</p>
+				<h1>AP/IB 教育公平性分析</h1>
+				<p class="lede">
+					本页聚焦“谁有机会参与 AP/IB、谁能取得好成绩、谁的表现被数据抑制看不见”这三个核心问题，
+					目的是用州级数据还原教育机会在不同群体、地区与课程之间的分配状况，为资源投向、支持策略和政策评估提供可操作的证据基础。
+				</p>
+				<div class="hero__actions">
+					<a class="btn primary" href="#equity">进入 Equity Deck</a>
+					<button class="btn secondary" id="scroll-stats">查看概览指标</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="wrapper">
+		<section class="stats" id="state-overview">
+			<header class="section-heading">
+				<p class="eyebrow">Statewide overview</p>
+				<h2>AP vs IB 核心指标</h2>
+				<p>“参加人数”统计所有有效考生记录，“达标率”指达到州标准及以上的比例，“高分率”指取得最高两个等级成绩的比例，脚注中的“有效覆盖”与“抑制率”则分别反映样本在可统计范围内的完整度与受隐私规则影响被抑制记录的占比。</p>
+			</header>
+			<div class="stats-grid">
+				<article class="stat-card">
+					<p class="stat-label">AP 参加人数</p>
+					<p class="stat-value" data-field="ap-tested">--</p>
+					<p class="stat-footnote" data-field="ap-valid">有效覆盖 --</p>
+				</article>
+				<article class="stat-card">
+					<p class="stat-label">AP 达标率</p>
+					<p class="stat-value" data-field="ap-proficiency">--</p>
+					<p class="stat-footnote" data-field="ap-gap">抑制率 --</p>
+				</article>
+				<article class="stat-card">
+					<p class="stat-label">AP 高分率</p>
+					<p class="stat-value" data-field="ap-highscore">--</p>
+					<p class="stat-footnote">高分生源比</p>
+				</article>
+				<article class="stat-card">
+					<p class="stat-label">IB 参加人数</p>
+					<p class="stat-value" data-field="ib-tested">--</p>
+					<p class="stat-footnote" data-field="ib-valid">有效覆盖 --</p>
+				</article>
+				<article class="stat-card">
+					<p class="stat-label">IB 达标率</p>
+					<p class="stat-value" data-field="ib-proficiency">--</p>
+					<p class="stat-footnote" data-field="ib-gap">抑制率 --</p>
+				</article>
+				<article class="stat-card">
+					<p class="stat-label">IB 高分率</p>
+					<p class="stat-value" data-field="ib-highscore">--</p>
+					<p class="stat-footnote">高分生源比</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="plotly-lab equity" id="equity">
+			<header class="section-heading">
+				<p class="eyebrow">Equity lab</p>
+				<h2>AP/IB 教育公平性</h2>
+				<p>本段将 statewide、人口分组、县域与学科等多张图表串联在一起：前两张聚焦州级总体水平与成绩等级分布，中间几张分别从人口特征、需求/资源类型和县域差异刻画“谁更容易达标”、在哪里存在结构性劣势，最后通过学科热力、资源散点与抑制热点列表提示在哪些课程与群体上仍然缺乏可见度或支持，从而形成一套完整的 AP/IB 公平性画像。</p>
+			</header>
+
+			<div class="plotly-grid equity-grid">
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">State deck</p>
+						<h3>AP vs IB 参与·达标·高分</h3>
+						<p class="plot-note">使用分组条形图，对比 AP 与 IB 在考生人数、达标率、高分率以及抑制记录占比等州级汇总指标。</p>
+						<p class="plot-thread"><strong>结论：</strong>图中显示，AP 约有 29.8 万名考生，是 IB 的约 22 倍；IB 的总体达标率为 71.7%，略高于 AP 的 69.2%，但 AP 的高分率 43.6% 明显高于 IB 的 36.5%，同时 AP 的抑制记录占比（17.8%）低于 IB 的 28.6%，在成绩高端与数据可见性上更具优势。</p>
+					</div>
+					<div class="plotly-canvas" id="equity-state"></div>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Level mix</p>
+						<h3>等级堆叠条形</h3>
+						<p class="plot-note">基于 state_level_distribution 聚合结果，将 AP 与 IB 的 Level 1–7 分布绘制为堆叠条形图，用于比较不同成绩等级的占比结构。</p>
+						<p class="plot-thread"><strong>结论：</strong>结果显示，AP 考生主要集中在 Level 3–5，其中 Level 4 占 26.7%、Level 5 占 17.0%；IB 在 Level 4 与 Level 5 的占比分别约为 35% 和 25%，并且约有 11% 的学生处于 Level 6 及以上，整体成绩分布明显向高等级端集中。</p>
+					</div>
+					<div class="plotly-canvas" id="equity-level"></div>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Demographic reach</p>
+						<h3>人口分组参与 vs 达标</h3>
+						<p class="plot-note">以 demographic_summary 中的各人口分组为观测点，横轴为参与份额、纵轴为达标率，标记大小按测试人数加权，用于刻画不同群体的参与规模与成绩表现。</p>
+						<p class="plot-thread"><strong>结论：</strong>图示表明，Not Economically Disadvantaged 学生贡献了约 61% 的 AP 参与量，并维持约 77% 的达标率；Students with Disabilities 在 AP 和 IB 中的达标率均在 41% 左右，显著低于总体；Nonbinary 学生虽然样本量不足 0.1%，但达标率约 84%，提示高表现群体在规模和分布上都较为分散。</p>
+					</div>
+					<div class="plotly-canvas" id="equity-demo"></div>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Gap radar</p>
+						<h3>Top/Bottom 差距</h3>
+						<p class="plot-note">基于 demographic_summary 计算各群体相对于整体达标率的差值，选取正向和负向幅度最大的若干群体，以水平条形图展示优势与劣势差距，正值用绿色、负值用橙色编码。</p>
+						<p class="plot-thread"><strong>结论：</strong>结果显示，AP 中 Nonbinary 学生和经济不困难学生的达标率分别比整体高出约 15 和 8 个百分点；而 Students with Disabilities 在 IB 与 AP 中的达标率则分别低于整体约 31 和 28.6 个百分点，IB 中的 Black 学生也低约 28 个百分点，差距主要集中在弱势与高支持需求群体。</p>
+					</div>
+					<div class="plotly-canvas" id="equity-gap"></div>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Need/resource</p>
+						<h3>N/RC Polar profile</h3>
+						<p class="plot-note">利用 nrc_summary，按 Need/Resource Capacity (N/RC) 类型汇总达标率，并通过极坐标散点图展示不同资源环境下 AP 与 IB 的表现差异。</p>
+						<p class="plot-thread"><strong>结论：</strong>图中可以看到，AP 在低 N/RC（资源相对充足）地区的平均达标率约为 80.5%，而纽约市约为 59.1%；IB 在 Rural High Needs 地区的达标率可达 82.5%，但在大城市及特许学校往往低于 65%，说明随着资源与需求的不均衡，项目之间的成绩差距被进一步拉大。</p>
+					</div>
+					<div class="plotly-canvas" id="equity-nrc"></div>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">County league</p>
+						<h3>Top/Bottom 榜单</h3>
+						<p class="plot-note">根据 county_summary 计算各县的 AP/IB 达标率与样本规模，筛选出州内达标率最高与最低的一组县，以列表形式并排展示 AP 与 IB 的 Top/Bottom 名单。</p>
+						<p class="plot-thread"><strong>结论：</strong>在 AP 方面，Chemung 县的达标率为 100%，Tompkins 约为 87%，而 Hamilton 仅为 20%；在 IB 方面，Warren 和 Dutchess 县的达标率均超过 91%，而 Bronx 与 Kings 县不足 40%，县域间最高与最低值相差接近 60 个百分点。</p>
+					</div>
+					<div class="plotly-canvas" id="equity-county"></div>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Subject heat</p>
+						<h3>学科表现热力</h3>
+						<p class="plot-note">基于 subject_summary 中“体系 × 学科”的交叉汇总结果构建矩阵，单元格颜色表示对应组合的达标率，用于比较不同学科在 AP 与 IB 体系中的相对表现。</p>
+						<p class="plot-thread"><strong>结论：</strong>可以看到，AP 在综合类与 “Other” 类课程中达标率最高（约 83.8%），而 ELA 仅约 60.9%；IB 的第二语言课程达标率约 83.4%，显著领先于其他学科，而科学类课程约为 60%，提示实验与科学课程仍是两个体系中较为突出的短板。</p>
+					</div>
+					<div class="plotly-canvas" id="equity-subject"></div>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Resource scatter</p>
+						<h3>资源与表现象限</h3>
+						<p class="plot-note">以 resource_scatter 为基础，将各项目绘制为散点，横轴为达标率、纵轴为高分率，按 Need/Resource 分层（resource_class）着色，并可通过点分布观察资源类型与成绩之间的关系。</p>
+						<p class="plot-thread"><strong>结论：</strong>结果表明，低 N/RC 与 Average Needs 地区的项目平均达标率约 78%、高分率约 50%；纽约市和其他大城市项目的平均达标率多在 40%–50% 区间，高分率约 20%；特许学校的平均达标率和高分率约为 42% 和 16%，显示资源梯度与成绩结果之间存在较为稳定的单调关系。</p>
+					</div>
+					<div class="plotly-canvas" id="equity-resource"></div>
+				</article>
+
+				<article class="plot-card">
+					<div class="plot-card__meta">
+						<p class="eyebrow">Suppression watch</p>
+						<h3>抑制热点列表</h3>
+						<p class="plot-note">根据 suppression_overview 统计各群体被抑制记录的条数与占比，按照抑制占比从高到低生成列表，用于识别在公开报表中几乎“不可见”的高风险小样本群体。</p>
+						<p class="plot-thread"><strong>结论：</strong>列表显示，Migrant 学生在多个层级上的相关记录 100% 被抑制；In Foster Care（寄养儿童）群体共有 116 条记录，同样全部被抑制，这意味着在当前样本量和隐私规则下，这些群体的真实成绩情况几乎无法通过常规汇总报表呈现，需要在后续分析中引入专门的数据扩充与披露策略。</p>
+					</div>
+					<div class="plotly-canvas" id="equity-suppression"></div>
+				</article>
+			</div>
+		</section>
+
+		<section class="timeline" id="equity-summary">
+			<header class="section-heading">
+				<p class="eyebrow">Equity insight</p>
+				<h2>AP/IB 教育公平性关键发现</h2>
+				<p>本段将 9 张图背后的核心结论收束成几条可直接进入 briefing / PPT 的要点。</p>
+			</header>
+			<div class="timeline-grid">
+				<article class="timeline-card">
+					<p class="timeline-date">州级格局</p>
+					<h3>参与与成绩的总体对比</h3>
+					<p>AP 约 29.8 万名考生，是 IB 的 22 倍；IB 达标率略高 (71.7% vs 69.2%)，但 AP 的高分率更强 (43.6% vs 36.5%)，且抑制率更低 (17.8% vs 28.6%)。</p>
+				</article>
+				<article class="timeline-card">
+					<p class="timeline-date">群体差异</p>
+					<h3>谁在领跑，谁在掉队</h3>
+					<p>经济不困难学生与白人/多种族学生在 AP/IB 中都明显领跑；Students with Disabilities 与部分 Black 学生的达标率普遍比整体低 28–31 个百分点，是公平性最薄弱的环节。</p>
+				</article>
+				<article class="timeline-card">
+					<p class="timeline-date">地区与资源</p>
+					<h3>N/RC 与县域差距</h3>
+					<p>低 N/RC 与 Average Needs 地区的达标率常在 75–81% 区间，而纽约市、大城市与部分特许校往往只有 40–60%；AP/IB 县域 Top 与 Bottom 之间的差距可超过 60 个百分点。</p>
+				</article>
+				<article class="timeline-card">
+					<p class="timeline-date">学科与抑制</p>
+					<h3>课程短板与“看不见”的群体</h3>
+					<p>AP 在综合/选修类课程表现突出，但 ELA 相对偏弱；IB 第二语言优势明显但科学课程存在短板。Migrant 与寄养儿童 In Foster Care 在多层级上 100% 记录被抑制，提醒我们在数据披露之外，还要设计专门的样本扩充与治理方案。</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="timeline" id="equity-roadmap">
+			<header class="section-heading">
+				<p class="eyebrow">What’s next</p>
+				<h2>Equity EDA 工作流</h2>
+				<p>将本页九张图背后的处理步骤整理为一条标准化的数据工作流，方便后续按周期重复执行与审计。</p>
+			</header>
+			<div class="timeline-grid">
+				<article class="timeline-card">
+					<p class="timeline-date">Nov–Dec</p>
+					<h3>数据刷新与校验</h3>
+					<p>获取最新年度的 AP/IB 原始数据，运行 <code>src/fairness_eda.py</code> 完成清洗与聚合，并对记录量、缺失值和约束违规进行批量核查。</p>
+				</article>
+				<article class="timeline-card">
+					<p class="timeline-date">Jan</p>
+					<h3>结果解读与沟通</h3>
+					<p>基于 statewide、群体与县域图表梳理关键结论，形成简明 briefing 文档，并与督学及学校团队对齐主要差距与假设。</p>
+				</article>
+				<article class="timeline-card">
+					<p class="timeline-date">Feb–Mar</p>
+					<h3>资源配置与干预设计</h3>
+					<p>结合 N/RC 画像、县域排名和学科热力图，识别高需求地区和薄弱学科，制定师资培训、课程供给和财政支持等干预方案。</p>
+				</article>
+				<article class="timeline-card">
+					<p class="timeline-date">Apr</p>
+					<h3>抑制记录与合规复核</h3>
+					<p>使用抑制热点列表审查高风险群体的样本量与抑制比例，与数据治理和法务团队确认报告发布范围及额外保护措施。</p>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="wrapper footer__inner">
+			<p>Built with the midnight aesthetic of the GTD Analysis project · MIT License</p>
+			<p>Last refresh: November 2025</p>
+		</div>
+	</footer>
+
+	<script>
+		document.getElementById("scroll-stats")?.addEventListener("click", () => {
+			document.getElementById("state-overview")?.scrollIntoView({ behavior: "smooth" });
+		});
+	</script>
+	<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+	<script type="module" src="js/research-equity.js?v=20251129"></script>
+</body>
+
+</html>
+

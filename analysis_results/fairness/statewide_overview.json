@@ -1,0 +1,28 @@
+[
+  {
+    "APIB_IND": "AP",
+    "tested_total": 297983,
+    "tested_valid": 297923,
+    "proficient_valid": 206034.0,
+    "high_score_valid": 130022.0,
+    "suppressed_records": 32,
+    "proficiency_rate": 0.691568,
+    "high_score_rate": 0.436428,
+    "valid_coverage": 0.999799,
+    "record_count": 180,
+    "suppressed_share": 0.177778
+  },
+  {
+    "APIB_IND": "IB",
+    "tested_total": 13103,
+    "tested_valid": 13007,
+    "proficient_valid": 9322.0,
+    "high_score_valid": 4745.0,
+    "suppressed_records": 46,
+    "proficiency_rate": 0.716691,
+    "high_score_rate": 0.364804,
+    "valid_coverage": 0.992673,
+    "record_count": 161,
+    "suppressed_share": 0.285714
+  }
+]

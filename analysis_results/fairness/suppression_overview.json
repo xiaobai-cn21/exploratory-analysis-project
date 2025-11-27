@@ -1,0 +1,2117 @@
+[
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 32,
+    "record_count": 180,
+    "suppressed_share_records": 0.177778
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 29,
+    "record_count": 175,
+    "suppressed_share_records": 0.165714
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 56,
+    "record_count": 144,
+    "suppressed_share_records": 0.388889
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 30,
+    "record_count": 177,
+    "suppressed_share_records": 0.169492
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 53,
+    "record_count": 112,
+    "suppressed_share_records": 0.473214
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 41,
+    "record_count": 172,
+    "suppressed_share_records": 0.238372
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 23,
+    "record_count": 167,
+    "suppressed_share_records": 0.137725
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "17",
+    "SUBGROUP_NAME": "Migrant",
+    "suppressed_records": 9,
+    "record_count": 9,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 32,
+    "record_count": 180,
+    "suppressed_share_records": 0.177778
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 29,
+    "record_count": 169,
+    "suppressed_share_records": 0.171598
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 33,
+    "record_count": 119,
+    "suppressed_share_records": 0.277311
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 32,
+    "record_count": 180,
+    "suppressed_share_records": 0.177778
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 48,
+    "record_count": 56,
+    "suppressed_share_records": 0.857143
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 32,
+    "record_count": 180,
+    "suppressed_share_records": 0.177778
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 41,
+    "record_count": 61,
+    "suppressed_share_records": 0.672131
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 33,
+    "record_count": 180,
+    "suppressed_share_records": 0.183333
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 39,
+    "record_count": 51,
+    "suppressed_share_records": 0.764706
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 29,
+    "record_count": 170,
+    "suppressed_share_records": 0.170588
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 41,
+    "record_count": 92,
+    "suppressed_share_records": 0.445652
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 15,
+    "record_count": 128,
+    "suppressed_share_records": 0.117188
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 36,
+    "record_count": 152,
+    "suppressed_share_records": 0.236842
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 31,
+    "record_count": 155,
+    "suppressed_share_records": 0.2
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 38,
+    "record_count": 165,
+    "suppressed_share_records": 0.230303
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 34,
+    "record_count": 129,
+    "suppressed_share_records": 0.263566
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 199,
+    "record_count": 758,
+    "suppressed_share_records": 0.262533
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 183,
+    "record_count": 738,
+    "suppressed_share_records": 0.247967
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 224,
+    "record_count": 396,
+    "suppressed_share_records": 0.565657
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 195,
+    "record_count": 749,
+    "suppressed_share_records": 0.260347
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 154,
+    "record_count": 242,
+    "suppressed_share_records": 0.636364
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 197,
+    "record_count": 663,
+    "suppressed_share_records": 0.297134
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 197,
+    "record_count": 684,
+    "suppressed_share_records": 0.288012
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "17",
+    "SUBGROUP_NAME": "Migrant",
+    "suppressed_records": 11,
+    "record_count": 11,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 199,
+    "record_count": 758,
+    "suppressed_share_records": 0.262533
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 167,
+    "record_count": 668,
+    "suppressed_share_records": 0.25
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 163,
+    "record_count": 285,
+    "suppressed_share_records": 0.57193
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 198,
+    "record_count": 757,
+    "suppressed_share_records": 0.261559
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 83,
+    "record_count": 87,
+    "suppressed_share_records": 0.954023
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 197,
+    "record_count": 755,
+    "suppressed_share_records": 0.260927
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 95,
+    "record_count": 116,
+    "suppressed_share_records": 0.818966
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 199,
+    "record_count": 757,
+    "suppressed_share_records": 0.26288
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 99,
+    "record_count": 107,
+    "suppressed_share_records": 0.925234
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 208,
+    "record_count": 696,
+    "suppressed_share_records": 0.298851
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 150,
+    "record_count": 217,
+    "suppressed_share_records": 0.691244
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 174,
+    "record_count": 481,
+    "suppressed_share_records": 0.361746
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 169,
+    "record_count": 571,
+    "suppressed_share_records": 0.295972
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 203,
+    "record_count": 554,
+    "suppressed_share_records": 0.366426
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 218,
+    "record_count": 633,
+    "suppressed_share_records": 0.344392
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 191,
+    "record_count": 408,
+    "suppressed_share_records": 0.468137
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 892,
+    "record_count": 2794,
+    "suppressed_share_records": 0.319256
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 870,
+    "record_count": 2767,
+    "suppressed_share_records": 0.31442
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 562,
+    "record_count": 873,
+    "suppressed_share_records": 0.643757
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 886,
+    "record_count": 2782,
+    "suppressed_share_records": 0.318476
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 269,
+    "record_count": 412,
+    "suppressed_share_records": 0.652913
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 967,
+    "record_count": 2138,
+    "suppressed_share_records": 0.452292
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 903,
+    "record_count": 2619,
+    "suppressed_share_records": 0.344788
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "17",
+    "SUBGROUP_NAME": "Migrant",
+    "suppressed_records": 15,
+    "record_count": 15,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 891,
+    "record_count": 2793,
+    "suppressed_share_records": 0.319012
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 882,
+    "record_count": 2461,
+    "suppressed_share_records": 0.358391
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 373,
+    "record_count": 618,
+    "suppressed_share_records": 0.60356
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 886,
+    "record_count": 2786,
+    "suppressed_share_records": 0.318019
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 116,
+    "record_count": 116,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 886,
+    "record_count": 2788,
+    "suppressed_share_records": 0.317791
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 215,
+    "record_count": 225,
+    "suppressed_share_records": 0.955556
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 888,
+    "record_count": 2788,
+    "suppressed_share_records": 0.318508
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 170,
+    "record_count": 171,
+    "suppressed_share_records": 0.994152
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 910,
+    "record_count": 2438,
+    "suppressed_share_records": 0.373257
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 320,
+    "record_count": 399,
+    "suppressed_share_records": 0.802005
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 592,
+    "record_count": 1139,
+    "suppressed_share_records": 0.519754
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 810,
+    "record_count": 1576,
+    "suppressed_share_records": 0.513959
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 802,
+    "record_count": 1718,
+    "suppressed_share_records": 0.466822
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 876,
+    "record_count": 2464,
+    "suppressed_share_records": 0.355519
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 838,
+    "record_count": 1247,
+    "suppressed_share_records": 0.672013
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 4311,
+    "record_count": 11744,
+    "suppressed_share_records": 0.367081
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 4276,
+    "record_count": 11651,
+    "suppressed_share_records": 0.367007
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 2103,
+    "record_count": 2513,
+    "suppressed_share_records": 0.836848
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 4295,
+    "record_count": 11685,
+    "suppressed_share_records": 0.367565
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 680,
+    "record_count": 845,
+    "suppressed_share_records": 0.804734
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 4738,
+    "record_count": 8223,
+    "suppressed_share_records": 0.576189
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 4525,
+    "record_count": 10749,
+    "suppressed_share_records": 0.420969
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "17",
+    "SUBGROUP_NAME": "Migrant",
+    "suppressed_records": 17,
+    "record_count": 17,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 4309,
+    "record_count": 11742,
+    "suppressed_share_records": 0.366973
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 4402,
+    "record_count": 10045,
+    "suppressed_share_records": 0.438228
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 1206,
+    "record_count": 1561,
+    "suppressed_share_records": 0.772582
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 4309,
+    "record_count": 11712,
+    "suppressed_share_records": 0.367913
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 134,
+    "record_count": 134,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 4304,
+    "record_count": 11737,
+    "suppressed_share_records": 0.366704
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 261,
+    "record_count": 268,
+    "suppressed_share_records": 0.973881
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 4308,
+    "record_count": 11736,
+    "suppressed_share_records": 0.367076
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 201,
+    "record_count": 201,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 4597,
+    "record_count": 10016,
+    "suppressed_share_records": 0.458966
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 680,
+    "record_count": 734,
+    "suppressed_share_records": 0.926431
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 2621,
+    "record_count": 3709,
+    "suppressed_share_records": 0.706659
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 4171,
+    "record_count": 6482,
+    "suppressed_share_records": 0.643474
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 4141,
+    "record_count": 6512,
+    "suppressed_share_records": 0.635903
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 4274,
+    "record_count": 9573,
+    "suppressed_share_records": 0.446464
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 3294,
+    "record_count": 3681,
+    "suppressed_share_records": 0.894866
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 6201,
+    "record_count": 16324,
+    "suppressed_share_records": 0.37987
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 6157,
+    "record_count": 16168,
+    "suppressed_share_records": 0.380814
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 3336,
+    "record_count": 3671,
+    "suppressed_share_records": 0.908744
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 6170,
+    "record_count": 16181,
+    "suppressed_share_records": 0.381311
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 1024,
+    "record_count": 1178,
+    "suppressed_share_records": 0.86927
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 6715,
+    "record_count": 12246,
+    "suppressed_share_records": 0.548342
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 6568,
+    "record_count": 13948,
+    "suppressed_share_records": 0.470892
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "17",
+    "SUBGROUP_NAME": "Migrant",
+    "suppressed_records": 17,
+    "record_count": 17,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 6199,
+    "record_count": 16322,
+    "suppressed_share_records": 0.379794
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 6430,
+    "record_count": 14006,
+    "suppressed_share_records": 0.459089
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 2573,
+    "record_count": 2789,
+    "suppressed_share_records": 0.922553
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 6190,
+    "record_count": 16210,
+    "suppressed_share_records": 0.381863
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 140,
+    "record_count": 140,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 6194,
+    "record_count": 16316,
+    "suppressed_share_records": 0.379627
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 273,
+    "record_count": 279,
+    "suppressed_share_records": 0.978495
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 6200,
+    "record_count": 16317,
+    "suppressed_share_records": 0.379972
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 205,
+    "record_count": 205,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 6626,
+    "record_count": 13696,
+    "suppressed_share_records": 0.483791
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 981,
+    "record_count": 999,
+    "suppressed_share_records": 0.981982
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 4361,
+    "record_count": 5906,
+    "suppressed_share_records": 0.738402
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 6156,
+    "record_count": 9553,
+    "suppressed_share_records": 0.644405
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 5831,
+    "record_count": 9057,
+    "suppressed_share_records": 0.643811
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 5800,
+    "record_count": 11728,
+    "suppressed_share_records": 0.494543
+  },
+  {
+    "APIB_IND": "AP",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 3950,
+    "record_count": 4284,
+    "suppressed_share_records": 0.922035
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 46,
+    "record_count": 161,
+    "suppressed_share_records": 0.285714
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 48,
+    "record_count": 155,
+    "suppressed_share_records": 0.309677
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 73,
+    "record_count": 99,
+    "suppressed_share_records": 0.737374
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 46,
+    "record_count": 160,
+    "suppressed_share_records": 0.2875
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 27,
+    "record_count": 30,
+    "suppressed_share_records": 0.9
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 55,
+    "record_count": 133,
+    "suppressed_share_records": 0.413534
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 54,
+    "record_count": 149,
+    "suppressed_share_records": 0.362416
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 46,
+    "record_count": 161,
+    "suppressed_share_records": 0.285714
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 40,
+    "record_count": 141,
+    "suppressed_share_records": 0.283688
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 24,
+    "record_count": 30,
+    "suppressed_share_records": 0.8
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 47,
+    "record_count": 161,
+    "suppressed_share_records": 0.291925
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 46,
+    "record_count": 161,
+    "suppressed_share_records": 0.285714
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 46,
+    "record_count": 161,
+    "suppressed_share_records": 0.285714
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 10,
+    "record_count": 10,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 49,
+    "record_count": 135,
+    "suppressed_share_records": 0.362963
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 24,
+    "record_count": 24,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 66,
+    "record_count": 101,
+    "suppressed_share_records": 0.653465
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 55,
+    "record_count": 129,
+    "suppressed_share_records": 0.426357
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 46,
+    "record_count": 96,
+    "suppressed_share_records": 0.479167
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 45,
+    "record_count": 131,
+    "suppressed_share_records": 0.343511
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 0,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 47,
+    "record_count": 72,
+    "suppressed_share_records": 0.652778
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 98,
+    "record_count": 346,
+    "suppressed_share_records": 0.283237
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 92,
+    "record_count": 333,
+    "suppressed_share_records": 0.276276
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 126,
+    "record_count": 153,
+    "suppressed_share_records": 0.823529
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 99,
+    "record_count": 345,
+    "suppressed_share_records": 0.286957
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 33,
+    "record_count": 34,
+    "suppressed_share_records": 0.970588
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 129,
+    "record_count": 286,
+    "suppressed_share_records": 0.451049
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 121,
+    "record_count": 318,
+    "suppressed_share_records": 0.380503
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 98,
+    "record_count": 346,
+    "suppressed_share_records": 0.283237
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 98,
+    "record_count": 309,
+    "suppressed_share_records": 0.317152
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 44,
+    "record_count": 47,
+    "suppressed_share_records": 0.93617
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 99,
+    "record_count": 346,
+    "suppressed_share_records": 0.286127
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 98,
+    "record_count": 346,
+    "suppressed_share_records": 0.283237
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 98,
+    "record_count": 346,
+    "suppressed_share_records": 0.283237
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 11,
+    "record_count": 11,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 120,
+    "record_count": 299,
+    "suppressed_share_records": 0.401338
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 32,
+    "record_count": 32,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 131,
+    "record_count": 189,
+    "suppressed_share_records": 0.693122
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 131,
+    "record_count": 261,
+    "suppressed_share_records": 0.501916
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 116,
+    "record_count": 199,
+    "suppressed_share_records": 0.582915
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 108,
+    "record_count": 282,
+    "suppressed_share_records": 0.382979
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 1,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 114,
+    "record_count": 139,
+    "suppressed_share_records": 0.820144
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 192,
+    "record_count": 566,
+    "suppressed_share_records": 0.339223
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 190,
+    "record_count": 557,
+    "suppressed_share_records": 0.341113
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 156,
+    "record_count": 182,
+    "suppressed_share_records": 0.857143
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 192,
+    "record_count": 565,
+    "suppressed_share_records": 0.339823
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 34,
+    "record_count": 35,
+    "suppressed_share_records": 0.971429
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 236,
+    "record_count": 410,
+    "suppressed_share_records": 0.57561
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 215,
+    "record_count": 532,
+    "suppressed_share_records": 0.404135
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 192,
+    "record_count": 566,
+    "suppressed_share_records": 0.339223
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 214,
+    "record_count": 515,
+    "suppressed_share_records": 0.415534
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 49,
+    "record_count": 52,
+    "suppressed_share_records": 0.942308
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 193,
+    "record_count": 566,
+    "suppressed_share_records": 0.340989
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 192,
+    "record_count": 566,
+    "suppressed_share_records": 0.339223
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 192,
+    "record_count": 566,
+    "suppressed_share_records": 0.339223
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 10,
+    "record_count": 10,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 228,
+    "record_count": 463,
+    "suppressed_share_records": 0.492441
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 35,
+    "record_count": 35,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 185,
+    "record_count": 249,
+    "suppressed_share_records": 0.742972
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 199,
+    "record_count": 336,
+    "suppressed_share_records": 0.592262
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 205,
+    "record_count": 293,
+    "suppressed_share_records": 0.699659
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 214,
+    "record_count": 486,
+    "suppressed_share_records": 0.440329
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 2,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 174,
+    "record_count": 194,
+    "suppressed_share_records": 0.896907
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 313,
+    "record_count": 820,
+    "suppressed_share_records": 0.381707
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 303,
+    "record_count": 803,
+    "suppressed_share_records": 0.377335
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 192,
+    "record_count": 209,
+    "suppressed_share_records": 0.91866
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 314,
+    "record_count": 819,
+    "suppressed_share_records": 0.383394
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 28,
+    "record_count": 29,
+    "suppressed_share_records": 0.965517
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 377,
+    "record_count": 569,
+    "suppressed_share_records": 0.662566
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 350,
+    "record_count": 770,
+    "suppressed_share_records": 0.454545
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 313,
+    "record_count": 820,
+    "suppressed_share_records": 0.381707
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 354,
+    "record_count": 740,
+    "suppressed_share_records": 0.478378
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 44,
+    "record_count": 44,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 314,
+    "record_count": 820,
+    "suppressed_share_records": 0.382927
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 313,
+    "record_count": 820,
+    "suppressed_share_records": 0.381707
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 313,
+    "record_count": 820,
+    "suppressed_share_records": 0.381707
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 11,
+    "record_count": 11,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 373,
+    "record_count": 663,
+    "suppressed_share_records": 0.562594
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 35,
+    "record_count": 35,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 221,
+    "record_count": 274,
+    "suppressed_share_records": 0.806569
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 329,
+    "record_count": 475,
+    "suppressed_share_records": 0.692632
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 273,
+    "record_count": 365,
+    "suppressed_share_records": 0.747945
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 343,
+    "record_count": 705,
+    "suppressed_share_records": 0.486525
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 3,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 209,
+    "record_count": 228,
+    "suppressed_share_records": 0.916667
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "1",
+    "SUBGROUP_NAME": "All Students",
+    "suppressed_records": 325,
+    "record_count": 850,
+    "suppressed_share_records": 0.382353
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "10",
+    "SUBGROUP_NAME": "General Education Students",
+    "suppressed_records": 315,
+    "record_count": 833,
+    "suppressed_share_records": 0.378151
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "11",
+    "SUBGROUP_NAME": "Students with Disabilities",
+    "suppressed_records": 206,
+    "record_count": 223,
+    "suppressed_share_records": 0.923767
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "12",
+    "SUBGROUP_NAME": "Not English Language Learner",
+    "suppressed_records": 325,
+    "record_count": 848,
+    "suppressed_share_records": 0.383255
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "13",
+    "SUBGROUP_NAME": "English Language Learner",
+    "suppressed_records": 41,
+    "record_count": 42,
+    "suppressed_share_records": 0.97619
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "15",
+    "SUBGROUP_NAME": "Economically Disadvantaged",
+    "suppressed_records": 382,
+    "record_count": 591,
+    "suppressed_share_records": 0.646362
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "16",
+    "SUBGROUP_NAME": "Not Economically Disadvantaged",
+    "suppressed_records": 375,
+    "record_count": 793,
+    "suppressed_share_records": 0.472888
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "18",
+    "SUBGROUP_NAME": "Not Migrant",
+    "suppressed_records": 325,
+    "record_count": 850,
+    "suppressed_share_records": 0.382353
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "2",
+    "SUBGROUP_NAME": "Female",
+    "suppressed_records": 366,
+    "record_count": 766,
+    "suppressed_share_records": 0.477807
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "20",
+    "SUBGROUP_NAME": "Homeless",
+    "suppressed_records": 62,
+    "record_count": 62,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "21",
+    "SUBGROUP_NAME": "Not Homeless",
+    "suppressed_records": 325,
+    "record_count": 849,
+    "suppressed_share_records": 0.382803
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "22",
+    "SUBGROUP_NAME": "In Foster Care",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "23",
+    "SUBGROUP_NAME": "Not in Foster Care",
+    "suppressed_records": 325,
+    "record_count": 850,
+    "suppressed_share_records": 0.382353
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "24",
+    "SUBGROUP_NAME": "Parent in Armed Forces",
+    "suppressed_records": 1,
+    "record_count": 1,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "25",
+    "SUBGROUP_NAME": "Parent Not in Armed Forces",
+    "suppressed_records": 325,
+    "record_count": 850,
+    "suppressed_share_records": 0.382353
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "29",
+    "SUBGROUP_NAME": "Nonbinary",
+    "suppressed_records": 11,
+    "record_count": 11,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "3",
+    "SUBGROUP_NAME": "Male",
+    "suppressed_records": 381,
+    "record_count": 684,
+    "suppressed_share_records": 0.557018
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "4",
+    "SUBGROUP_NAME": "American Indian/Alaska Native",
+    "suppressed_records": 35,
+    "record_count": 35,
+    "suppressed_share_records": 1.0
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "5",
+    "SUBGROUP_NAME": "Black",
+    "suppressed_records": 226,
+    "record_count": 294,
+    "suppressed_share_records": 0.768707
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "6",
+    "SUBGROUP_NAME": "Hispanic",
+    "suppressed_records": 349,
+    "record_count": 499,
+    "suppressed_share_records": 0.699399
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "7",
+    "SUBGROUP_NAME": "Asian/Pacific Islander",
+    "suppressed_records": 276,
+    "record_count": 367,
+    "suppressed_share_records": 0.752044
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "8",
+    "SUBGROUP_NAME": "White",
+    "suppressed_records": 345,
+    "record_count": 707,
+    "suppressed_share_records": 0.487977
+  },
+  {
+    "APIB_IND": "IB",
+    "aggregation_index": 4,
+    "SUBGROUP_CODE": "9",
+    "SUBGROUP_NAME": "Multiracial",
+    "suppressed_records": 209,
+    "record_count": 228,
+    "suppressed_share_records": 0.916667
+  }
+]
