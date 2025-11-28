@@ -1,0 +1,3320 @@
+[
+  {
+    "district_code": "100501040000.0",
+    "district_name": "TACONIC HILLS JUNIOR/SENIOR HIGH",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.6722222222222222,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "100902040000.0",
+    "district_name": "GERMANTOWN JUNIOR-SENIOR HS",
+    "school_count": 1,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "10100010000.0",
+    "district_name": "ALBANY HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.6756079622755657,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "101001040000.0",
+    "district_name": "CHATHAM HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.6663333333333333,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "101300010000.0",
+    "district_name": "HUDSON HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.6642156862745098,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "101401040000.0",
+    "district_name": "ICHABOD CRANE SENIOR HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.715639589169001,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "10201040000.0",
+    "district_name": "BERNE-KNOX-WESTERLO JUNIOR-SENIOR HS",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.9166666666666666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "10306060000.0",
+    "district_name": "BETHLEHEM CENTRAL SENIOR HIGH SCHOOL",
+    "school_count": 36,
+    "avg_proficiency_rate": 0.8977996334263069,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "10402060000.0",
+    "district_name": "RAVENA-COEYMANS-SELKIRK SR HS",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.8311688311688311,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "10500010000.0",
+    "district_name": "COHOES HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.5486111111111112,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "10601060000.0",
+    "district_name": "COLONIE CENTRAL HIGH SCHOOL",
+    "school_count": 18,
+    "avg_proficiency_rate": 0.8107364926340674,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "10623060000.0",
+    "district_name": "SHAKER HIGH SCHOOL",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.8971758663822229,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "10802060000.0",
+    "district_name": "GUILDERLAND HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.8109704987606334,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "11003060000.0",
+    "district_name": "CLAYTON A BOUTON HIGH SCHOOL",
+    "school_count": 13,
+    "avg_proficiency_rate": 0.8078140661434303,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "110101040000.0",
+    "district_name": "CINCINNATUS HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.8166666666666667,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "110200010000.0",
+    "district_name": "CORTLAND HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.6545454545454545,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "110701060000.0",
+    "district_name": "HOMER SENIOR HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.9073877695298692,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "110901040000.0",
+    "district_name": "MARATHON HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.2777777777777778,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "120501040000.0",
+    "district_name": "DELAWARE ACADEMY HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.8698412698412697,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "121401040000.0",
+    "district_name": "MARGARETVILLE CENTRAL SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.4,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "121901040000.0",
+    "district_name": "WALTON HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.8888888888888888,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "130200010000.0",
+    "district_name": "BEACON HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "130502020000.0",
+    "district_name": "DOVER HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.7619128787878788,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "130801060000.0",
+    "district_name": "FRANKLIN D ROOSEVELT SENIOR HS",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.5561942454766223,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "131201040000.0",
+    "district_name": "PAWLING HIGH SCHOOL",
+    "school_count": 19,
+    "avg_proficiency_rate": 0.7858306718679653,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "131301040000.0",
+    "district_name": "STISSING MOUNTAIN JR/SR HS",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.7628832972582973,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "131601060000.0",
+    "district_name": "ARLINGTON HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.7577447457646754,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "131602020000.0",
+    "district_name": "SPACKENKILL HIGH SCHOOL",
+    "school_count": 15,
+    "avg_proficiency_rate": 0.7792414239569496,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "131701060000.0",
+    "district_name": "RED HOOK SENIOR HIGH SCHOOL",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.8712192056309703,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "131801040000.0",
+    "district_name": "RHINEBECK SENIOR HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.7339185818234607,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "132201040000.0",
+    "district_name": "MILLBROOK HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.5521978021978022,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140201060000.0",
+    "district_name": "AMHERST CENTRAL HIGH SCHOOL",
+    "school_count": 19,
+    "avg_proficiency_rate": 0.8651989728516397,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140203060000.0",
+    "district_name": "WILLIAMSVILLE SOUTH HIGH SCHOOL",
+    "school_count": 94,
+    "avg_proficiency_rate": 0.871724814545358,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140207060000.0",
+    "district_name": "SWEET HOME SENIOR HIGH SCHOOL",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.7137185610216555,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140301030000.0",
+    "district_name": "EAST AURORA HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.8939401116125254,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140600010000.0",
+    "district_name": "FREDERICK OLMSTED #156",
+    "school_count": 76,
+    "avg_proficiency_rate": 0.44380088263363887,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140701060000.0",
+    "district_name": "CHEEKTOWAGA HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.5549197669498421,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140702030000.0",
+    "district_name": "MARYVALE HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.7161255411255412,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140707030000.0",
+    "district_name": "DEPEW HIGH SCHOOL",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.6572365278399761,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140709030000.0",
+    "district_name": "JOHN F KENNEDY SENIOR HS",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.594253663003663,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "140801060000.0",
+    "district_name": "CLARENCE SENIOR HIGH SCHOOL",
+    "school_count": 25,
+    "avg_proficiency_rate": 0.8231345937839563,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "141101060000.0",
+    "district_name": "GRIFFITH INST HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.8433271884252276,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "141201060000.0",
+    "district_name": "EDEN MIDDLE & HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.782083048530417,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "141301060000.0",
+    "district_name": "IROQUOIS SENIOR HIGH SCHOOL",
+    "school_count": 14,
+    "avg_proficiency_rate": 0.7578207187078155,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "141401060000.0",
+    "district_name": "LAKE SHORE SENIOR HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.6960871330502304,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "141501060000.0",
+    "district_name": "GRAND ISLAND SENIOR HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.7299592437713516,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "141604060000.0",
+    "district_name": "FRONTIER SENIOR HIGH SCHOOL",
+    "school_count": 18,
+    "avg_proficiency_rate": 0.7092312441244297,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "141701040000.0",
+    "district_name": "HOLLAND HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.8819444444444444,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "141901060000.0",
+    "district_name": "LANCASTER HIGH SCHOOL",
+    "school_count": 23,
+    "avg_proficiency_rate": 0.8059292015482942,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "142101040000.0",
+    "district_name": "AKRON HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.8805128205128205,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "142301060000.0",
+    "district_name": "ORCHARD PARK HIGH SCHOOL",
+    "school_count": 19,
+    "avg_proficiency_rate": 0.8534953886739848,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "142500010000.0",
+    "district_name": "TONAWANDA MIDDLE/HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.7574336482231218,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "142601030000.0",
+    "district_name": "KENMORE EAST SENIOR HIGH SCHOOL",
+    "school_count": 29,
+    "avg_proficiency_rate": 0.7076211101023573,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "142801060000.0",
+    "district_name": "WEST SENECA WEST SENIOR HS",
+    "school_count": 15,
+    "avg_proficiency_rate": 0.7987526077196091,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "151102040000.0",
+    "district_name": "LAKE PLACID JUNIOR-SENIOR HS",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.7444444444444445,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "151501060000.0",
+    "district_name": "TICONDEROGA JUNIOR-SENIOR HS",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.75,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "151801040000.0",
+    "district_name": "MOUNTAIN VIEW CAMPUS",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.6666666666666666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "160101060000.0",
+    "district_name": "TUPPER LAKE MIDDLE-HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.8333333333333334,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "161201040000.0",
+    "district_name": "SALMON RIVER HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.4772727272727273,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "161401060000.0",
+    "district_name": "SARANAC LAKE SENIOR HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.8312971342383108,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "161501060000.0",
+    "district_name": "FRANKLIN ACADEMY HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.8518518518518519,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "170500010000.0",
+    "district_name": "GLOVERSVILLE HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.34285714285714286,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "170600010000.0",
+    "district_name": "JOHNSTOWN HS",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.544949494949495,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "171102040000.0",
+    "district_name": "BROADALBIN-PERTH JUNIOR-SENIOR HS",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.6777777777777777,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "180202040000.0",
+    "district_name": "ALEXANDER MIDDLE SCHOOL-HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.9444444444444444,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "180300010000.0",
+    "district_name": "BATAVIA HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.8441666666666666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "180701040000.0",
+    "district_name": "BYRON-BERGEN JR/SR HS",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.7485838779956427,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "180901040000.0",
+    "district_name": "ELBA JUNIOR-SENIOR HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.55,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "181001060000.0",
+    "district_name": "LE ROY JUNIOR-SENIOR HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.8586853146853146,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "181101040000.0",
+    "district_name": "OAKFIELD-ALABAMA MIDDLE/HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.7348939575830331,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "181201040000.0",
+    "district_name": "PAVILION JUNIOR-SENIOR HS",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.8666666666666667,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "181302040000.0",
+    "district_name": "PEMBROKE JUNIOR-SENIOR HS",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.784375,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "190301040000.0",
+    "district_name": "CAIRO-DURHAM HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.8998917748917749,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "190401060000.0",
+    "district_name": "CATSKILL SENIOR HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.6923747276688452,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "190701040000.0",
+    "district_name": "GREENVILLE HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.5683379120879121,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "200901040000.0",
+    "district_name": "WELLS SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.2,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "20101040000.0",
+    "district_name": "ALFRED-ALMOND JUNIOR-SENIOR HS",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.7986111111111112,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "210302040000.0",
+    "district_name": "WEST CANADA VALLEY JUNIOR-SENIOR HS",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.3695324283559578,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "210402060000.0",
+    "district_name": "FRANKFORT-SCHUYLER CENTRAL HS",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.8,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "210601060000.0",
+    "district_name": "HERKIMER HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.3431818181818182,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "212001040000.0",
+    "district_name": "MT MARKHAM SENIOR HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.4254187192118226,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "212101040000.0",
+    "district_name": "CENTRAL VALLEY ACADEMY",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.9166666666666666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "220701040000.0",
+    "district_name": "THOUSAND ISLANDS HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "222201060000.0",
+    "district_name": "CARTHAGE SENIOR HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.6717909655990152,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "22601060000.0",
+    "district_name": "WELLSVILLE SECONDARY SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.7407407407407408,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "230201040000.0",
+    "district_name": "COPENHAGEN CENTRAL SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.5642857142857143,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "230901040000.0",
+    "district_name": "LOWVILLE HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.9761904761904763,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "240101040000.0",
+    "district_name": "AVON HIGH SCHOOL",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.6106917871663716,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "240201040000.0",
+    "district_name": "CALEDONIA-MUMFORD M/HS",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.7081465919701214,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "240401040000.0",
+    "district_name": "GENESEO MIDDLE SCHOOL HIGH SCHOOL",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.9522727272727273,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "240801060000.0",
+    "district_name": "LIVONIA MIDDLE/HIGH SCHOOL",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.694488627249025,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "241001060000.0",
+    "district_name": "DANSVILLE HIGH SCHOOL",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.7402243589743589,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "250201060000.0",
+    "district_name": "CAZENOVIA HIGH SCHOOL",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.7936982502905423,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "250701040000.0",
+    "district_name": "HAMILTON JUNIOR-SENIOR HIGH SCHOOL",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.699313072193507,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "251400010000.0",
+    "district_name": "ONEIDA SENIOR HIGH SCHOOL",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.737971032798619,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "251601060000.0",
+    "district_name": "CHITTENANGO HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.6261944075875964,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "260101060000.0",
+    "district_name": "BRIGHTON HIGH SCHOOL",
+    "school_count": 36,
+    "avg_proficiency_rate": 0.8777775067898747,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "260401060000.0",
+    "district_name": "GATES CHILI HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.5510008308062647,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "260501060000.0",
+    "district_name": "OLYMPIA HIGH SCHOOL",
+    "school_count": 37,
+    "avg_proficiency_rate": 0.6165562618221392,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "260801060000.0",
+    "district_name": "EASTRIDGE SENIOR HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.7117567064133178,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "260803060000.0",
+    "district_name": "IRONDEQUOIT HIGH SCHOOL",
+    "school_count": 21,
+    "avg_proficiency_rate": 0.7848238627757215,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "260901060000.0",
+    "district_name": "HONEOYE FALLS-LIMA SENIOR HIGH SCH",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.8996902190470932,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261001060000.0",
+    "district_name": "SPENCERPORT HIGH SCHOOL",
+    "school_count": 15,
+    "avg_proficiency_rate": 0.6974554925509044,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261101060000.0",
+    "district_name": "HILTON HIGH SCHOOL",
+    "school_count": 24,
+    "avg_proficiency_rate": 0.7523906815958276,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261201060000.0",
+    "district_name": "PENFIELD SENIOR HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.7702543886296006,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261301060000.0",
+    "district_name": "FAIRPORT SENIOR HIGH SCHOOL",
+    "school_count": 18,
+    "avg_proficiency_rate": 0.9309142447740404,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261313030000.0",
+    "district_name": "EAST ROCHESTER JUNIOR-SENIOR HS",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.6805250305250305,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261401060000.0",
+    "district_name": "PITTSFORD SUTHERLAND HIGH SCHOOL",
+    "school_count": 73,
+    "avg_proficiency_rate": 0.9151009451652261,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261501060000.0",
+    "district_name": "CHURCHVILLE-CHILI SENIOR HIGH SCHOOL",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.8032881325760582,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261600010000.0",
+    "district_name": "SCHOOL 58-WORLD OF INQUIRY SCHOOL",
+    "school_count": 36,
+    "avg_proficiency_rate": 0.3233006545925666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261701060000.0",
+    "district_name": "RUSH-HENRIETTA SENIOR HIGH SCHOOL",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.7277631056884771,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261801060000.0",
+    "district_name": "BROCKPORT HIGH SCHOOL",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.7313217408175392,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "261901060000.0",
+    "district_name": "WEBSTER-SCHROEDER HIGH SCHOOL",
+    "school_count": 66,
+    "avg_proficiency_rate": 0.7973048347129608,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "262001040000.0",
+    "district_name": "WHEATLAND-CHILI HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.7425672877846792,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "270100010000.0",
+    "district_name": "AMSTERDAM HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.4561624649859944,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "270301040000.0",
+    "district_name": "CANAJOHARIE SENIOR HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.7041666666666666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "270701040000.0",
+    "district_name": "FORT PLAIN JUNIOR-SENIOR HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.7272727272727273,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "271201040000.0",
+    "district_name": "OPPENHEIM-EPHRATAH-ST JOHNSVILLE JS",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.8333333333333334,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280100010000.0",
+    "district_name": "GLEN COVE HIGH SCHOOL",
+    "school_count": 27,
+    "avg_proficiency_rate": 0.5726319318509676,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280201030000.0",
+    "district_name": "HEMPSTEAD HIGH SCHOOL",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.4757209756674715,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280202030000.0",
+    "district_name": "UNIONDALE HIGH SCHOOL",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.5691035427626809,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280203030000.0",
+    "district_name": "W TRESPER CLARKE HIGH SCHOOL",
+    "school_count": 56,
+    "avg_proficiency_rate": 0.8349721765788981,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280205030000.0",
+    "district_name": "DIVISION AVENUE SENIOR HIGH SCHOOL",
+    "school_count": 53,
+    "avg_proficiency_rate": 0.7381762549238664,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280206030000.0",
+    "district_name": "SEAFORD SENIOR HIGH SCHOOL",
+    "school_count": 19,
+    "avg_proficiency_rate": 0.6884803600244487,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280208030000.0",
+    "district_name": "ROOSEVELT HIGH SCHOOL",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.4568300950635777,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280209030000.0",
+    "district_name": "FREEPORT HIGH SCHOOL",
+    "school_count": 31,
+    "avg_proficiency_rate": 0.6429444637763949,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280210030000.0",
+    "district_name": "BALDWIN SENIOR HIGH SCHOOL",
+    "school_count": 30,
+    "avg_proficiency_rate": 0.6654025481009074,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280211030000.0",
+    "district_name": "SCHOOL 7-OCEANSIDE SENIOR HS",
+    "school_count": 34,
+    "avg_proficiency_rate": 0.6915959498312088,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280212030000.0",
+    "district_name": "MALVERNE SENIOR HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.7930268269538207,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280214030000.0",
+    "district_name": "GEORGE W HEWLETT HIGH SCHOOL",
+    "school_count": 30,
+    "avg_proficiency_rate": 0.7248364928547887,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280215030000.0",
+    "district_name": "LAWRENCE SENIOR HIGH SCHOOL",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.6624204227145404,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280218030000.0",
+    "district_name": "GARDEN CITY HIGH SCHOOL",
+    "school_count": 33,
+    "avg_proficiency_rate": 0.8041972175784996,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280219030000.0",
+    "district_name": "EAST ROCKAWAY JUNIOR-SENIOR HIGH SCH",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.6748704141019226,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280220030000.0",
+    "district_name": "LYNBROOK SENIOR HIGH SCHOOL",
+    "school_count": 19,
+    "avg_proficiency_rate": 0.6247260220550895,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280221030000.0",
+    "district_name": "SOUTH SIDE HIGH SCHOOL",
+    "school_count": 25,
+    "avg_proficiency_rate": 0.711439069283084,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280223030000.0",
+    "district_name": "WANTAGH SENIOR HIGH SCHOOL",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.7427275565349811,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280226030000.0",
+    "district_name": "ISLAND TREES HIGH SCHOOL",
+    "school_count": 24,
+    "avg_proficiency_rate": 0.6720104508650585,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280227030000.0",
+    "district_name": "WEST HEMPSTEAD SECONDARY",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.6973717729479892,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280251070000.0",
+    "district_name": "VALLEY STREAM MEMORIAL JR HIGH SCHOO",
+    "school_count": 91,
+    "avg_proficiency_rate": 0.6790430828680984,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280252070000.0",
+    "district_name": "ELMONT MEMORIAL HIGH SCHOOL",
+    "school_count": 149,
+    "avg_proficiency_rate": 0.6339932683250037,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280253070000.0",
+    "district_name": "SANFORD H CALHOUN HIGH SCHOOL",
+    "school_count": 110,
+    "avg_proficiency_rate": 0.7167472088027456,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280300010000.0",
+    "district_name": "LONG BEACH HIGH SCHOOL",
+    "school_count": 36,
+    "avg_proficiency_rate": 0.7216123877939487,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280401030000.0",
+    "district_name": "WESTBURY HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.6493184617362249,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280402030000.0",
+    "district_name": "WHEATLEY SCHOOL",
+    "school_count": 35,
+    "avg_proficiency_rate": 0.794781404841513,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280403030000.0",
+    "district_name": "ROSLYN HIGH SCHOOL",
+    "school_count": 40,
+    "avg_proficiency_rate": 0.8000572277615079,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280404030000.0",
+    "district_name": "PAUL D SCHREIBER SENIOR HIGH SCHOOL",
+    "school_count": 42,
+    "avg_proficiency_rate": 0.8021088912907234,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280406030000.0",
+    "district_name": "MANHASSET SECONDARY SCHOOL",
+    "school_count": 44,
+    "avg_proficiency_rate": 0.8422177848343676,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280407030000.0",
+    "district_name": "GREAT NECK SOUTH HIGH SCHOOL",
+    "school_count": 78,
+    "avg_proficiency_rate": 0.8975588272903587,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280409030000.0",
+    "district_name": "HERRICKS HIGH SCHOOL",
+    "school_count": 40,
+    "avg_proficiency_rate": 0.844602206677665,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280410030000.0",
+    "district_name": "MINEOLA HIGH SCHOOL",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.753159959009095,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280411030000.0",
+    "district_name": "CARLE PLACE MIDDLE SENIOR HIGH SCH",
+    "school_count": 18,
+    "avg_proficiency_rate": 0.7005527626495369,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280501060000.0",
+    "district_name": "NORTH SHORE SENIOR HIGH SCHOOL",
+    "school_count": 37,
+    "avg_proficiency_rate": 0.8807937764751257,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280502060000.0",
+    "district_name": "SYOSSET SENIOR HIGH SCHOOL",
+    "school_count": 51,
+    "avg_proficiency_rate": 0.8738708549467249,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280503060000.0",
+    "district_name": "LOCUST VALLEY HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.7183722236861919,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280504060000.0",
+    "district_name": "PLAINVIEW-OLD BETHPAGE/JFK HS",
+    "school_count": 45,
+    "avg_proficiency_rate": 0.8931900634196179,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280506060000.0",
+    "district_name": "OYSTER BAY HIGH SCHOOL",
+    "school_count": 21,
+    "avg_proficiency_rate": 0.753469998071327,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280515030000.0",
+    "district_name": "JERICHO SENIOR HIGH SCHOOL",
+    "school_count": 45,
+    "avg_proficiency_rate": 0.8367181786363572,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280517030000.0",
+    "district_name": "HICKSVILLE HIGH SCHOOL",
+    "school_count": 36,
+    "avg_proficiency_rate": 0.7644274124701557,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280518030000.0",
+    "district_name": "PLAINEDGE SENIOR HIGH SCHOOL",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.743516152922364,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280521030000.0",
+    "district_name": "BETHPAGE SENIOR HIGH SCHOOL",
+    "school_count": 23,
+    "avg_proficiency_rate": 0.8504462794435321,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280522030000.0",
+    "district_name": "FARMINGDALE SENIOR HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.7796811669040788,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "280523030000.0",
+    "district_name": "MASSAPEQUA HIGH SCHOOL",
+    "school_count": 33,
+    "avg_proficiency_rate": 0.7620821252799755,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "30101060000.0",
+    "district_name": "CHENANGO FORKS HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.5595238095238095,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "30200010000.0",
+    "district_name": "BINGHAMTON HIGH SCHOOL",
+    "school_count": 15,
+    "avg_proficiency_rate": 0.3811112714446048,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "30601060000.0",
+    "district_name": "SUSQUEHANNA VALLEY SENIOR HIGH SCH",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.7052782729253319,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "30701060000.0",
+    "district_name": "CHENANGO VALLEY HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.6698232323232323,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "310100010000.0",
+    "district_name": "ORCHARD COLLEGIATE ACADEMY",
+    "school_count": 61,
+    "avg_proficiency_rate": 0.6577490052349444,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "310200010000.0",
+    "district_name": "AMERICAN SIGN LANG & ENG SECONDAR",
+    "school_count": 342,
+    "avg_proficiency_rate": 0.5936579321378503,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "310300010000.0",
+    "district_name": "WEST END SECONDARY SCHOOL",
+    "school_count": 126,
+    "avg_proficiency_rate": 0.5824572756891789,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "310400010000.0",
+    "district_name": "ESPERANZA PREPARATORY ACADEMY",
+    "school_count": 62,
+    "avg_proficiency_rate": 0.6269577520116668,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "310500010000.0",
+    "district_name": "URBAN ASSEMBLY-GLOBAL COMMERCE",
+    "school_count": 38,
+    "avg_proficiency_rate": 0.772265461540162,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "310600010000.0",
+    "district_name": "INWOOD EARLY COLLEGE FOR HEALTH-INFO",
+    "school_count": 64,
+    "avg_proficiency_rate": 0.4884512718261208,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "31301040000.0",
+    "district_name": "DEPOSIT MIDDLE-SENIOR HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.42857142857142855,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "31601060000.0",
+    "district_name": "VESTAL SENIOR HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.801547740063884,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "31701060000.0",
+    "district_name": "WINDSOR CENTRAL HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.5902124695228144,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "320700010000.0",
+    "district_name": "LAB SCHOOL OF FIN & TECH: X223",
+    "school_count": 51,
+    "avg_proficiency_rate": 0.3575735942820001,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "320800010000.0",
+    "district_name": "MILLENIUM ART ACADEMY",
+    "school_count": 50,
+    "avg_proficiency_rate": 0.3239221168809404,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "320900010000.0",
+    "district_name": "COMP MODEL SCH PROJECT MS 327",
+    "school_count": 66,
+    "avg_proficiency_rate": 0.5024185031980627,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "321000010000.0",
+    "district_name": "THEATRE ARTS PRODUCTION COMPANY",
+    "school_count": 194,
+    "avg_proficiency_rate": 0.555018350165052,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "321100010000.0",
+    "district_name": "BRONX HEALTH SCIENCES HIGH SCHOOL",
+    "school_count": 73,
+    "avg_proficiency_rate": 0.38766735224792154,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "321200010000.0",
+    "district_name": "MOTT HALL V",
+    "school_count": 41,
+    "avg_proficiency_rate": 0.32979720113109956,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "331300010000.0",
+    "district_name": "DR SUSAN S MCKINNEY SS -ARTS",
+    "school_count": 124,
+    "avg_proficiency_rate": 0.5921403465173118,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "331400010000.0",
+    "district_name": "JUAN MOREL CAMPOS SECONDARY SCHOOL",
+    "school_count": 66,
+    "avg_proficiency_rate": 0.3993837144057712,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "331500010000.0",
+    "district_name": "DIGITAL ARTS AND CINEMA TECH HS",
+    "school_count": 42,
+    "avg_proficiency_rate": 0.4987047698888577,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "331600010000.0",
+    "district_name": "BOYS AND GIRLS HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.5290460838706452,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "331700010000.0",
+    "district_name": "ACADEMY OF HOSPITALITY AND TOURISM",
+    "school_count": 92,
+    "avg_proficiency_rate": 0.4007225553270113,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "331800010000.0",
+    "district_name": "IT TAKES A VILLAGE ACADEMY",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.1997531555077842,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "331900010000.0",
+    "district_name": "ACADEMY FOR YOUNG WRITERS",
+    "school_count": 41,
+    "avg_proficiency_rate": 0.30676047457070277,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "332000010000.0",
+    "district_name": "NEW UTRECHT HIGH SCHOOL",
+    "school_count": 123,
+    "avg_proficiency_rate": 0.5858949665812486,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "332100010000.0",
+    "district_name": "RACHEL CARSON HS FOR COASTAL STUDIES",
+    "school_count": 102,
+    "avg_proficiency_rate": 0.5581391958017217,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "332200010000.0",
+    "district_name": "MIDWOOD HIGH SCHOOL",
+    "school_count": 138,
+    "avg_proficiency_rate": 0.7287993990568827,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "332300010000.0",
+    "district_name": "FREDERICK DOUGLASS ACADEMY VII",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.17481962481962482,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "333200010000.0",
+    "district_name": "BROOKLYN SCHOOL FOR MATH AND RESEARC",
+    "school_count": 53,
+    "avg_proficiency_rate": 0.43871548708293523,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "342400010000.0",
+    "district_name": "ACADEMY-FINANCE & ENTERPRISE",
+    "school_count": 129,
+    "avg_proficiency_rate": 0.5179069756632626,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "342500010000.0",
+    "district_name": "VERITAS ACADEMY",
+    "school_count": 152,
+    "avg_proficiency_rate": 0.5914137538639663,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "342600010000.0",
+    "district_name": "BUSINESS TECHNOLOGY EARLY COLLEGE HS",
+    "school_count": 142,
+    "avg_proficiency_rate": 0.6415542345712518,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "342700010000.0",
+    "district_name": "EPIC HIGH SCHOOL-SOUTH",
+    "school_count": 110,
+    "avg_proficiency_rate": 0.45775992165517915,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "342800010000.0",
+    "district_name": "METROPOLITAN EXPEDITIONARY LRNING",
+    "school_count": 199,
+    "avg_proficiency_rate": 0.5668403276820924,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "342900010000.0",
+    "district_name": "QUEENS PREPARATORY ACADEMY",
+    "school_count": 58,
+    "avg_proficiency_rate": 0.29553478971298813,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "343000010000.0",
+    "district_name": "ENERGY TECH HIGH SCHOOL",
+    "school_count": 108,
+    "avg_proficiency_rate": 0.5563298929447477,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "353100010000.0",
+    "district_name": "EAGLE ACADEMY FOR YOUNG MEN",
+    "school_count": 158,
+    "avg_proficiency_rate": 0.5858652595917304,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "400301060000.0",
+    "district_name": "LEWISTON PORTER SENIOR HS",
+    "school_count": 14,
+    "avg_proficiency_rate": 0.9082663368377654,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "400400010000.0",
+    "district_name": "LOCKPORT HIGH SCHOOL",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.6487472559945964,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "400601060000.0",
+    "district_name": "NEWFANE SENIOR HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.486029787533547,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "400701060000.0",
+    "district_name": "NIAGARA-WHEATFIELD SR HIGH SCHOOL",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.7149205411971118,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "400800010000.0",
+    "district_name": "NIAGARA FALLS HIGH SCHOOL",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.48637544223575674,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "400900010000.0",
+    "district_name": "NORTH TONAWANDA HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.7633049683974621,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "401001060000.0",
+    "district_name": "STARPOINT HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.747055676343467,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "401301040000.0",
+    "district_name": "BARKER JR/SR HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.6045751633986928,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "411101060000.0",
+    "district_name": "CLINTON SENIOR HIGH SCHOOL",
+    "school_count": 13,
+    "avg_proficiency_rate": 0.8231842869773904,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "411501060000.0",
+    "district_name": "NEW HARTFORD SENIOR HIGH SCHOOL",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.6739846162681029,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "411800010000.0",
+    "district_name": "ROME FREE ACADEMY",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.5362801115884607,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "411902040000.0",
+    "district_name": "WATERVILLE JR/SR HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.569047619047619,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "412000050000.0",
+    "district_name": "VERNON-VERONA-SHERRILL SR HS",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.7978930995475113,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "412201060000.0",
+    "district_name": "HOLLAND PATENT CENTRAL HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.5482603815937149,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "412300010000.0",
+    "district_name": "THOMAS R PROCTOR HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.39608886483886485,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "412801040000.0",
+    "district_name": "DONALD H CRANE JUNIOR/SENIOR HS",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.6105555555555556,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "412901040000.0",
+    "district_name": "ORISKANY JUNIOR-SENIOR HS",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.5533333333333333,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "412902060000.0",
+    "district_name": "WHITESBORO HIGH SCHOOL",
+    "school_count": 14,
+    "avg_proficiency_rate": 0.7435983707957459,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "420303060000.0",
+    "district_name": "CICERO-NORTH SYRACUSE HS",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.7838818258644571,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "420401060000.0",
+    "district_name": "EAST SYRACUSE MINOA CENTRAL HIGH SCH",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.7281017724413951,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "420411060000.0",
+    "district_name": "JAMESVILLE-DEWITT HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.9171889729724987,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "420501060000.0",
+    "district_name": "JORDAN-ELBRIDGE HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.5883838383838385,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "420601040000.0",
+    "district_name": "FABIUS-POMPEY MIDDLE SCH HIGH SCH",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.6296296296296297,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "420701060000.0",
+    "district_name": "WESTHILL HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.8711467236467237,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "420901060000.0",
+    "district_name": "CHARLES W BAKER HIGH SCHOOL",
+    "school_count": 18,
+    "avg_proficiency_rate": 0.7913650042333186,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "421001060000.0",
+    "district_name": "FAYETTEVILLE-MANLIUS SENIOR HIGH SCH",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.9238932821271841,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "421101060000.0",
+    "district_name": "MARCELLUS HIGH SCHOOL",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.8079656862745098,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "421201040000.0",
+    "district_name": "ONONDAGA SENIOR HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.5795996283128636,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "421501060000.0",
+    "district_name": "LIVERPOOL HIGH SCHOOL",
+    "school_count": 14,
+    "avg_proficiency_rate": 0.7525122561243461,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "421601060000.0",
+    "district_name": "SKANEATELES SENIOR HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.883138168161388,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "421800010000.0",
+    "district_name": "CORCORAN HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.28779900881845805,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "421902040000.0",
+    "district_name": "TULLY JUNIOR-SENIOR HS",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.8772727272727273,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "42302040000.0",
+    "district_name": "CATTARAUGUS-LITTLE VALLEY HS",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.5,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "42801060000.0",
+    "district_name": "GOWANDA HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.5750000000000001,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "430300050000.0",
+    "district_name": "CANANDAIGUA ACADEMY",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.7640487319827614,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "430501040000.0",
+    "district_name": "BLOOMFIELD HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.5314738832595975,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "430700010000.0",
+    "district_name": "GENEVA HIGH SCHOOL",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.5581769729693605,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "430901060000.0",
+    "district_name": "MARCUS WHITMAN HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.8807692307692307,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "431101040000.0",
+    "district_name": "RED JACKET HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.8541666666666666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "431201040000.0",
+    "district_name": "NAPLES HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.6676870748299321,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "431301060000.0",
+    "district_name": "MIDLAKES MIDDLE/HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.7666666666666666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "431701060000.0",
+    "district_name": "VICTOR SENIOR HIGH SCHOOL",
+    "school_count": 30,
+    "avg_proficiency_rate": 0.7864201278205327,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "43200050000.0",
+    "district_name": "SALAMANCA HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "43501060000.0",
+    "district_name": "PIONEER SENIOR HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.7175936753044032,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "440102060000.0",
+    "district_name": "WASHINGTONVILLE SENIOR HIGH SCHOOL",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.7163690476190476,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "440201020000.0",
+    "district_name": "CHESTER ACADEMY-MIDDLE/HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.5285714285714286,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "440301060000.0",
+    "district_name": "CORNWALL CENTRAL HIGH SCHOOL",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.8043462351601887,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "440401060000.0",
+    "district_name": "PINE BUSH SENIOR HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.8290341718082582,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "440601040000.0",
+    "district_name": "GOSHEN CENTRAL HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.7818816104530389,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "441101040000.0",
+    "district_name": "MINISINK VALLEY HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.660952380952381,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "441201060000.0",
+    "district_name": "MONROE-WOODBURY HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.7905002943206267,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "441301060000.0",
+    "district_name": "VALLEY CENTRAL HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.7516441571114246,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "441600010000.0",
+    "district_name": "NEWBURGH FREE ACADEMY",
+    "school_count": 21,
+    "avg_proficiency_rate": 0.40093339266517136,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "441903020000.0",
+    "district_name": "GEORGE F BAKER HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.7272727272727273,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "442101060000.0",
+    "district_name": "WARWICK VALLEY HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.8315665014572495,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "450101060000.0",
+    "district_name": "CHARLES D'AMICO HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.6349206349206349,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "450607040000.0",
+    "district_name": "KENDALL JUNIOR-SENIOR HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.6806153846153846,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "450801060000.0",
+    "district_name": "MEDINA JUNIOR-SENIOR HS",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.5972144413320883,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "460102040000.0",
+    "district_name": "ALTMAR-PARISH-WILLIAMSTOWN JR/SR HS",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.25,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "460500010000.0",
+    "district_name": "G RAY BODLEY HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.7074922600619196,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "460701040000.0",
+    "district_name": "HANNIBAL HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.7777777777777778,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "460801060000.0",
+    "district_name": "PAUL V MOORE HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.8512188659247483,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "461300010000.0",
+    "district_name": "OSWEGO HIGH SCHOOL",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.7993973467811549,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "461801040000.0",
+    "district_name": "PULASKI MIDDLE-HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.5134469696969697,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "462001060000.0",
+    "district_name": "JOHN C BIRDLEBOUGH HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.6527777777777778,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "471701040000.0",
+    "district_name": "COOPERSTOWN JR/SR HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.8089873615228586,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "472202040000.0",
+    "district_name": "CHERRY VALLEY-SPRINGFIELD CENTRAL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.55,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "480101060000.0",
+    "district_name": "MAHOPAC HIGH SCHOOL",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.8522175887073709,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "480102060000.0",
+    "district_name": "CARMEL HIGH SCHOOL",
+    "school_count": 15,
+    "avg_proficiency_rate": 0.7361146757532897,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "480401040000.0",
+    "district_name": "HALDANE HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.8161107697057396,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "480503040000.0",
+    "district_name": "PUTNAM VALLEY HIGH SCHOOL",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.7052218557059668,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "480601060000.0",
+    "district_name": "BREWSTER HIGH SCHOOL",
+    "school_count": 25,
+    "avg_proficiency_rate": 0.6948714704037005,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "490101040000.0",
+    "district_name": "BERLIN MIDDLE SCHOOL/HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.7777777777777778,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "490301060000.0",
+    "district_name": "COLUMBIA HIGH SCHOOL",
+    "school_count": 13,
+    "avg_proficiency_rate": 0.8403593986658502,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "490501060000.0",
+    "district_name": "HOOSICK FALLS HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.7272727272727273,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "491302060000.0",
+    "district_name": "AVERILL PARK HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.7928512520617783,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "491401040000.0",
+    "district_name": "HOOSIC VALLEY JUNIOR SENIOR HIGH",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.3058823529411765,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "491501040000.0",
+    "district_name": "MAPLE HILL JR/SR HIGH SCHOOL",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.5995118039854882,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "491700010000.0",
+    "district_name": "TROY HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.7044973544973545,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "500101060000.0",
+    "district_name": "CLARKSTOWN NORTH SENIOR HS",
+    "school_count": 70,
+    "avg_proficiency_rate": 0.8672525276778382,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "500108030000.0",
+    "district_name": "NANUET SENIOR HIGH SCHOOL",
+    "school_count": 13,
+    "avg_proficiency_rate": 0.8094204535517533,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "500201060000.0",
+    "district_name": "NORTH ROCKLAND HIGH SCHOOL",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.7385139341401696,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "500301060000.0",
+    "district_name": "TAPPAN ZEE HIGH SCHOOL",
+    "school_count": 23,
+    "avg_proficiency_rate": 0.7533455068472928,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "500304030000.0",
+    "district_name": "NYACK SENIOR HIGH SCHOOL",
+    "school_count": 32,
+    "avg_proficiency_rate": 0.8312690658139028,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "500308030000.0",
+    "district_name": "PEARL RIVER HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.8943264932235521,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "500401060000.0",
+    "district_name": "SUFFERN SENIOR HIGH SCHOOL",
+    "school_count": 36,
+    "avg_proficiency_rate": 0.822366318101419,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "500402060000.0",
+    "district_name": "SPRING VALLEY HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.45581174872442815,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "50100010000.0",
+    "district_name": "AUBURN HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.7581256689667737,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "50301040000.0",
+    "district_name": "WEEDSPORT JUNIOR-SENIOR HS",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.8,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "50401040000.0",
+    "district_name": "CATO-MERIDIAN JUNIOR-SENIOR HS",
+    "school_count": 3,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "510201060000.0",
+    "district_name": "H C WILLIAMS SENIOR HIGH SCH",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.9258449883449884,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "510501040000.0",
+    "district_name": "COLTON-PIERREPONT CENTRAL SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "51101040000.0",
+    "district_name": "PORT BYRON SENIOR HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.5143633540372671,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "511101060000.0",
+    "district_name": "GOUVERNEUR HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.5,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "512001060000.0",
+    "district_name": "MASSENA SENIOR HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.8138655462184874,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "512201040000.0",
+    "district_name": "NORWOOD-NORFOLK SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.7666666666666666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "512300010000.0",
+    "district_name": "OGDENSBURG FREE ACADEMY",
+    "school_count": 4,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "512404040000.0",
+    "district_name": "HEUVELTON CENTRAL SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.16666666666666666,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "51301040000.0",
+    "district_name": "MORAVIA JUNIOR-SENIOR HS",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.555532212885154,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "51901040000.0",
+    "district_name": "UNION SPRINGS HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.8428571428571429,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "520101060000.0",
+    "district_name": "BURNT HILLS-BALLSTON LAKE SR HS",
+    "school_count": 15,
+    "avg_proficiency_rate": 0.8575567871957225,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "520302060000.0",
+    "district_name": "SHENENDEHOWA HIGH SCHOOL",
+    "school_count": 24,
+    "avg_proficiency_rate": 0.9128658552776815,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "520401040000.0",
+    "district_name": "CORINTH HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.6225396825396825,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "520701040000.0",
+    "district_name": "GALWAY JR/SR HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.8846153846153846,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "521301060000.0",
+    "district_name": "BALLSTON SPA SENIOR HIGH SCHOOL",
+    "school_count": 18,
+    "avg_proficiency_rate": 0.8849185707028844,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "521401040000.0",
+    "district_name": "SOUTH GLENS FALLS SENIOR HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.7316363356424209,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "521701040000.0",
+    "district_name": "SCHUYLERVILLE HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.8717000835421889,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "521800010000.0",
+    "district_name": "SARATOGA SPRINGS HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.9042324897282392,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "522001040000.0",
+    "district_name": "STILLWATER MIDDLE SCHOOL HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.6941991341991341,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "530101040000.0",
+    "district_name": "DUANESBURG HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.7663461538461539,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "530202060000.0",
+    "district_name": "SCOTIA-GLENVILLE SENIOR HIGH SCHOOL",
+    "school_count": 15,
+    "avg_proficiency_rate": 0.7802471485991135,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "530301060000.0",
+    "district_name": "NISKAYUNA HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.892293493668035,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "530501060000.0",
+    "district_name": "SCHALMONT HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.9722222222222222,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "530515060000.0",
+    "district_name": "MOHONASEN SENIOR HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.7528484366719661,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "530600010000.0",
+    "district_name": "SCHENECTADY HIGH SCHOOL",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.595284974177624,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "541001040000.0",
+    "district_name": "MIDDLEBURGH JUNIOR/SENIOR HS",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.5181818181818182,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "541102060000.0",
+    "district_name": "COBLESKILL-RICHMONDVILLE HIGH SCHOOL",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.8539510836385836,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "541201040000.0",
+    "district_name": "SCHOHARIE HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "550301060000.0",
+    "district_name": "WATKINS GLEN CENTRAL HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.5807692307692307,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "560701060000.0",
+    "district_name": "MYNDERSE ACADEMY",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.8285714285714285,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "561006060000.0",
+    "district_name": "WATERLOO HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.5520833333333334,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "571000010000.0",
+    "district_name": "CORNING-PAINTED POST HIGH SCHOOL",
+    "school_count": 24,
+    "avg_proficiency_rate": 0.8263802050439981,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "571800010000.0",
+    "district_name": "HORNELL JUNIOR-SENIOR HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.6710289710289711,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "571901040000.0",
+    "district_name": "ARKPORT CENTRAL SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.3333333333333333,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "572901040000.0",
+    "district_name": "HAMMONDSPORT JUNIOR-SENIOR HS",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.6845376845376845,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580101030000.0",
+    "district_name": "BABYLON JUNIOR-SENIOR HIGH SCHOOL",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.6816328309554126,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580102030000.0",
+    "district_name": "WEST BABYLON SENIOR HIGH SCHOOL",
+    "school_count": 23,
+    "avg_proficiency_rate": 0.6222144492566685,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580103030000.0",
+    "district_name": "NORTH BABYLON HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.6310793171650194,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580104030000.0",
+    "district_name": "LINDENHURST SENIOR HIGH SCHOOL",
+    "school_count": 29,
+    "avg_proficiency_rate": 0.799403656067501,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580105030000.0",
+    "district_name": "WALTER G O'CONNELL COPIAGUE HIGH SCH",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.6857875051613708,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580107030000.0",
+    "district_name": "DEER PARK HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.588486458582927,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580201060000.0",
+    "district_name": "WARD MELVILLE SENIOR HIGH SCHOOL",
+    "school_count": 37,
+    "avg_proficiency_rate": 0.8903538393224316,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580203020000.0",
+    "district_name": "COMSEWOGUE HIGH SCHOOL",
+    "school_count": 21,
+    "avg_proficiency_rate": 0.5946628781187303,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580205060000.0",
+    "district_name": "SACHEM HIGH SCHOOL NORTH",
+    "school_count": 78,
+    "avg_proficiency_rate": 0.8014915028852361,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580206020000.0",
+    "district_name": "EARL L VANDERMEULEN HIGH SCHOOL",
+    "school_count": 25,
+    "avg_proficiency_rate": 0.8596624967052212,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580207020000.0",
+    "district_name": "ROBERT M GRABLE JR MOUNT SINAI HS",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.8745213705495034,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580208020000.0",
+    "district_name": "MILLER PLACE HIGH SCHOOL",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.8199477603645269,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580209020000.0",
+    "district_name": "ROCKY POINT HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.8377454452855523,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580211060000.0",
+    "district_name": "NEWFIELD HIGH SCHOOL",
+    "school_count": 49,
+    "avg_proficiency_rate": 0.716434670104599,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580212060000.0",
+    "district_name": "LONGWOOD HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.618595054490278,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580224030000.0",
+    "district_name": "PATCHOGUE-MEDFORD HIGH SCHOOL",
+    "school_count": 27,
+    "avg_proficiency_rate": 0.7839515227805136,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580232030000.0",
+    "district_name": "WILLIAM FLOYD HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.7713339616316749,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580235060000.0",
+    "district_name": "BELLPORT SENIOR HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.6166984731251437,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580301020000.0",
+    "district_name": "EAST HAMPTON HIGH SCHOOL",
+    "school_count": 30,
+    "avg_proficiency_rate": 0.7755120556889621,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580305020000.0",
+    "district_name": "PIERSON MIDDLE/HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.8219095719095719,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580401020000.0",
+    "district_name": "ELWOOD/JOHN GLENN HIGH SCHOOL",
+    "school_count": 24,
+    "avg_proficiency_rate": 0.8850463160742765,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580402060000.0",
+    "district_name": "COLD SPRING HARBOR HIGH SCHOOL",
+    "school_count": 36,
+    "avg_proficiency_rate": 0.7668208681325477,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580403030000.0",
+    "district_name": "HUNTINGTON HIGH SCHOOL",
+    "school_count": 37,
+    "avg_proficiency_rate": 0.6633632830508143,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580404030000.0",
+    "district_name": "NORTHPORT SENIOR HIGH SCHOOL",
+    "school_count": 42,
+    "avg_proficiency_rate": 0.8065437304817054,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580405060000.0",
+    "district_name": "HALF HOLLOW HILLS HIGH SCHOOL EAST",
+    "school_count": 86,
+    "avg_proficiency_rate": 0.8409906213278499,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580406060000.0",
+    "district_name": "HARBORFIELDS HIGH SCHOOL",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.8032883218265835,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580410030000.0",
+    "district_name": "COMMACK HIGH SCHOOL",
+    "school_count": 45,
+    "avg_proficiency_rate": 0.7637028740928714,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580413030000.0",
+    "district_name": "WALT WHITMAN HIGH SCHOOL",
+    "school_count": 35,
+    "avg_proficiency_rate": 0.7300391303762449,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580501030000.0",
+    "district_name": "BAY SHORE SENIOR HIGH SCHOOL",
+    "school_count": 40,
+    "avg_proficiency_rate": 0.7436742957398845,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580502020000.0",
+    "district_name": "ISLIP HIGH SCHOOL",
+    "school_count": 23,
+    "avg_proficiency_rate": 0.6560537150520975,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580503030000.0",
+    "district_name": "EAST ISLIP HIGH SCHOOL",
+    "school_count": 24,
+    "avg_proficiency_rate": 0.738850392037873,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580504030000.0",
+    "district_name": "SAYVILLE HIGH SCHOOL",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.7235273262624793,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580505020000.0",
+    "district_name": "BAYPORT-BLUE POINT HIGH SCHOOL",
+    "school_count": 21,
+    "avg_proficiency_rate": 0.8048111676683105,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580506030000.0",
+    "district_name": "HAUPPAUGE HIGH SCHOOL",
+    "school_count": 35,
+    "avg_proficiency_rate": 0.7433142030480356,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580507060000.0",
+    "district_name": "CONNETQUOT HIGH SCHOOL",
+    "school_count": 27,
+    "avg_proficiency_rate": 0.8005814903963976,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580509030000.0",
+    "district_name": "WEST ISLIP SENIOR HIGH SCHOOL",
+    "school_count": 36,
+    "avg_proficiency_rate": 0.7877701659428289,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580512030000.0",
+    "district_name": "BRENTWOOD HIGH SCHOOL",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.6923214152909277,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580513030000.0",
+    "district_name": "CENTRAL ISLIP SENIOR HIGH SCHOOL",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.5068930580289276,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580601040000.0",
+    "district_name": "SHOREHAM-WADING RIVER HIGH SCHOOL",
+    "school_count": 23,
+    "avg_proficiency_rate": 0.7341013555238926,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580602040000.0",
+    "district_name": "RIVERHEAD SENIOR HIGH SCHOOL",
+    "school_count": 19,
+    "avg_proficiency_rate": 0.6327013059892794,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580701020000.0",
+    "district_name": "SHELTER ISLAND SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.43835978835978834,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580801060000.0",
+    "district_name": "SMITHTOWN HIGH SCHOOL-EAST",
+    "school_count": 58,
+    "avg_proficiency_rate": 0.7850969159364662,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580805060000.0",
+    "district_name": "KINGS PARK HIGH SCHOOL",
+    "school_count": 23,
+    "avg_proficiency_rate": 0.8794534899759919,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580902020000.0",
+    "district_name": "WESTHAMPTON BEACH SENIOR HS",
+    "school_count": 30,
+    "avg_proficiency_rate": 0.756408835246432,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580905020000.0",
+    "district_name": "HAMPTON BAYS HIGH SCHOOL",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.6786465994597483,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580906030000.0",
+    "district_name": "SOUTHAMPTON HIGH SCHOOL",
+    "school_count": 13,
+    "avg_proficiency_rate": 0.6834843849490194,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580909020000.0",
+    "district_name": "BRIDGEHAMPTON SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.503968253968254,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "580912060000.0",
+    "district_name": "EASTPORT-SOUTH MANOR JR-SR HS",
+    "school_count": 25,
+    "avg_proficiency_rate": 0.7614482881973902,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "581005020000.0",
+    "district_name": "SOUTHOLD JUNIOR-SENIOR HS",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.6052476508998248,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "581010020000.0",
+    "district_name": "GREENPORT HIGH SCHOOL",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.6528426386447777,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "581012020000.0",
+    "district_name": "MATTITUCK JUNIOR-SENIOR HS",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.6562173481832925,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "590901060000.0",
+    "district_name": "LIBERTY HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.7222222222222222,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "591401060000.0",
+    "district_name": "MONTICELLO HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.5391304347826087,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "591502040000.0",
+    "district_name": "SULLIVAN WEST HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.5043591191417278,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "600402040000.0",
+    "district_name": "NEWARK VALLEY SENIOR HS",
+    "school_count": 2,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "600801040000.0",
+    "district_name": "SPENCER-VAN ETTEN HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.39037433155080214,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "60201060000.0",
+    "district_name": "SOUTHWESTERN SENIOR HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.8711145996860282,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "60601040000.0",
+    "district_name": "PINE VALLEY CENTRAL JR-SR HIGH SCH",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.75,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "61001040000.0",
+    "district_name": "MAPLE GROVE JUNIOR/SENIOR HS",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.7472727272727273,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "610600010000.0",
+    "district_name": "ITHACA SENIOR HIGH SCHOOL",
+    "school_count": 31,
+    "avg_proficiency_rate": 0.8907877377901074,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "610801040000.0",
+    "district_name": "LANSING HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.894993894993895,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "611001040000.0",
+    "district_name": "CHARLES O DICKERSON HIGH SCHOOL",
+    "school_count": 8,
+    "avg_proficiency_rate": 0.6326651493930906,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "61101040000.0",
+    "district_name": "FALCONER MIDDLE/HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.6851851851851851,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "61501040000.0",
+    "district_name": "SILVER CREEK HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.9142857142857143,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "61503040000.0",
+    "district_name": "FORESTVILLE CENTRAL HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.9,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "61700010000.0",
+    "district_name": "JAMESTOWN HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.7069230518547746,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "620600010000.0",
+    "district_name": "KINGSTON HIGH SCHOOL",
+    "school_count": 15,
+    "avg_proficiency_rate": 0.833701380823332,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "620803040000.0",
+    "district_name": "HIGHLAND HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.7790092992903174,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "620901060000.0",
+    "district_name": "RONDOUT VALLEY HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.59937641723356,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "621001060000.0",
+    "district_name": "MARLBORO CENTRAL HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.7153316106804479,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "621101060000.0",
+    "district_name": "NEW PALTZ SENIOR HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.7479315462483194,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "621201060000.0",
+    "district_name": "ONTEORA HIGH SCHOOL",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.8266035353535355,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "621601060000.0",
+    "district_name": "SAUGERTIES SENIOR HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.7025974025974027,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "621801060000.0",
+    "district_name": "WALLKILL SENIOR HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 0.7219246031746032,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "622002060000.0",
+    "district_name": "ELLENVILLE JUNIOR/SENIOR HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.7222222222222222,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "62201060000.0",
+    "district_name": "FREDONIA HIGH SCHOOL",
+    "school_count": 11,
+    "avg_proficiency_rate": 0.8620350663828925,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "62901040000.0",
+    "district_name": "WESTFIELD HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "630101040000.0",
+    "district_name": "BOLTON CENTRAL SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.44047619047619047,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "630202040000.0",
+    "district_name": "NORTH WARREN CENTRAL SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "630300010000.0",
+    "district_name": "GLENS FALLS SENIOR HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.712324574650156,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "630701040000.0",
+    "district_name": "LAKE GEORGE JUNIOR-SENIOR HIGH SCHOO",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.8783474928432912,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "630801040000.0",
+    "district_name": "HADLEY-LUZERNE JUNIOR-SENIOR HS",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.5083333333333333,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "630902030000.0",
+    "district_name": "QUEENSBURY SENIOR HIGH SCHOOL",
+    "school_count": 18,
+    "avg_proficiency_rate": 0.880666786916787,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "640701040000.0",
+    "district_name": "GRANVILLE JUNIOR-SENIOR HS",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.6851851851851851,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "640801040000.0",
+    "district_name": "GREENWICH JUNIOR-SENIOR HS",
+    "school_count": 3,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "641001040000.0",
+    "district_name": "HARTFORD MIDDLE/HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.8,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "641301060000.0",
+    "district_name": "HUDSON FALLS HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.5933333333333333,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "641501040000.0",
+    "district_name": "SALEM HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.4530637254901961,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "641610040000.0",
+    "district_name": "CAMBRIDGE JUNIOR-SENIOR HS",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.7850678733031674,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "650101060000.0",
+    "district_name": "NEWARK SENIOR HS",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.5126705653021443,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "650801060000.0",
+    "district_name": "WAYNE SENIOR HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.7875778089013382,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "650901060000.0",
+    "district_name": "PALMYRA-MACEDON SENIOR HIGH SCHOOL",
+    "school_count": 5,
+    "avg_proficiency_rate": 0.8459235209235209,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "650902040000.0",
+    "district_name": "GANANDA/R A CIRILLO HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.9428104575163399,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "651402040000.0",
+    "district_name": "WILLIAMSON SENIOR HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.9166666666666667,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "651501060000.0",
+    "district_name": "NORTH ROSE-WOLCOTT HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.6553030303030303,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "651503040000.0",
+    "district_name": "RED CREEK HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.5064935064935066,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660101030000.0",
+    "district_name": "JOHN JAY HIGH SCHOOL",
+    "school_count": 29,
+    "avg_proficiency_rate": 0.7055618633784235,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660102060000.0",
+    "district_name": "FOX LANE HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.873190233923322,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660202030000.0",
+    "district_name": "CROTON-HARMON  HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.6833185847464786,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660203060000.0",
+    "district_name": "HENDRICK HUDSON HIGH SCHOOL",
+    "school_count": 20,
+    "avg_proficiency_rate": 0.8025973548951603,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660301030000.0",
+    "district_name": "EASTCHESTER SENIOR HIGH SCHOOL",
+    "school_count": 29,
+    "avg_proficiency_rate": 0.887763923206307,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660302030000.0",
+    "district_name": "TUCKAHOE HIGH SCHOOL",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.7924540517961571,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660303030000.0",
+    "district_name": "BRONXVILLE HIGH SCHOOL",
+    "school_count": 30,
+    "avg_proficiency_rate": 0.8662012377450166,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660401030000.0",
+    "district_name": "SLEEPY HOLLOW HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.6418062855298806,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660402020000.0",
+    "district_name": "IRVINGTON HIGH SCHOOL",
+    "school_count": 23,
+    "avg_proficiency_rate": 0.8272147433510247,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660403030000.0",
+    "district_name": "DOBBS FERRY HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.6146341518462207,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660404030000.0",
+    "district_name": "HASTINGS HIGH SCHOOL",
+    "school_count": 19,
+    "avg_proficiency_rate": 0.819084889160735,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660405030000.0",
+    "district_name": "ARDSLEY HIGH SCHOOL",
+    "school_count": 24,
+    "avg_proficiency_rate": 0.8873675016174006,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660406030000.0",
+    "district_name": "EDGEMONT JUNIOR-SENIOR HIGH SCHOOL",
+    "school_count": 28,
+    "avg_proficiency_rate": 0.8574500051418399,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660407060000.0",
+    "district_name": "WOODLANDS MIDDLE/HIGH SCHOOL",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.6452672642984062,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660409020000.0",
+    "district_name": "ALEXANDER HAMILTON HIGH SCHOOL",
+    "school_count": 7,
+    "avg_proficiency_rate": 0.546639708514985,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660501060000.0",
+    "district_name": "HARRISON HIGH SCHOOL",
+    "school_count": 34,
+    "avg_proficiency_rate": 0.7426472648720187,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660701030000.0",
+    "district_name": "MAMARONECK HIGH SCHOOL",
+    "school_count": 29,
+    "avg_proficiency_rate": 0.8285714112052148,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660801060000.0",
+    "district_name": "WESTLAKE HIGH SCHOOL",
+    "school_count": 19,
+    "avg_proficiency_rate": 0.7233242835926872,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660805030000.0",
+    "district_name": "VALHALLA HIGH SCHOOL",
+    "school_count": 12,
+    "avg_proficiency_rate": 0.7671852495265888,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660809030000.0",
+    "district_name": "PLEASANTVILLE HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.8327367813738709,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "660900010000.0",
+    "district_name": "DENZEL WASHINGTON SCHOOL-ARTS",
+    "school_count": 17,
+    "avg_proficiency_rate": 0.37314010781226165,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661004060000.0",
+    "district_name": "HORACE GREELEY HIGH SCHOOL",
+    "school_count": 30,
+    "avg_proficiency_rate": 0.8351867966610836,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661100010000.0",
+    "district_name": "NEW ROCHELLE HIGH SCHOOL",
+    "school_count": 44,
+    "avg_proficiency_rate": 0.7145363311830706,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661201060000.0",
+    "district_name": "BYRAM HILLS HIGH SCHOOL",
+    "school_count": 30,
+    "avg_proficiency_rate": 0.8034644688734608,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661301040000.0",
+    "district_name": "NORTH SALEM MIDDLE/ HIGH SCHOOL",
+    "school_count": 13,
+    "avg_proficiency_rate": 0.7355590420975037,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661401030000.0",
+    "district_name": "OSSINING HIGH SCHOOL",
+    "school_count": 16,
+    "avg_proficiency_rate": 0.5920394882894883,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661500010000.0",
+    "district_name": "PEEKSKILL HIGH SCHOOL",
+    "school_count": 13,
+    "avg_proficiency_rate": 0.6413679815078341,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661601030000.0",
+    "district_name": "PELHAM MEMORIAL HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.7735156248847689,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661800010000.0",
+    "district_name": "RYE HIGH SCHOOL",
+    "school_count": 27,
+    "avg_proficiency_rate": 0.8561452650274117,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661901030000.0",
+    "district_name": "RYE NECK SENIOR HIGH SCHOOL",
+    "school_count": 27,
+    "avg_proficiency_rate": 0.8746744134934039,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661904030000.0",
+    "district_name": "PORT CHESTER SENIOR HIGH SCHOOL",
+    "school_count": 32,
+    "avg_proficiency_rate": 0.6976915980843911,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "661905020000.0",
+    "district_name": "BLIND BROOK HIGH SCHOOL",
+    "school_count": 22,
+    "avg_proficiency_rate": 0.9251062873146648,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "662001030000.0",
+    "district_name": "SCARSDALE SENIOR HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.9431149920832085,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "662101060000.0",
+    "district_name": "SOMERS SENIOR HIGH SCHOOL",
+    "school_count": 37,
+    "avg_proficiency_rate": 0.6719782603307959,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "662200010000.0",
+    "district_name": "WHITE PLAINS SENIOR HIGH SCHOOL",
+    "school_count": 27,
+    "avg_proficiency_rate": 0.7898165798230138,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "662300010000.0",
+    "district_name": "GORTON HIGH SCHOOL",
+    "school_count": 54,
+    "avg_proficiency_rate": 0.593765951819441,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "662401060000.0",
+    "district_name": "LAKELAND HIGH SCHOOL",
+    "school_count": 44,
+    "avg_proficiency_rate": 0.7581425300918133,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "662402060000.0",
+    "district_name": "YORKTOWN HIGH SCHOOL",
+    "school_count": 26,
+    "avg_proficiency_rate": 0.9206088358625201,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "670201060000.0",
+    "district_name": "ATTICA SENIOR HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.7063492063492064,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "670401040000.0",
+    "district_name": "LETCHWORTH SENIOR HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.5602941176470588,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "671501040000.0",
+    "district_name": "WARSAW SENIOR HIGH SCHOOL",
+    "school_count": 2,
+    "avg_proficiency_rate": 0.7166666666666667,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "680601060000.0",
+    "district_name": "PENN YAN ACADEMY",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.7627705627705628,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "70901060000.0",
+    "district_name": "HORSEHEADS SENIOR HIGH SCHOOL",
+    "school_count": 6,
+    "avg_proficiency_rate": 1.0,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "80201040000.0",
+    "district_name": "BAINBRIDGE-GUILFORD HIGH SCHOOL",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.8296277997364954,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "81200050000.0",
+    "district_name": "NORWICH HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.7096949891067538,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "82001040000.0",
+    "district_name": "SHERBURNE-EARLVILLE SENIOR HIGH SCH",
+    "school_count": 4,
+    "avg_proficiency_rate": 0.6284722222222222,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "90201040000.0",
+    "district_name": "AUSABLE VALLEY HIGH SCHOOL",
+    "school_count": 1,
+    "avg_proficiency_rate": 0.8333333333333334,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "90301060000.0",
+    "district_name": "BEEKMANTOWN HIGH SCHOOL",
+    "school_count": 9,
+    "avg_proficiency_rate": 0.6865537686809616,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "91101060000.0",
+    "district_name": "PERU HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.7836538461538461,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "91200010000.0",
+    "district_name": "PLATTSBURGH SENIOR HIGH SCHOOL",
+    "school_count": 10,
+    "avg_proficiency_rate": 0.5374059561128527,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "91402060000.0",
+    "district_name": "SARANAC HIGH SCHOOL",
+    "school_count": 3,
+    "avg_proficiency_rate": 0.8621832358674464,
+    "district_avg_proficiency_rate": null
+  },
+  {
+    "district_code": "nan",
+    "district_name": "ALBANY LEADERSHIP CS-GIRLS",
+    "school_count": 95,
+    "avg_proficiency_rate": 0.39860338767165665,
+    "district_avg_proficiency_rate": null
+  }
+]

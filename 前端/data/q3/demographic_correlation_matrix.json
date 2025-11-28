@@ -1,0 +1,335 @@
+[
+  {
+    "subgroup_name": "Economically Disadvantaged",
+    "apib_ind": "AP",
+    "f_statistic": 36.088264,
+    "p_value": 0.0,
+    "sample_size": 96377,
+    "proficiency_rate": 0.590037,
+    "gap_vs_all": -0.116246
+  },
+  {
+    "subgroup_name": "Not Economically Disadvantaged",
+    "apib_ind": "AP",
+    "f_statistic": 31.661029,
+    "p_value": 0.0,
+    "sample_size": 169214,
+    "proficiency_rate": 0.783251,
+    "gap_vs_all": 0.076967
+  },
+  {
+    "subgroup_name": "Hispanic",
+    "apib_ind": "AP",
+    "f_statistic": 30.642052,
+    "p_value": 0.0,
+    "sample_size": 39881,
+    "proficiency_rate": 0.552845,
+    "gap_vs_all": -0.153439
+  },
+  {
+    "subgroup_name": "Black",
+    "apib_ind": "AP",
+    "f_statistic": 29.47338,
+    "p_value": 0.0,
+    "sample_size": 15214,
+    "proficiency_rate": 0.467333,
+    "gap_vs_all": -0.238951
+  },
+  {
+    "subgroup_name": "White",
+    "apib_ind": "AP",
+    "f_statistic": 23.835657,
+    "p_value": 0.0,
+    "sample_size": 119857,
+    "proficiency_rate": 0.775132,
+    "gap_vs_all": 0.068849
+  },
+  {
+    "subgroup_name": "Asian/Pacific Islander",
+    "apib_ind": "AP",
+    "f_statistic": 20.199678,
+    "p_value": 0.0,
+    "sample_size": 64840,
+    "proficiency_rate": 0.785611,
+    "gap_vs_all": 0.079327
+  },
+  {
+    "subgroup_name": "Students with Disabilities",
+    "apib_ind": "AP",
+    "f_statistic": 10.900398,
+    "p_value": 0.0,
+    "sample_size": 1933,
+    "proficiency_rate": 0.458355,
+    "gap_vs_all": -0.247928
+  },
+  {
+    "subgroup_name": "Male",
+    "apib_ind": "AP",
+    "f_statistic": 9.737449,
+    "p_value": 0.0,
+    "sample_size": 119128,
+    "proficiency_rate": 0.734496,
+    "gap_vs_all": 0.028212
+  },
+  {
+    "subgroup_name": "Multiracial",
+    "apib_ind": "AP",
+    "f_statistic": 5.783088,
+    "p_value": 0.0,
+    "sample_size": 2546,
+    "proficiency_rate": 0.820896,
+    "gap_vs_all": 0.114612
+  },
+  {
+    "subgroup_name": "General Education Students",
+    "apib_ind": "AP",
+    "f_statistic": 3.570628,
+    "p_value": 0.0,
+    "sample_size": 273217,
+    "proficiency_rate": 0.713114,
+    "gap_vs_all": 0.006831
+  },
+  {
+    "subgroup_name": "Female",
+    "apib_ind": "AP",
+    "f_statistic": 3.193961,
+    "p_value": 0.0,
+    "sample_size": 145446,
+    "proficiency_rate": 0.697909,
+    "gap_vs_all": -0.008375
+  },
+  {
+    "subgroup_name": "Homeless",
+    "apib_ind": "AP",
+    "f_statistic": 2.838075,
+    "p_value": 0.0,
+    "sample_size": 1432,
+    "proficiency_rate": 0.631285,
+    "gap_vs_all": -0.074998
+  },
+  {
+    "subgroup_name": "Not Homeless",
+    "apib_ind": "AP",
+    "f_statistic": 2.286153,
+    "p_value": 0.0,
+    "sample_size": 274941,
+    "proficiency_rate": 0.710643,
+    "gap_vs_all": 0.00436
+  },
+  {
+    "subgroup_name": "American Indian/Alaska Native",
+    "apib_ind": "AP",
+    "f_statistic": 2.163518,
+    "p_value": 0.0,
+    "sample_size": 110,
+    "proficiency_rate": 0.5,
+    "gap_vs_all": -0.206283
+  },
+  {
+    "subgroup_name": "English Language Learner",
+    "apib_ind": "AP",
+    "f_statistic": 1.611035,
+    "p_value": 0.0,
+    "sample_size": 1437,
+    "proficiency_rate": 0.748782,
+    "gap_vs_all": 0.042499
+  },
+  {
+    "subgroup_name": "Not English Language Learner",
+    "apib_ind": "AP",
+    "f_statistic": 0.775478,
+    "p_value": 0.0,
+    "sample_size": 277422,
+    "proficiency_rate": 0.707756,
+    "gap_vs_all": 0.001472
+  },
+  {
+    "subgroup_name": "Parent in Armed Forces",
+    "apib_ind": "AP",
+    "f_statistic": 0.618887,
+    "p_value": 0.0,
+    "sample_size": 84,
+    "proficiency_rate": 0.77381,
+    "gap_vs_all": 0.067526
+  },
+  {
+    "subgroup_name": "Not in Foster Care",
+    "apib_ind": "AP",
+    "f_statistic": 0.061638,
+    "p_value": 0.0,
+    "sample_size": 280337,
+    "proficiency_rate": 0.7064,
+    "gap_vs_all": 0.000116
+  },
+  {
+    "subgroup_name": "Parent Not in Armed Forces",
+    "apib_ind": "AP",
+    "f_statistic": 0.016867,
+    "p_value": 0.0,
+    "sample_size": 280052,
+    "proficiency_rate": 0.706315,
+    "gap_vs_all": 3.2e-05
+  },
+  {
+    "subgroup_name": "Not Migrant",
+    "apib_ind": "AP",
+    "f_statistic": 0.002655,
+    "p_value": 0.0,
+    "sample_size": 280439,
+    "proficiency_rate": 0.706278,
+    "gap_vs_all": -5e-06
+  },
+  {
+    "subgroup_name": "Black",
+    "apib_ind": "IB",
+    "f_statistic": 5.400957,
+    "p_value": 0.0,
+    "sample_size": 543,
+    "proficiency_rate": 0.497238,
+    "gap_vs_all": -0.231777
+  },
+  {
+    "subgroup_name": "Economically Disadvantaged",
+    "apib_ind": "IB",
+    "f_statistic": 5.356779,
+    "p_value": 0.0,
+    "sample_size": 2818,
+    "proficiency_rate": 0.628105,
+    "gap_vs_all": -0.10091
+  },
+  {
+    "subgroup_name": "Not Economically Disadvantaged",
+    "apib_ind": "IB",
+    "f_statistic": 3.862745,
+    "p_value": 0.0,
+    "sample_size": 8551,
+    "proficiency_rate": 0.770787,
+    "gap_vs_all": 0.041772
+  },
+  {
+    "subgroup_name": "White",
+    "apib_ind": "IB",
+    "f_statistic": 2.705795,
+    "p_value": 0.0,
+    "sample_size": 6892,
+    "proficiency_rate": 0.761608,
+    "gap_vs_all": 0.032593
+  },
+  {
+    "subgroup_name": "Students with Disabilities",
+    "apib_ind": "IB",
+    "f_statistic": 2.579795,
+    "p_value": 0.0,
+    "sample_size": 118,
+    "proficiency_rate": 0.491525,
+    "gap_vs_all": -0.237489
+  },
+  {
+    "subgroup_name": "Asian/Pacific Islander",
+    "apib_ind": "IB",
+    "f_statistic": 2.52442,
+    "p_value": 0.0,
+    "sample_size": 982,
+    "proficiency_rate": 0.809572,
+    "gap_vs_all": 0.080557
+  },
+  {
+    "subgroup_name": "Female",
+    "apib_ind": "IB",
+    "f_statistic": 1.990107,
+    "p_value": 0.0,
+    "sample_size": 6620,
+    "proficiency_rate": 0.753474,
+    "gap_vs_all": 0.024459
+  },
+  {
+    "subgroup_name": "Male",
+    "apib_ind": "IB",
+    "f_statistic": 1.15279,
+    "p_value": 0.0,
+    "sample_size": 4669,
+    "proficiency_rate": 0.712144,
+    "gap_vs_all": -0.016871
+  },
+  {
+    "subgroup_name": "General Education Students",
+    "apib_ind": "IB",
+    "f_statistic": 1.071763,
+    "p_value": 0.0,
+    "sample_size": 11803,
+    "proficiency_rate": 0.73888,
+    "gap_vs_all": 0.009865
+  },
+  {
+    "subgroup_name": "English Language Learner",
+    "apib_ind": "IB",
+    "f_statistic": 0.794899,
+    "p_value": 0.0,
+    "sample_size": 7,
+    "proficiency_rate": 0.428571,
+    "gap_vs_all": -0.300443
+  },
+  {
+    "subgroup_name": "Hispanic",
+    "apib_ind": "IB",
+    "f_statistic": 0.60412,
+    "p_value": 0.0,
+    "sample_size": 1759,
+    "proficiency_rate": 0.714611,
+    "gap_vs_all": -0.014404
+  },
+  {
+    "subgroup_name": "Multiracial",
+    "apib_ind": "IB",
+    "f_statistic": 0.243114,
+    "p_value": 0.0,
+    "sample_size": 130,
+    "proficiency_rate": 0.707692,
+    "gap_vs_all": -0.021323
+  },
+  {
+    "subgroup_name": "Not Homeless",
+    "apib_ind": "IB",
+    "f_statistic": 0.216371,
+    "p_value": 0.0,
+    "sample_size": 12144,
+    "proficiency_rate": 0.730978,
+    "gap_vs_all": 0.001963
+  },
+  {
+    "subgroup_name": "Not English Language Learner",
+    "apib_ind": "IB",
+    "f_statistic": 0.124425,
+    "p_value": 0.0,
+    "sample_size": 12162,
+    "proficiency_rate": 0.730143,
+    "gap_vs_all": 0.001128
+  },
+  {
+    "subgroup_name": "Not in Foster Care",
+    "apib_ind": "IB",
+    "f_statistic": 0.002452,
+    "p_value": 0.0,
+    "sample_size": 12210,
+    "proficiency_rate": 0.728993,
+    "gap_vs_all": -2.2e-05
+  },
+  {
+    "subgroup_name": "Parent Not in Armed Forces",
+    "apib_ind": "IB",
+    "f_statistic": 0.002452,
+    "p_value": 0.0,
+    "sample_size": 12210,
+    "proficiency_rate": 0.728993,
+    "gap_vs_all": -2.2e-05
+  },
+  {
+    "subgroup_name": "Not Migrant",
+    "apib_ind": "IB",
+    "f_statistic": 0.0,
+    "p_value": 0.0,
+    "sample_size": 12211,
+    "proficiency_rate": 0.729015,
+    "gap_vs_all": 0.0
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "feature1": "NRC_CODE",
+    "NRC_CODE": 1.0,
+    "NYC_IND": -0.9004873906343569,
+    "tested_student_cnt": -0.06759522504972262,
+    "district_avg_proficiency_rate": null,
+    "proficiency_rate": 0.3862782971211755
+  },
+  {
+    "feature1": "NYC_IND",
+    "NRC_CODE": -0.9004873906343569,
+    "NYC_IND": 1.0,
+    "tested_student_cnt": 0.08638559698285388,
+    "district_avg_proficiency_rate": null,
+    "proficiency_rate": -0.35843610104072815
+  },
+  {
+    "feature1": "tested_student_cnt",
+    "NRC_CODE": -0.06759522504972262,
+    "NYC_IND": 0.08638559698285388,
+    "tested_student_cnt": 1.0,
+    "district_avg_proficiency_rate": null,
+    "proficiency_rate": 0.057563612387619326
+  },
+  {
+    "feature1": "district_avg_proficiency_rate",
+    "NRC_CODE": null,
+    "NYC_IND": null,
+    "tested_student_cnt": null,
+    "district_avg_proficiency_rate": null,
+    "proficiency_rate": null
+  },
+  {
+    "feature1": "proficiency_rate",
+    "NRC_CODE": 0.3862782971211755,
+    "NYC_IND": -0.35843610104072815,
+    "tested_student_cnt": 0.057563612387619326,
+    "district_avg_proficiency_rate": null,
+    "proficiency_rate": 1.0
+  }
+]

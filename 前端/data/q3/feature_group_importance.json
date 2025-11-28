@@ -1,0 +1,26 @@
+[
+  {
+    "feature_group": "地区特征",
+    "avg_importance": 14.727929,
+    "max_importance": 29.097421,
+    "feature_count": 2
+  },
+  {
+    "feature_group": "学生特征",
+    "avg_importance": 10.277784,
+    "max_importance": 36.088158,
+    "feature_count": 9
+  },
+  {
+    "feature_group": "学科特征",
+    "avg_importance": 18.068773,
+    "max_importance": 43.298413,
+    "feature_count": 3
+  },
+  {
+    "feature_group": "资源特征",
+    "avg_importance": 0.386278,
+    "max_importance": 0.386278,
+    "feature_count": 1
+  }
+]

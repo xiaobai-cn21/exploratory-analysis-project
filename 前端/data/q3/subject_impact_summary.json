@@ -1,0 +1,128 @@
+[
+  {
+    "SUBJECT_AREA": "Business and Marketing",
+    "APIB_IND": "IB",
+    "tested_total": 549,
+    "proficient_total": 394.0,
+    "proficiency_rate": 0.717668
+  },
+  {
+    "SUBJECT_AREA": "Computer Sciences",
+    "APIB_IND": "AP",
+    "tested_total": 13543,
+    "proficient_total": 9335.0,
+    "proficiency_rate": 0.689286
+  },
+  {
+    "SUBJECT_AREA": "Computer Sciences",
+    "APIB_IND": "IB",
+    "tested_total": 57,
+    "proficient_total": 33.0,
+    "proficiency_rate": 0.578947
+  },
+  {
+    "SUBJECT_AREA": "ELA",
+    "APIB_IND": "AP",
+    "tested_total": 47498,
+    "proficient_total": 29694.0,
+    "proficiency_rate": 0.625163
+  },
+  {
+    "SUBJECT_AREA": "ELA",
+    "APIB_IND": "IB",
+    "tested_total": 2642,
+    "proficient_total": 2202.0,
+    "proficiency_rate": 0.83346
+  },
+  {
+    "SUBJECT_AREA": "Fine and Performing Arts",
+    "APIB_IND": "AP",
+    "tested_total": 4089,
+    "proficient_total": 3117.0,
+    "proficiency_rate": 0.762289
+  },
+  {
+    "SUBJECT_AREA": "Fine and Performing Arts",
+    "APIB_IND": "IB",
+    "tested_total": 565,
+    "proficient_total": 374.0,
+    "proficiency_rate": 0.661947
+  },
+  {
+    "SUBJECT_AREA": "Global Studies",
+    "APIB_IND": "AP",
+    "tested_total": 28900,
+    "proficient_total": 20824.0,
+    "proficiency_rate": 0.720554
+  },
+  {
+    "SUBJECT_AREA": "Mathematics",
+    "APIB_IND": "AP",
+    "tested_total": 29494,
+    "proficient_total": 21226.0,
+    "proficiency_rate": 0.719672
+  },
+  {
+    "SUBJECT_AREA": "Mathematics",
+    "APIB_IND": "IB",
+    "tested_total": 1687,
+    "proficient_total": 1121.0,
+    "proficiency_rate": 0.664493
+  },
+  {
+    "SUBJECT_AREA": "Other",
+    "APIB_IND": "AP",
+    "tested_total": 10357,
+    "proficient_total": 8797.0,
+    "proficiency_rate": 0.849377
+  },
+  {
+    "SUBJECT_AREA": "Religious Education",
+    "APIB_IND": "IB",
+    "tested_total": 59,
+    "proficient_total": 47.0,
+    "proficiency_rate": 0.79661
+  },
+  {
+    "SUBJECT_AREA": "Science",
+    "APIB_IND": "AP",
+    "tested_total": 51012,
+    "proficient_total": 34379.0,
+    "proficiency_rate": 0.673939
+  },
+  {
+    "SUBJECT_AREA": "Science",
+    "APIB_IND": "IB",
+    "tested_total": 1920,
+    "proficient_total": 1194.0,
+    "proficiency_rate": 0.621875
+  },
+  {
+    "SUBJECT_AREA": "Second Languages",
+    "APIB_IND": "AP",
+    "tested_total": 11392,
+    "proficient_total": 9308.0,
+    "proficiency_rate": 0.817065
+  },
+  {
+    "SUBJECT_AREA": "Second Languages",
+    "APIB_IND": "IB",
+    "tested_total": 1707,
+    "proficient_total": 1438.0,
+    "proficiency_rate": 0.842414
+  },
+  {
+    "SUBJECT_AREA": "Social Studies",
+    "APIB_IND": "AP",
+    "tested_total": 84169,
+    "proficient_total": 61400.0,
+    "proficiency_rate": 0.729485
+  },
+  {
+    "SUBJECT_AREA": "Social Studies",
+    "APIB_IND": "IB",
+    "tested_total": 3025,
+    "proficient_total": 2099.0,
+    "proficiency_rate": 0.693884
+  }
+]
