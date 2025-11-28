@@ -1,0 +1,212 @@
+[
+  {
+    "subgroup_name": "American Indian/Alaska Native",
+    "apib_ind": "IB",
+    "suppression_rate": 1.0,
+    "total_records": 35,
+    "suppressed_records": 35
+  },
+  {
+    "subgroup_name": "Nonbinary",
+    "apib_ind": "IB",
+    "suppression_rate": 1.0,
+    "total_records": 11,
+    "suppressed_records": 11
+  },
+  {
+    "subgroup_name": "Nonbinary",
+    "apib_ind": "AP",
+    "suppression_rate": 1.0,
+    "total_records": 205,
+    "suppressed_records": 205
+  },
+  {
+    "subgroup_name": "Migrant",
+    "apib_ind": "AP",
+    "suppression_rate": 1.0,
+    "total_records": 17,
+    "suppressed_records": 17
+  },
+  {
+    "subgroup_name": "Homeless",
+    "apib_ind": "IB",
+    "suppression_rate": 1.0,
+    "total_records": 62,
+    "suppressed_records": 62
+  },
+  {
+    "subgroup_name": "In Foster Care",
+    "apib_ind": "IB",
+    "suppression_rate": 1.0,
+    "total_records": 1,
+    "suppressed_records": 1
+  },
+  {
+    "subgroup_name": "In Foster Care",
+    "apib_ind": "AP",
+    "suppression_rate": 1.0,
+    "total_records": 140,
+    "suppressed_records": 140
+  },
+  {
+    "subgroup_name": "Parent in Armed Forces",
+    "apib_ind": "IB",
+    "suppression_rate": 1.0,
+    "total_records": 1,
+    "suppressed_records": 1
+  },
+  {
+    "subgroup_name": "American Indian/Alaska Native",
+    "apib_ind": "AP",
+    "suppression_rate": 0.9819819819819819,
+    "total_records": 999,
+    "suppressed_records": 981
+  },
+  {
+    "subgroup_name": "Parent in Armed Forces",
+    "apib_ind": "AP",
+    "suppression_rate": 0.978494623655914,
+    "total_records": 279,
+    "suppressed_records": 273
+  },
+  {
+    "subgroup_name": "English Language Learner",
+    "apib_ind": "IB",
+    "suppression_rate": 0.9761904761904762,
+    "total_records": 42,
+    "suppressed_records": 41
+  },
+  {
+    "subgroup_name": "Students with Disabilities",
+    "apib_ind": "IB",
+    "suppression_rate": 0.9237668161434978,
+    "total_records": 223,
+    "suppressed_records": 206
+  },
+  {
+    "subgroup_name": "Homeless",
+    "apib_ind": "AP",
+    "suppression_rate": 0.9225528863391896,
+    "total_records": 2789,
+    "suppressed_records": 2573
+  },
+  {
+    "subgroup_name": "Multiracial",
+    "apib_ind": "AP",
+    "suppression_rate": 0.9220354808590103,
+    "total_records": 4284,
+    "suppressed_records": 3950
+  },
+  {
+    "subgroup_name": "Multiracial",
+    "apib_ind": "IB",
+    "suppression_rate": 0.9166666666666666,
+    "total_records": 228,
+    "suppressed_records": 209
+  },
+  {
+    "subgroup_name": "Students with Disabilities",
+    "apib_ind": "AP",
+    "suppression_rate": 0.9087442113865432,
+    "total_records": 3671,
+    "suppressed_records": 3336
+  },
+  {
+    "subgroup_name": "English Language Learner",
+    "apib_ind": "AP",
+    "suppression_rate": 0.8692699490662139,
+    "total_records": 1178,
+    "suppressed_records": 1024
+  },
+  {
+    "subgroup_name": "Black",
+    "apib_ind": "IB",
+    "suppression_rate": 0.7687074829931972,
+    "total_records": 294,
+    "suppressed_records": 226
+  },
+  {
+    "subgroup_name": "Asian/Pacific Islander",
+    "apib_ind": "IB",
+    "suppression_rate": 0.7520435967302452,
+    "total_records": 367,
+    "suppressed_records": 276
+  },
+  {
+    "subgroup_name": "Black",
+    "apib_ind": "AP",
+    "suppression_rate": 0.7384016254656282,
+    "total_records": 5906,
+    "suppressed_records": 4361
+  },
+  {
+    "subgroup_name": "Hispanic",
+    "apib_ind": "IB",
+    "suppression_rate": 0.6993987975951904,
+    "total_records": 499,
+    "suppressed_records": 349
+  },
+  {
+    "subgroup_name": "Economically Disadvantaged",
+    "apib_ind": "IB",
+    "suppression_rate": 0.6463620981387479,
+    "total_records": 591,
+    "suppressed_records": 382
+  },
+  {
+    "subgroup_name": "Hispanic",
+    "apib_ind": "AP",
+    "suppression_rate": 0.6444048989846122,
+    "total_records": 9553,
+    "suppressed_records": 6156
+  },
+  {
+    "subgroup_name": "Asian/Pacific Islander",
+    "apib_ind": "AP",
+    "suppression_rate": 0.6438114165838578,
+    "total_records": 9057,
+    "suppressed_records": 5831
+  },
+  {
+    "subgroup_name": "Male",
+    "apib_ind": "IB",
+    "suppression_rate": 0.5570175438596491,
+    "total_records": 684,
+    "suppressed_records": 381
+  },
+  {
+    "subgroup_name": "Economically Disadvantaged",
+    "apib_ind": "AP",
+    "suppression_rate": 0.5483423158582394,
+    "total_records": 12246,
+    "suppressed_records": 6715
+  },
+  {
+    "subgroup_name": "White",
+    "apib_ind": "AP",
+    "suppression_rate": 0.4945429740791269,
+    "total_records": 11728,
+    "suppressed_records": 5800
+  },
+  {
+    "subgroup_name": "White",
+    "apib_ind": "IB",
+    "suppression_rate": 0.48797736916548795,
+    "total_records": 707,
+    "suppressed_records": 345
+  },
+  {
+    "subgroup_name": "Male",
+    "apib_ind": "AP",
+    "suppression_rate": 0.4837908878504673,
+    "total_records": 13696,
+    "suppressed_records": 6626
+  },
+  {
+    "subgroup_name": "Female",
+    "apib_ind": "IB",
+    "suppression_rate": 0.47780678851174935,
+    "total_records": 766,
+    "suppressed_records": 366
+  }
+]

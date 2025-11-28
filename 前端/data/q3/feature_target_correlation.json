@@ -1,0 +1,20 @@
+[
+  {
+    "feature": "NRC_CODE",
+    "correlation": 0.386278,
+    "abs_correlation": 0.386278,
+    "sample_size": 10157
+  },
+  {
+    "feature": "NYC_IND",
+    "correlation": -0.358436,
+    "abs_correlation": 0.358436,
+    "sample_size": 10157
+  },
+  {
+    "feature": "tested_student_cnt",
+    "correlation": 0.057564,
+    "abs_correlation": 0.057564,
+    "sample_size": 10157
+  }
+]

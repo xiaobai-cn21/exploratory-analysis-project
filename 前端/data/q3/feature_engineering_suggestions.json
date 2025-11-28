@@ -1,0 +1,32 @@
+[
+  {
+    "suggestion_type": "交互特征",
+    "feature": "economic_status × race",
+    "description": "经济状况与种族的交互效应显著，建议创建交互特征",
+    "priority": "high"
+  },
+  {
+    "suggestion_type": "聚合特征",
+    "feature": "district_avg_proficiency_rate",
+    "description": "学区平均达标率与学校达标率相关，建议保留此聚合特征",
+    "priority": "medium"
+  },
+  {
+    "suggestion_type": "编码方式",
+    "feature": "SUBGROUP_NAME",
+    "description": "使用One-hot编码或Target Encoding",
+    "priority": "high"
+  },
+  {
+    "suggestion_type": "编码方式",
+    "feature": "COUNTY_NAME",
+    "description": "使用Label Encoding或Target Encoding",
+    "priority": "medium"
+  },
+  {
+    "suggestion_type": "编码方式",
+    "feature": "SUBJECT_AREA",
+    "description": "使用One-hot编码",
+    "priority": "medium"
+  }
+]

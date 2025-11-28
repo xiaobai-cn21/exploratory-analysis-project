@@ -1,0 +1,137 @@
+[
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 2.0,
+    "NRC_DESC": "LARGE CITY",
+    "APIB_IND": "AP",
+    "tested_total": 3220,
+    "proficient_total": 1339.0,
+    "proficiency_rate": 0.415839
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 2.0,
+    "NRC_DESC": "LARGE CITY",
+    "APIB_IND": "IB",
+    "tested_total": 1619,
+    "proficient_total": 1049.0,
+    "proficiency_rate": 0.647931
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 3.0,
+    "NRC_DESC": "URBAN/SUBURBAN/HIGH NEEDS",
+    "APIB_IND": "AP",
+    "tested_total": 9323,
+    "proficient_total": 5019.0,
+    "proficiency_rate": 0.538346
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 3.0,
+    "NRC_DESC": "URBAN/SUBURBAN/HIGH NEEDS",
+    "APIB_IND": "IB",
+    "tested_total": 776,
+    "proficient_total": 514.0,
+    "proficiency_rate": 0.662371
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 4.0,
+    "NRC_DESC": "RURAL HIGH NEEDS",
+    "APIB_IND": "AP",
+    "tested_total": 2307,
+    "proficient_total": 1419.0,
+    "proficiency_rate": 0.615085
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 4.0,
+    "NRC_DESC": "RURAL HIGH NEEDS",
+    "APIB_IND": "IB",
+    "tested_total": 40,
+    "proficient_total": 33.0,
+    "proficiency_rate": 0.825
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 5.0,
+    "NRC_DESC": "AVERAGE NEEDS",
+    "APIB_IND": "AP",
+    "tested_total": 65617,
+    "proficient_total": 48940.0,
+    "proficiency_rate": 0.745843
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 5.0,
+    "NRC_DESC": "AVERAGE NEEDS",
+    "APIB_IND": "IB",
+    "tested_total": 2516,
+    "proficient_total": 1962.0,
+    "proficiency_rate": 0.779809
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 6.0,
+    "NRC_DESC": "LOW NEEDS",
+    "APIB_IND": "AP",
+    "tested_total": 94438,
+    "proficient_total": 75980.0,
+    "proficiency_rate": 0.804549
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 6.0,
+    "NRC_DESC": "LOW NEEDS",
+    "APIB_IND": "IB",
+    "tested_total": 5842,
+    "proficient_total": 4349.0,
+    "proficiency_rate": 0.744437
+  },
+  {
+    "NYC_IND": 0.0,
+    "NRC_CODE": 7.0,
+    "NRC_DESC": "CHARTER SCHOOL",
+    "APIB_IND": "AP",
+    "tested_total": 598,
+    "proficient_total": 222.0,
+    "proficiency_rate": 0.371237
+  },
+  {
+    "NYC_IND": 1.0,
+    "NRC_CODE": 1.0,
+    "NRC_DESC": "NEW YORK CITY",
+    "APIB_IND": "AP",
+    "tested_total": 104160,
+    "proficient_total": 64839.0,
+    "proficiency_rate": 0.622494
+  },
+  {
+    "NYC_IND": 1.0,
+    "NRC_CODE": 1.0,
+    "NRC_DESC": "NEW YORK CITY",
+    "APIB_IND": "IB",
+    "tested_total": 1221,
+    "proficient_total": 936.0,
+    "proficiency_rate": 0.766585
+  },
+  {
+    "NYC_IND": 1.0,
+    "NRC_CODE": 7.0,
+    "NRC_DESC": "CHARTER SCHOOL",
+    "APIB_IND": "AP",
+    "tested_total": 791,
+    "proficient_total": 322.0,
+    "proficiency_rate": 0.40708
+  },
+  {
+    "NYC_IND": 1.0,
+    "NRC_CODE": 7.0,
+    "NRC_DESC": "CHARTER SCHOOL",
+    "APIB_IND": "IB",
+    "tested_total": 197,
+    "proficient_total": 59.0,
+    "proficiency_rate": 0.299492
+  }
+]

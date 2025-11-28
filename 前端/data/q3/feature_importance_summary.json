@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "SUBJECT_AREA",
+    "feature_group": "学科特征",
+    "importance": 43.29841257519335,
+    "method": "anova",
+    "display_name": "学科领域",
+    "sample_size": 10157,
+    "p_value": 6.721302099458415e-85,
+    "category_count": 11.0
+  },
+  {
+    "feature": "学生特征-经济状况",
+    "feature_group": "学生特征",
+    "importance": 36.088158341685045,
+    "method": "category_max_gap",
+    "display_name": "经济状况",
+    "sample_size": 276960,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "学生特征-种族/族裔",
+    "feature_group": "学生特征",
+    "importance": 30.642117896127886,
+    "method": "category_max_gap",
+    "display_name": "种族/族裔",
+    "sample_size": 252754,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "COUNTY_NAME",
+    "feature_group": "地区特征",
+    "importance": 29.09742108020981,
+    "method": "anova",
+    "display_name": "县",
+    "sample_size": 10157,
+    "p_value": 1.6319437545961742e-302,
+    "category_count": 62.0
+  },
+  {
+    "feature": "学生特征-教育类型",
+    "feature_group": "学生特征",
+    "importance": 10.900376632239457,
+    "method": "category_max_gap",
+    "display_name": "教育类型",
+    "sample_size": 287071,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "学生特征-性别",
+    "feature_group": "学生特征",
+    "importance": 9.737350445826216,
+    "method": "category_max_gap",
+    "display_name": "性别",
+    "sample_size": 275863,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "APIB_IND",
+    "feature_group": "学科特征",
+    "importance": 5.905405303454426,
+    "method": "anova",
+    "display_name": "AP/IB类型",
+    "sample_size": 10157,
+    "p_value": 0.015111701283857791,
+    "category_count": 2.0
+  },
+  {
+    "feature": "GRADE_LEVEL",
+    "feature_group": "学科特征",
+    "importance": 5.002502138126762,
+    "method": "anova",
+    "display_name": "年级",
+    "sample_size": 10157,
+    "p_value": 0.0005011540665282375,
+    "category_count": 5.0
+  },
+  {
+    "feature": "学生特征-居住状况",
+    "feature_group": "学生特征",
+    "importance": 2.8380575057119612,
+    "method": "category_max_gap",
+    "display_name": "居住状况",
+    "sample_size": 288517,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "学生特征-语言",
+    "feature_group": "学生特征",
+    "importance": 1.6110428630042717,
+    "method": "category_max_gap",
+    "display_name": "语言",
+    "sample_size": 291028,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "学生特征-军属",
+    "feature_group": "学生特征",
+    "importance": 0.6188860127551761,
+    "method": "category_max_gap",
+    "display_name": "军属",
+    "sample_size": 292346,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "NRC_CODE",
+    "feature_group": "资源特征",
+    "importance": 0.3862782971211768,
+    "method": "correlation",
+    "display_name": "N/RC代码",
+    "sample_size": 10157,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "NYC_IND",
+    "feature_group": "地区特征",
+    "importance": 0.3584361010407298,
+    "method": "correlation",
+    "display_name": "NYC标识",
+    "sample_size": 10157,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "学生特征-寄养状况",
+    "feature_group": "学生特征",
+    "importance": 0.06141835777680806,
+    "method": "category_max_gap",
+    "display_name": "寄养状况",
+    "sample_size": 292547,
+    "p_value": null,
+    "category_count": null
+  },
+  {
+    "feature": "学生特征-流动性",
+    "feature_group": "学生特征",
+    "importance": 0.002647824578781608,
+    "method": "category_max_gap",
+    "display_name": "流动性",
+    "sample_size": 292650,
+    "p_value": null,
+    "category_count": null
+  }
+]
