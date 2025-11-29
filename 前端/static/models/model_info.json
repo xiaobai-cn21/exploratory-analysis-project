@@ -1,0 +1,26 @@
+{
+  "model_name": "Random Forest",
+  "feature_columns": [
+    "tested_student_cnt",
+    "COUNTY_NAME_encoded",
+    "SUBGROUP_NAME_encoded",
+    "APIB_IND_encoded",
+    "SUBJECT_AREA_encoded",
+    "GRADE_LEVEL_encoded",
+    "NRC_DESC_encoded",
+    "total_levels",
+    "level1_ratio",
+    "level2_ratio",
+    "level3_ratio",
+    "level4_ratio",
+    "level5_ratio",
+    "level6_ratio",
+    "level7_ratio"
+  ],
+  "use_scaler": false,
+  "metrics": {
+    "rmse": 0.0043781318144124,
+    "mae": 0.0003469929030389774,
+    "r2": 0.9998764361432172
+  }
+}

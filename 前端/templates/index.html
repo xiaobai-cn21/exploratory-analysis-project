@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>美国犯罪趋势：交互式分析</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/ny-student-test.css') }}">
+</head>
+<body class="ny-site">
+  <header class="hero">
+    <div class="wrapper hero__inner">
+      <nav class="hero__nav">
+        <a class="logo" href="{{ url_for('index') }}">AP/IB 教育数据分析</a>
+        <div class="hero__links">
+          <a class="btn ghost" href="{{ url_for('research') }}">研究</a>
+          <a class="btn ghost" href="{{ url_for('research1') }}">研究 1</a>
+          <a class="btn ghost" href="{{ url_for('research2') }}">研究 2</a>
+          <a class="btn ghost" href="{{ url_for('schools') }}">学校探索</a>
+          <a class="btn ghost" href="{{ url_for('research') }}">研究 3</a>
+        </div>
+      </nav>
+      <div class="hero__content">
+        <p class="eyebrow">AP/IB 评估趋势</p>
+        <h1>互动教育情报台</h1>
+        <p class="lede">借鉴调查性新闻编辑部模式，本简报整合 NYSED 评估数据，为 2024 年的教育公平性分析提供跨层级、跨指标的快速洞察。</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section id="business-understanding">
+      <h2>1. 业务理解</h2>
+      
+      <h3>1.1 项目背景</h3>
+      <p>
+        本项目基于纽约州教育部（NYSED）发布的《AP/IB Course and Assessment Database 2023-24》，
+        该数据集已被 Awesome Public Datasets 收录，并由团队从官方 Access 数据库导出为 CSV/JSON。
+        数据覆盖纽约州所有公立学校在 Advanced Placement (AP) 与 International Baccalaureate (IB) 项目中的开课与考试表现，
+        是评估学术挑战机会供给、教育公平性与达标结果的重要依据。
+      </p>
+      
+      <p>
+        在纽约州教育体系中，AP（大学先修课程）与 IB（国际预科证书课程）是高阶学术课程的核心代表，
+        既是学生学术能力跃升的重要载体，也是检验区域教育质量与公平性的关键指标。
+        然而现实中，不同学生子群体在获取与发挥这类优质资源时始终面临显著的"机会鸿沟"：社会经济背景、种族、性别等因素叠加，
+        再加上地理差异与学校资源配置不均，进一步加剧了教育不公平，限制个体发展潜力并挑战纽约州的教育均衡。
+      </p>
+      
+      <p>
+        基于此，本次探索性数据分析（EDA）聚焦纽约州 AP/IB 课程与测评综合数据库。该数据库大小 <span class="highlight">18.1 MB</span>，
+        包含按经济背景、种族、性别等划分的学生子群在 AP/IB 课程中的参与人数与成绩等级分布、课程开设数量，以及依子群拆分的课程研究文件。
+        数据还支持学区、州级、县级与资源需求（Needs/Resource）等多层级聚合视图，便于全面评估教育资源的覆盖范围与质量差异。
+      </p>
+      
+      <p>
+        通过深度挖掘这些数据，我们设定三大研究目标：
+      </p>
+      <ol class="features">
+        <li>教育公平性：不同社会经济背景的学生在 AP/IB 课程参与度上是否存在显著差异？经济困难、种族、性别等因素如何影响高级课程选择。</li>
+        <li>地理分布与资源配置：纽约州各层级（州、县、学区）的 AP/IB 项目覆盖率如何？城市与农村、高 N/RC 与低 N/RC 学区在课程供给数量与质量上有何核心差别。</li>
+        <li>成绩预测与影响因素：能否基于学生特征与地区属性构建 AP/IB 考试表现的预测模型？哪些关键变量（家庭经济状况、学校资源投入、地区发展水平等）对合格率影响最大。</li>
+      </ol>
+      
+      <h3>1.2 业务目标</h3>
+      
+      <h4>1.2.1 总体目标</h4>
+      <p>
+        构建一套可解释的分析与预测框架，辅助州/学区层面识别 AP/IB 参与率与成绩表现的结构性差异，
+        为政策制定和资源倾斜提供定量证据。
+      </p>
+      
+      <p><strong>阶段目标：</strong></p>
+      <ol class="features">
+        <li>
+          评估不同聚合层级（Statewide、Need/Resource Category、County、District、Public School）
+          与人口子组在 AP/IB 参与与达标上的差距；
+        </li>
+        <li>
+          利用 assessment 表的课程、年级、子组与需求资源特征，挖掘影响达标率的关键因子并构建预测模型；
+        </li>
+        <li>
+          输出可操作的策略建议（如需要重点干预的学校/学区、课程领域或子组）。
+        </li>
+      </ol>
+      
+      <h4>1.2.2 项目范围与限制</h4>
+      
+      <p><strong>范围：</strong>本次分析遵循 CRISP-DM 流程，聚焦 AP_IB_Assessment_2024（简称 assessment）表中的考试结果及相关维度；AP_IB_Course_2024（简称 course）仅用于字段映射与一致性校验，不纳入建模与可视化。</p>
+      
+      <p><strong>限制：</strong></p>
+      <ol class="features">
+        <li>数据仅覆盖 2023-24 学年，暂无法直接分析跨年度趋势；</li>
+        <li>assessment 表采用隐私抑制（tested_student_cnt < 5 时，level/proficient 字段记为 '-'），需要在预处理阶段额外处理；</li>
+        <li>数据为聚合层级统计，缺乏个体层面的家庭与学校资源变量，结论需结合外部背景解读。</li>
+      </ol>
+      
+      <h3>1.3 项目实施计划</h3>
+      
+      <p>
+        本阶段进行的计划制定并不与最终的执行完全保持一致，在小组成员不断分析探索的过程中，我们的挖掘流程也进行了相应的改变。
+      </p>
+      
+      <p><strong>1. 阶段一：业务理解 & 数据理解</strong></p>
+      <ol class="features">
+        <li>明确项目目标、业务问题与受众；</li>
+        <li>梳理 assessment 表字段、约束和业务含义，确认仅使用该表，而不使用course表的合理性；</li>
+        <li>输出：项目背景与目标说明、字段与约束总结（当前章节即为阶段一成果）。</li>
+      </ol>
+      
+      <p><strong>2. 阶段二：数据清洗与准备</strong></p>
+      <ol class="features">
+        <li>基于 cleaned_data/assessment_cleaned.csv 与约束报告，补充缺失值、抑制值（'-'）的处理逻辑；</li>
+        <li>检查并修复 tested_student_cnt 与 level1–7 汇总、AP/IB 达标定义等业务一致性问题；</li>
+        <li>输出：数据清洗报告、可直接用于建模与分析的"分析就绪数据集"。</li>
+      </ol>
+      
+      <p><strong>3. 阶段三：探索性分析与可视化</strong></p>
+      <ol class="features">
+        <li>从整体与分层（聚合层级、SUBGROUP、SUBJECT_AREA 等）两个角度，进行描述性统计和公平性分析；</li>
+        <li>使用箱线图、热力图、地图/树图等可视化手段呈现 AP/IB 参与度与达标率差异；</li>
+        <li>输出：若干核心图表与对应的文字解读，总结关键现象与假设。</li>
+      </ol>
+      
+      <p><strong>4. 阶段四：模型构建与评估</strong></p>
+      <ol class="features">
+        <li>选择合适的任务形式（如达标率回归或高/低表现分类），构建基线模型与改进模型；</li>
+        <li>采用交叉验证与留出集评估，报告 R² / Accuracy 等指标，并通过特征重要度或 SHAP 做可解释性分析；</li>
+        <li>输出：模型性能对比表、重要特征列表及其业务含义。</li>
+      </ol>
+      
+      <p><strong>5. 阶段五：结论与业务建议</strong></p>
+      <ol class="features">
+        <li>汇总各阶段发现，凝练针对不同层级/子组的教育公平性建议；</li>
+        <li>讨论数据和方法的局限性，提出后续可扩展的工作方向（如叠加多学年数据或引入外部社会经济变量）；</li>
+        <li>输出：面向决策者的总结性结论与建议。</li>
+      </ol>
+    </section>
+
+    <section id="data-understanding">
+      <h2>2. 数据理解</h2>
+      
+      <h3>2.1 数据来源</h3>
+      <p>
+        数据集由 AP_IB_Course_2024（415,765 行，课程注册）与 AP_IB_Assessment_2024（467,535 行，考试结果）两张表组成。更多学校层面的详细数据分析请参考 <a href="{{ url_for('schools') }}" class="page-link">schools.html</a> 页面。
+      </p>
+      <p>
+        团队经需求评审后决定仅使用 assessment 表，理由包括：
+      </p>
+      <ol class="features">
+        <li>经过对比匹配，小组人员发现两张表并不能形成很好的对应关系。</li>
+        <li>报告核心聚焦考试表现与公平性，assessment 自带 tested_student_cnt、proficient_student_cnt 与 level1_cnt~level7_cnt 等结果字段；</li>
+        <li>该表同时包含聚合层级（aggregation_index/type/code/name）、地理标识（INST_ID、LEA_BEDS、COUNTY_CODE）、人口子组（SUBGROUP_CODE/NAME）、课程/学科（STATE_CODE、ITEM_DESC、SUBJECT_AREA）等维度，可独立支撑建模与可视化；</li>
+      </ol>
+      
+      <h3>2.2 数据字典</h3>
+      <p>以下是 AP_IB_Assessment_2024 数据集中数值型字段的统计信息：</p>
+      
+      <div class="table-wrapper" style="margin: 2rem 0; overflow-x: auto;">
+        <table class="dark-table">
+          <thead>
+            <tr>
+              <th>字段名称</th>
+              <th>类型</th>
+              <th style="text-align: right;">最小值</th>
+              <th style="text-align: right;">最大值</th>
+              <th style="text-align: center;">缺失值</th>
+              <th>描述</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">aggregation_index</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">4</td>
+              <td style="text-align: center;">None</td>
+              <td>Aggregation Level Index</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">aggregation_code</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">680601060001</td>
+              <td style="text-align: center;">None</td>
+              <td>Aggregation Code</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">INST_ID</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">800000033912</td>
+              <td style="text-align: right;">800000093013</td>
+              <td style="text-align: center;">15.11%</td>
+              <td>Institution ID</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">LEA_BEDS</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">10100010000</td>
+              <td style="text-align: right;">680601060000</td>
+              <td style="text-align: center;">51.07%</td>
+              <td>LEA BEDS Code</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">NRC_CODE</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">1</td>
+              <td style="text-align: right;">7</td>
+              <td style="text-align: center;">11.46%</td>
+              <td>NRC Code</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">COUNTY_CODE</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">1</td>
+              <td style="text-align: right;">68</td>
+              <td style="text-align: center;">4.87%</td>
+              <td>County Code</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">NYC_IND</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">1</td>
+              <td style="text-align: center;">4.87%</td>
+              <td>NYC Indicator</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">SUBGROUP_CODE</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">1</td>
+              <td style="text-align: right;">29</td>
+              <td style="text-align: center;">None</td>
+              <td>Subgroup Code</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">tested_student_cnt</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">1</td>
+              <td style="text-align: right;">31488</td>
+              <td style="text-align: center;">None</td>
+              <td>Number of Students Tested</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">proficient_student_cnt</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">24431</td>
+              <td style="text-align: center;">45.87%</td>
+              <td>Number of Proficient Students</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">level1_cnt</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">3694</td>
+              <td style="text-align: center;">45.87%</td>
+              <td>Number of Level 1 Scores</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">level2_cnt</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">7781</td>
+              <td style="text-align: center;">45.87%</td>
+              <td>Number of Level 2 Scores</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">level3_cnt</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">8676</td>
+              <td style="text-align: center;">45.87%</td>
+              <td>Number of Level 3 Scores</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">level4_cnt</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">11189</td>
+              <td style="text-align: center;">45.87%</td>
+              <td>Number of Level 4 Scores</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">level5_cnt</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">4566</td>
+              <td style="text-align: center;">45.87%</td>
+              <td>Number of Level 5 Scores</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">level6_cnt</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">130</td>
+              <td style="text-align: center;">45.87%</td>
+              <td>Number of Level 6 Scores</td>
+            </tr>
+            <tr>
+              <td><code style="background: rgba(88, 166, 255, 0.15); color: #58a6ff; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em;">level7_cnt</code></td>
+              <td>Int</td>
+              <td style="text-align: right;">0</td>
+              <td style="text-align: right;">31</td>
+              <td style="text-align: center;">45.87%</td>
+              <td>Number of Level 7 Scores</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <h3>2.3 数据结构与主要字段</h3>
+      <p>assessment 表的主要字段可分为以下几类：</p>
+      <ol class="features">
+        <li>
+          <strong>标识与层级：</strong>REPORT_SCHOOL_YEAR（固定为 2023-24）、aggregation_index（0-4）与 aggregation_type/name/code、INST_ID、LEA_BEDS、COUNTY_CODE/NAME、NRC_CODE/DESC、NYC_IND；
+        </li>
+        <li>
+          <strong>分类维度：</strong>APIB_IND（AP/IB）、SUBJECT_AREA（13 个学科大类）、STATE_CODE/ITEM_DESC（115个考试项）、GRADE_LEVEL（9th/10th/11th/12th/Not HS）、SUBGROUP_CODE/SUBGROUP_NAME（24 个子组，覆盖性别、种族、语言、经济等维度）；
+        </li>
+        <li>
+          <strong>结果指标：</strong>tested_student_cnt、proficient_student_cnt、level1_cnt~level7_cnt。其中 level6/7 主要对 IB 评估生效，AP 记录中应为 0 或 '-'。所有计数字段在隐私抑制场景下会以 '-' 呈现，需要在预处理中映射为 NaN 并结合 tested_student_cnt 与业务规则进行处理。
+        </li>
+      </ol>
+      
+      <h3>2.4 字段约束说明</h3>
+      <p>基于 NYSED 官方文档（Business Rules、Glossary）与实测数据分析，assessment 表的主要约束如下：</p>
+      <ol class="features">
+        <li>
+          <strong>非空约束：</strong>核心标识字段（如 REPORT_SCHOOL_YEAR、aggregation_index、SUBGROUP_CODE、tested_student_cnt 等）不允许为空；成绩计数字段（proficient_student_cnt、level1_cnt~level7_cnt）可为数值或 '-'（隐私抑制标记）。
+        </li>
+        <li>
+          <strong>枚举约束：</strong>aggregation_index 仅允许 0-4（对应 Statewide、N/RC、County、District、Public School）；APIB_IND 为 'AP' 或 'IB'；GRADE_LEVEL 为 5 个固定值；SUBGROUP_CODE 为 1-29 间的特定 24 个值。
+        </li>
+        <li>
+          <strong>范围约束：</strong>数值字段存在合理范围，如 tested_student_cnt 实测范围为 [1, 31,488]，aggregation_code 为 [0, 680801040001]。
+        </li>
+        <li>
+          <strong>条件约束：</strong>地理与机构标识字段的缺失与 aggregation_index 层级相关。例如：aggregation_index = 0（全州）时，NRC_CODE、COUNTY_CODE、LEA_BEDS、INST_ID 必须为空；aggregation_index = 4（学校）时，上述字段均需有值。该规则导致结构性缺失，需在预处理中按业务逻辑处理。
+        </li>
+        <li>
+          <strong>隐私保护规则：</strong>当 tested_student_cnt < 5 时，所有成绩计数字段（proficient_student_cnt、level1_cnt~level7_cnt）必须显示为 '-'，以保护学生隐私。这是数据抑制机制，而非数据缺失。
+        </li>
+        <li>
+          <strong>业务逻辑约束：</strong>
+          <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+            <li>AP 评估的达标定义为 Level 3 及以上（即 proficient_student_cnt 应等于 level3_cnt + level4_cnt + level5_cnt），且 AP 记录中 level6_cnt、level7_cnt 应为 0 或 '-'；</li>
+            <li>IB 评估的达标定义为 Level 4 及以上（即 proficient_student_cnt 应等于 level4_cnt + level5_cnt + level6_cnt + level7_cnt）；</li>
+            <li>tested_student_cnt 理论上应等于所有 level1_cnt~level7_cnt 的总和（将 '-' 视为 0 计算）。</li>
+          </ul>
+        </li>
+      </ol>
+      <p>上述约束将在数据准备阶段用于一致性校验与异常检测。</p>
+    </section>
+
+    <section id="exploratory-analysis">
+      <h2>4. 数据探索性分析</h2>
+
+      <h3>4.1 教育公平性探索性分析</h3>
+
+      <h4>4.1.1 分析目标与研究定位</h4>
+      <p>
+        本分析聚焦"教育公平性"这一核心问题，系统揭示不同人群、地区与学校层级在 AP/IB 参与与成绩上的差异。数据覆盖纽约州 2023-2024 学年，包含全州、N/RC、县、学区、学校五个聚合层级，以及 24 个人口统计子组，如性别、族裔、经济状况、语言、残障等。分析不仅关注"谁参与、谁达标"的描述性统计，更关注群体间差距与地区资源配置差异，为后续建模与政策建议提供依据。
+      </p>
+
+      <h4>4.1.2 分析路线</h4>
+
+      <p><strong>1. 指标体系构建</strong></p>
+      <p>指标体系包括</p>
+      <ol class="features">
+        <li>参与面，如 tested_student_cnt、参与占比</li>
+        <li>成果面，如 proficiency_rate、高分率、等级分布</li>
+        <li>公平性面，如群体差值、比率、资源与表现匹配度</li>
+      </ol>
+
+      <p><strong>2. 分层分析与可视化策略</strong></p>
+      <p>
+        从宏观到微观，先看全州总体与 AP/IB 对比，再深入人口分组、地理层级，最后聚焦学科与课程维度。可视化策略上，用面积/条形展示规模，误差线/箱线展示分布，热力/地图呈现地区差异，堆叠/瀑布展示等级结构，点图/象限突出公平性差距。为加速可视化，我们构建了多粒度 DataFrame（州级、N/RC、县、学区、学校），并预计算各粒度下的关键统计量。
+      </p>
+
+      <h4>4.1.3 可视化实现与关键发现</h4>
+      <p>基于上述框架，我们在前端页面 <a href="{{ url_for('research1') }}" class="page-link">research1.html</a> 中实现了 9 个核心图表，每个图表都配有明确的说明文字和结论解读，形成了一套完整的 AP/IB 公平性画像。</p>
+
+      <p><strong>1) 州级总体概览</strong></p>
+      <p>
+        第一张图表"AP vs IB 参与·达标·高分"使用分组条形图，对比 AP 与 IB 在考生人数、达标率、高分率以及抑制记录占比等州级汇总指标。第二张图表"等级堆叠条形"基于 state_level_distribution 聚合结果，将 AP 与 IB 的 Level 1–7 分布绘制为堆叠条形图，用于比较不同成绩等级的占比结构。这两张图表共同构成了州级层面的"参与规模—成绩分布—数据可见性"三维画像，为后续的群体与地区分析提供了基准线。
+      </p>
+
+      <p><strong>2) 人口统计公平性分析</strong></p>
+      <p>
+        第三张图表"人口分组参与 vs 达标"以 demographic_summary 中的各人口分组为观测点，横轴为参与份额、纵轴为达标率，标记大小按测试人数加权，用于刻画不同群体的参与规模与成绩表现。第四张图表"Top/Bottom 差距"基于 demographic_summary 计算各群体相对于整体达标率的差值，选取正向和负向幅度最大的若干群体，以水平条形图展示优势与劣势差距。这两张图表共同揭示了"谁在领跑，谁在掉队"的群体差异格局，经济不困难学生与白人/多种族学生在 AP/IB 中都明显领跑，而 Students with Disabilities 与部分黑人学生的达标率普遍比整体低 28–31 个百分点，是公平性最薄弱的环节。
+      </p>
+
+      <p><strong>3) 地理维度公平性分析</strong></p>
+      <p>
+        第五张图表"N/RC Polar profile"按 Need/Resource Capacity (N/RC) 类型汇总达标率，并通过极坐标散点图展示不同资源环境下 AP 与 IB 的表现差异。第六张图表"Top/Bottom 榜单"根据 county_summary 计算各县的 AP/IB 达标率与样本规模，筛选出州内达标率最高与最低的一组县，以列表形式并排展示。这两张图表共同揭示了"地区与资源"维度的公平性问题：低 N/RC 与 Average Needs 地区的达标率常在 75–81% 区间，而纽约市、大城市与部分特许校往往只有 40–60%；AP/IB 县域 Top 与 Bottom 之间的差距可超过 60 个百分点，说明地理与资源因素对教育机会的影响非常显著。
+      </p>
+
+      <p><strong>4) 学科与资源匹配分析</strong></p>
+      <p>
+        第七张图表"学科表现热力"基于 subject_summary 中"体系 × 学科"的交叉汇总结果构建矩阵，单元格颜色表示对应组合的达标率，用于比较不同学科在 AP 与 IB 体系中的相对表现。第八张图表"资源与表现象限"以 resource_scatter 为基础，将各项目绘制为散点，横轴为达标率、纵轴为高分率，按 Need/Resource 分层（resource_class）着色，并可通过点分布观察资源类型与成绩之间的关系。这两张图表共同揭示了"学科与抑制"维度的发现：AP 在综合/选修类课程表现突出，但 ELA 相对偏弱；IB 第二语言优势明显但科学课程存在短板，说明课程供给与教学支持在不同学科间存在不均衡。
+      </p>
+
+      <p><strong>5) 抑制数据与可见性分析</strong></p>
+      <p>
+        第九张图表"抑制热点列表"统计各群体被抑制记录的条数与占比，按照抑制占比从高到低生成列表，用于识别在公开报表中几乎"不可见"的高风险小样本群体。列表显示，Migrant 学生在多个层级上的相关记录 100% 被抑制；In Foster Care（寄养儿童）群体共有 116 条记录，同样全部被抑制。这张图表揭示了"看不见"的群体问题，提醒我们在数据披露之外，还要设计专门的样本扩充与治理方案，确保最弱势的群体不会因为隐私保护规则而在统计和政策讨论中完全消失。
+      </p>
+
+      <h3>4.2 地理分布与资源配置探索性分析</h3>
+      <p>基于上述研究目标，我们在前端页面 <a href="{{ url_for('research2') }}" class="page-link">research2.html</a> 中实现了 7 个核心可视化分析。</p>
+
+      <h4>4.2.1 问题描述</h4>
+      <p>纽约州各地区 AP/IB 项目覆盖率如何？城市 vs 农村、高 N/RC vs 低 N/RC 学区在课程提供上有何差异？</p>
+
+      <h4>4.2.2 研究目标</h4>
+      <p>
+        面向纽约州 AP/IB 项目，重塑城乡、N/RC 以及 NYC vs 非 NYC 的资源画像，识别高覆盖区与薄弱区，以便在下一轮资源配置中优先补齐"灰度地带"；以"覆盖率 · 参与率 · 达标率"三指标监测区域公平性，建立可解释的资源配置面板。核心目标如下：
+      </p>
+      <ol class="features">
+        <li>地区覆盖率分析：识别 AP/IB 覆盖度较低的县域与学区，为资源倾斜列出优先清单。</li>
+        <li>城乡差异洞察：衡量课程供给、学生参与与达标质量之间的结构性差异。</li>
+        <li>N/RC 信号：将 N/RC 代码映射为"潜在资源缺口"，定位高需求区域。</li>
+      </ol>
+
+      <h4>4.2.3 可视化分析</h4>
+
+      <p><strong>1. 累计分布曲线 · Lorenz</strong></p>
+      <p>
+        以县域学生规模作为"人口"基准，衡量 AP/IB 资源（覆盖度 × 学生规模）的集中程度，检验资源公平性。
+      </p>
+      <p><strong>数据来源：</strong>cleaned_data/county_coverage.json</p>
+      <p><strong>指标：</strong>Gini 系数（曲线越靠近对角线表示越均衡）</p>
+      <p><strong>关键洞察：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>资源集中度：Lorenz 曲线偏离对角线，表明 AP/IB 资源在全州范围内分布不均，存在明显的资源集中现象。</li>
+        <li>Gini 系数解读：若 Gini 系数 > 0.4，说明资源分配存在较大不平等，少数县域占据了大部分 AP/IB 资源。</li>
+        <li>公平性警示：曲线下凸程度反映了"马太效应"——资源丰富的地区持续获得更多资源，而资源稀缺地区难以追赶。</li>
+        <li>政策建议：需要针对资源集中度高的区域进行资源再分配，确保教育公平。</li>
+      </ul>
+
+      <p><strong>2. NYC vs 非 NYC · 资源构成</strong></p>
+      <p>
+        用圆环图观察纽约市与其他地区在"学生规模、课程供给、覆盖权重"三项指标上的占比，辅助判断是否需要进一步分流资源。
+      </p>
+      <p><strong>数据来源：</strong>cleaned_data/county_coverage.json（以县级聚合 NYC 指标）</p>
+      <p><strong>可切换指标：</strong>学生规模、课程供给、覆盖权重（覆盖度得分 × 参与规模）</p>
+      <p><strong>关键洞察：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>资源集中度：NYC 在课程供给和覆盖权重上的占比通常显著高于其在学生规模上的占比，表明大都市地区获得了不成比例的资源倾斜。</li>
+        <li>分流必要性：若 NYC 的覆盖权重占比超过学生规模占比 15 个百分点以上，说明存在资源过度集中，需要向非 NYC 地区分流。</li>
+        <li>效率差异：非 NYC 地区虽然资源占比相对较低，但在参与率和达标率上可能表现更优，提示资源使用效率存在区域差异。</li>
+        <li>平衡策略：建议在保持 NYC 资源充足的同时，加大对非 NYC 地区的资源投入，实现全州范围内的资源均衡配置。</li>
+      </ul>
+
+      <p><strong>3. 城乡与 N/RC · 多维对比</strong></p>
+      <p>
+        针对 2023-24 学年（SUBGROUP = All Students），聚焦覆盖率、参与率、达标率的三维堆叠条形图。
+      </p>
+      <p><strong>关键洞察：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>低 N/RC 区域覆盖与参与均高于高 N/RC（92% vs 83%，57% vs 43%），达标率差距最大（74% vs 57%）。</li>
+        <li>NYC 课程供给最集中（56% 覆盖率），但非 NYC 在参与与达标上分别高出 13～15 个百分点。</li>
+        <li>农村区域参与规模较小（34%），达标率却达到 76%，呈现"量少但质优"。</li>
+      </ul>
+
+      <p><strong>4. 资源-成绩双轴散点图</strong></p>
+      <p>
+        以 county 维度的覆盖指数为排序基准，左轴跟踪 AP/IB 课程供给强度，右轴同步展示考试达标率，快速识别"资源-成效"错位区域。
+      </p>
+      <p><strong>数据来源：</strong>cleaned_data/resource_outcome_scatter.json</p>
+      <p><strong>资源覆盖指数：</strong>（测试规模 z-score + 课程多样性 z-score）/ 2，经 0-100 归一化</p>
+      <p><strong>关键洞察：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>Nassau / Suffolk / Westchester 资源指数 ≥80，达标率稳定在 75% 附近，边际收益开始递减。</li>
+        <li>Onondaga、Tompkins、Saratoga 等上州县资源指数仅 15-25，却能把达标率抬到 79%-83%，说明"以质取胜"的样板区。</li>
+        <li>Queens 与 Bronx 坐标位于右侧但低 Y 值（53%-54%），揭示资源投入未能等比例转化为成绩的都市区短板。</li>
+      </ul>
+
+      <p><strong>5. 纽约州 AP/IB 地理覆盖率</strong></p>
+      <p>
+        县级热力图联合课程供给与测试参与，颜色越深代表覆盖度越高。
+      </p>
+      <p><strong>数据来源：</strong>cleaned_data/county_coverage.json & ny-counties.geojson</p>
+      <p><strong>交互功能：</strong>鼠标悬停显示测试人数与课程数量</p>
+      <p><strong>关键洞察：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>空间聚集模式：长岛地区（Nassau、Suffolk）、威彻斯特县（Westchester）以及纽约市五区呈现深色高覆盖，形成明显的"资源高地"。</li>
+        <li>覆盖盲区识别：上州北部和中部部分县域颜色较浅，覆盖度指数低于 30，属于资源薄弱区域，需要优先配置资源。</li>
+        <li>地理梯度：从 NYC 向外辐射，覆盖度呈现明显的距离衰减效应，距离大都市越远，资源覆盖越稀疏。</li>
+        <li>区域差异：同一地理区域内，相邻县域的覆盖度可能存在显著差异，说明资源配置不仅受地理位置影响，还与地方教育政策、经济水平等因素相关。</li>
+        <li>干预优先级：浅色区域（覆盖度 < 40）应列为下一轮资源配置的优先干预目标，确保全州范围内的基本覆盖。</li>
+      </ul>
+
+      <p><strong>6. 多层级资源分布树形图</strong></p>
+      <p>
+        展示全州 → N/RC → 县的层级结构，矩形大小表示学生数量，颜色深度表示达标率。
+      </p>
+      <p><strong>数据来源：</strong>cleaned_data/treemap_data.json</p>
+      <p><strong>图例说明：</strong>颜色表示达标率（浅=低，深=高）、矩形大小表示学生数量</p>
+      <p><strong>交互功能：</strong>点击矩形可查看详细信息</p>
+      <p><strong>关键洞察：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>层级结构特征：高 N/RC 层级的矩形通常较大但颜色较浅，表明学生规模大但达标率低，存在"量大质低"的结构性问题。</li>
+        <li>规模-质量关系：部分低 N/RC 区域虽然矩形较小（学生数量少），但颜色较深（达标率高），呈现"小而精"的成功模式。</li>
+        <li>资源错位识别：大矩形配浅色（大规模低达标）的区域是资源配置的重点关注对象，需要深入分析达标率低的原因。</li>
+        <li>成功案例挖掘：小矩形配深色（小规模高达标）的区域可作为最佳实践案例，分析其成功经验并推广到其他地区。</li>
+        <li>信号验证：树形图直观验证了 N/RC 代码作为资源需求信号的准确性，高 N/RC 区域确实在达标率上表现较差。</li>
+        <li>资源配置优先级：优先向"大规模低达标"区域倾斜资源，同时学习"小规模高达标"区域的经验，实现资源优化配置。</li>
+      </ul>
+
+      <p><strong>7. 结论与建议</strong></p>
+      <p>
+        通过地理分布与资源配置的多维度分析，我们能够：
+      </p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>识别资源缺口：准确定位覆盖度较低的县域与学区</li>
+        <li>理解区域差异：深入分析城乡、NYC/非NYC、高/低N/RC之间的结构性差异</li>
+        <li>优化资源配置：为下一轮资源配置提供数据驱动的决策依据</li>
+      </ul>
+
+      <h3>4.3 成绩预测与影响因素探索性分析</h3>
+      <p>本分析在前端页面 <a href="{{ url_for('research') }}" class="page-link">research3.html</a> 中通过 11 张核心图表系统性地揭示了影响 AP/IB 考试达标率的关键因素。</p>
+
+      <h4>4.3.1 研究目标</h4>
+      <p>识别并量化影响 AP/IB 考试达标率的关键因素:</p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>特征重要性排序：确定哪些特征对达标率影响最大</li>
+        <li>特征与目标变量的关系强度：量化特征与达标率的相关性</li>
+        <li>特征工程方向：指导特征选择、编码和构造策略</li>
+        <li>数据质量评估：识别数据抑制模式，评估数据可用性</li>
+      </ul>
+
+      <h4>4.3.2 数据准备</h4>
+
+      <p><strong>1. 数据源</strong></p>
+      <p><strong>主数据：</strong>学校级评估数据（aggregation_index=4）</p>
+      <p><strong>辅助数据：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>层级关系表：1,004 条记录（学校-学区-县-州层级映射）</li>
+        <li>学区级数据：168,111 条记录（用于创建聚合特征）</li>
+      </ul>
+
+      <h4>4.3.3 探索性分析结果</h4>
+      <p>本报告通过对教育评估数据的可视化分析，生成 11 张核心图表，系统性地揭示了学生达标表现的关键模式与影响因素。</p>
+
+      <p>
+        图表 1 通过密度分布图对比了 AP 与 IB 课程的达标率分布。数据显示，IB 课程的整体表现（均值 71.34%，中位数 80%）略优于 AP 课程（均值 68.32%，中位数 75%），且分布更为集中（标准差 25.46% vs 27.36%）。两个分布均呈现左偏形态，表明大部分学校的达标率处于较高水平，建议在后续建模中考虑数据变换。
+      </p>
+
+      <p>
+        图表 2 以热力图展示了数据抑制率最高的 30 个子组。结果表明，抑制率高的子组通常样本量较小，尤其在某些特定群体（如语言学习者）中数据可用性较低，提示在建模时需采取数据聚合或更先进的缺失值处理技术。
+      </p>
+
+      <p>
+        图表 3 采用分组条形图呈现了不同人口统计分组与"全体学生"基准的达标率差距。经济状况是极强的预测因子，弱势与非弱势经济背景学生之间存在约 19 个百分点的显著差距。种族/族裔间差距可达 30-35 个百分点，而残疾学生的达标率（45.84%）远低于普通教育学生（71.31%），差距达 25 个百分点。这些模式在 AP 和 IB 体系中基本一致。
+      </p>
+
+      <p>
+        图表 4 利用雷达图综合比较了不同学生特征类别的重要性（计算方式为绝对差距乘以样本量的平方根）。分析显示，经济状况和种族/族裔是重要性最高的特征类别，而 AP 与 IB 体系对各类特征的敏感度可能存在差异。图表 5 通过散点图探讨了需求资源代码（N/RC）与达标率的关系，发现两者存在正相关趋势。但同一 N/RC 等级下各县的差异较大，说明除资源外还有其他重要影响因素，N/RC 应作为重要特征纳入模型。
+      </p>
+
+      <p>
+        图表 6 对比了纽约市与非纽约市地区的表现，并细化了 N/RC 等级。结果显示 NYC_IND 是一个重要的地区特征，其效应可能与资源背景存在交互作用。图表 7 的资源-结果象限图将学校划分为四个象限，直观识别出"高资源高表现"的理想案例和"高资源低表现"的异常案例，揭示了资源与表现之间非简单的线性关系。
+      </p>
+
+      <p>
+        图表 8 显示不同学科的达标率存在明显差异，且 AP 与 IB 在同一学科中的表现也可能不同，证实学科是重要的预测特征。图表 9 和 10 进一步通过相关性分析和特征重要性排序（如树状图）确认，学科特征（如 SUBJECT_AREA）和地区特征（如 COUNTY_NAME）是预测能力最强的变量。
+      </p>
+
+      <p>
+        最后，图表 11 通过环形图总结了各特征组的整体重要性。学科特征以约 42.2% 的占比居首，地区特征占比约 34.4% 次之，学生特征虽平均重要性较低，但其中如经济状况个别特征影响巨大。资源特征（N/RC_CODE）重要性相对较低，但仍具参考价值。综合分析强烈建议在特征工程中优先关注学科和地区特征。
+      </p>
+
+      <h4>4.3.4 关键发现总结</h4>
+
+      <p><strong>学生特征（人口统计因素）</strong></p>
+      <p><strong>关键发现：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>经济状况是强预测因子，经济困难组与不困难组的差距约 19 个百分点</li>
+        <li>种族/族裔是强预测因子，Black 组与 Asian 组的差距约 32 个百分点</li>
+        <li>残疾状态显著影响达标率，残疾学生与普通教育学生的差距约 25 个百分点</li>
+      </ul>
+
+      <p><strong>地区特征（地理因素）</strong></p>
+      <p><strong>关键发现：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>县名称（COUNTY_NAME）是重要的地区特征，最大重要性 29.10</li>
+        <li>NYC 标识（NYC_IND）是重要的地区特征，NYC 和非 NYC 的达标率可能存在差异</li>
+        <li>地区特征的平均重要性 14.73，是第二重要的特征组</li>
+      </ul>
+
+      <p><strong>资源特征（学校资源）</strong></p>
+      <p><strong>关键发现：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>N/RC 代码与达标率可能存在正相关关系</li>
+        <li>资源特征的平均重要性较低（0.39），但仍然是有用的特征</li>
+        <li>资源与表现的关系不是简单的线性关系，存在异常案例</li>
+      </ul>
+
+      <p><strong>学科特征（学科差异）</strong></p>
+      <p><strong>关键发现：</strong></p>
+      <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+        <li>学科特征平均重要性最高（18.07），是强预测因子</li>
+        <li>学科领域（SUBJECT_AREA）最大重要性 43.30，是最重要的单个特征</li>
+        <li>AP/IB 标识（APIB_IND）也是重要的特征，AP 和 IB 的表现不同</li>
+      </ul>
+    </section>
+
+    <section id="choropleth" class="chart-card">
+      <div class="nyc-choropleth-card" id="nycChoropleth">
+        <div class="nyc-map-controls" aria-label="筛选条件">
+          <div class="nyc-map-filter-grid">
+            <label>
+              项目类型
+              <select id="nycProgramFilter">
+                <option value="All">全部</option>
+              </select>
+            </label>
+            <label>
+              科目领域
+              <select id="nycSubjectFilter">
+                <option value="All">全部</option>
+              </select>
+            </label>
+            <label>
+              学生群体
+              <select id="nycSubgroupFilter">
+                <option value="All">全部</option>
+              </select>
+            </label>
+            <label>
+              年级
+              <select id="nycGradeFilter">
+                <option value="All">全部</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="nyc-map-shell" id="nycMap" aria-live="polite">
+          <svg id="nycMapSvg" role="img" aria-label="New York county choropleth preview"></svg>
+          <div id="nycMapTooltip" class="nyc-tooltip" hidden></div>
+          <div class="nyc-zoom-controls" role="group" aria-label="地图缩放">
+            <button id="nycZoomIn" type="button" aria-label="放大地图">+</button>
+            <button id="nycZoomOut" type="button" aria-label="缩小地图">−</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="prediction" class="chart-card">
+      <style>
+        /* 页面链接样式 - 让HTML链接更突出 */
+        .page-link {
+          background: linear-gradient(135deg, #58a6ff 0%, #3b82f6 100%);
+          color: #ffffff !important;
+          padding: 0.5rem 1rem;
+          border-radius: 0.5rem;
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 0.95rem;
+          border: 2px solid rgba(88, 166, 255, 0.3);
+          box-shadow: 0 4px 12px rgba(88, 166, 255, 0.25);
+          transition: all 0.3s ease;
+          display: inline-block;
+          margin: 0 0.25rem;
+        }
+
+        .page-link:hover {
+          background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 20px rgba(88, 166, 255, 0.4);
+          text-decoration: none;
+          color: #ffffff !important;
+        }
+
+        .page-link:active {
+          transform: translateY(0);
+          box-shadow: 0 2px 8px rgba(88, 166, 255, 0.3);
+        }
+
+        @keyframes slideIn {
+          from {
+            transform: translateX(100%);
+            opacity: 0;
+          }
+          to {
+            transform: translateX(0);
+            opacity: 1;
+          }
+        }
+        
+        @keyframes slideOut {
+          from {
+            transform: translateX(0);
+            opacity: 1;
+          }
+          to {
+            transform: translateX(100%);
+            opacity: 0;
+          }
+        }
+        
+        #prediction {
+          margin-top: 3rem;
+        }
+        #prediction .form-panel,
+        #prediction .result-panel {
+          background: var(--card);
+          border: 1px solid var(--border);
+          border-radius: 0.75rem;
+          padding: 2rem;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        #prediction label {
+          display: block;
+          margin-bottom: 0.5rem;
+          color: var(--text);
+          font-weight: 600;
+          font-size: 0.9rem;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+        }
+        #prediction input[type="number"],
+        #prediction select {
+          width: 100%;
+          padding: 0.65rem 0.9rem;
+          border: 1px solid var(--border);
+          border-radius: 0.6rem;
+          background: rgba(255, 255, 255, 0.08);
+          color: var(--text);
+          font-size: 0.95rem;
+          font-family: inherit;
+          transition: border-color 0.2s ease, background 0.2s ease;
+        }
+        #prediction input[type="number"]:focus,
+        #prediction select:focus {
+          outline: none;
+          border-color: var(--accent);
+          background: rgba(255, 255, 255, 0.12);
+        }
+        #prediction select option {
+          background: var(--card);
+          color: var(--text);
+        }
+        #prediction h3 {
+          color: var(--text);
+          text-transform: uppercase;
+          letter-spacing: 0.08em;
+          font-size: 1rem;
+          margin-top: 0;
+          margin-bottom: 1.5rem;
+        }
+        #predictionResult {
+          color: var(--text);
+        }
+        #predictionResult p {
+          color: var(--text-muted);
+        }
+        #prediction .prediction-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 2rem;
+          margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+          #prediction .prediction-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+      </style>
+      
+      <div class="section-heading">
+        <h2>AP/IB 达标率预测</h2>
+        <p>使用最佳模型（MLP Classifier，AUC=0.956）预测学生群体的 AP/IB 是否达标</p>
+      </div>
+      
+      <div class="prediction-grid">
+        <div class="form-panel">
+          <h3>输入特征</h3>
+          <form id="predictionForm" style="display: grid; gap: 1.25rem;">
+            <div>
+              <label for="aggregation_index">聚合索引 (0-4)</label>
+              <input type="number" id="aggregation_index" name="aggregation_index" min="0" max="4" value="4" required>
+            </div>
+            
+            <div>
+              <label for="aggregation_type">聚合类型</label>
+              <select id="aggregation_type" name="aggregation_type" required>
+                <option value="Public School">Public School</option>
+                <option value="District">District</option>
+                <option value="County">County</option>
+                <option value="Statewide">Statewide</option>
+              </select>
+            </div>
+            
+            <div>
+              <label for="NRC_CODE">N/RC 代码 (1-7)</label>
+              <input type="number" id="NRC_CODE" name="NRC_CODE" min="1" max="7" value="3" required>
+            </div>
+            
+            <div>
+              <label for="COUNTY_CODE">县代码</label>
+              <input type="number" id="COUNTY_CODE" name="COUNTY_CODE" min="1" max="70" value="1" required>
+            </div>
+            
+            <div>
+              <label for="NYC_IND">NYC 指标</label>
+              <select id="NYC_IND" name="NYC_IND" required>
+                <option value="0">0 - 非 NYC</option>
+                <option value="1">1 - NYC</option>
+              </select>
+            </div>
+            
+            <div>
+              <label for="tested_student_cnt">测试学生数</label>
+              <input type="number" id="tested_student_cnt" name="tested_student_cnt" min="10" value="30" required>
+            </div>
+            
+            <div>
+              <label for="SUBGROUP_NAME">学生群体</label>
+              <select id="SUBGROUP_NAME" name="SUBGROUP_NAME" required>
+                <option value="All Students">All Students</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Nonbinary">Nonbinary</option>
+                <option value="Economically Disadvantaged">Economically Disadvantaged</option>
+                <option value="Not Economically Disadvantaged">Not Economically Disadvantaged</option>
+                <option value="Students with Disabilities">Students with Disabilities</option>
+                <option value="General Education Students">General Education Students</option>
+                <option value="English Language Learner">English Language Learner</option>
+                <option value="Not English Language Learner">Not English Language Learner</option>
+                <option value="Black">Black</option>
+                <option value="Hispanic">Hispanic</option>
+                <option value="White">White</option>
+                <option value="Asian/Pacific Islander">Asian/Pacific Islander</option>
+                <option value="American Indian/Alaska Native">American Indian/Alaska Native</option>
+                <option value="Multiracial">Multiracial</option>
+                <option value="Homeless">Homeless</option>
+                <option value="Not Homeless">Not Homeless</option>
+                <option value="Migrant">Migrant</option>
+                <option value="Not Migrant">Not Migrant</option>
+                <option value="In Foster Care">In Foster Care</option>
+                <option value="Not in Foster Care">Not in Foster Care</option>
+                <option value="Parent in Armed Forces">Parent in Armed Forces</option>
+                <option value="Parent Not in Armed Forces">Parent Not in Armed Forces</option>
+              </select>
+            </div>
+            
+            <div>
+              <label for="APIB_IND">项目类型</label>
+              <select id="APIB_IND" name="APIB_IND" required>
+                <option value="AP">AP</option>
+                <option value="IB">IB</option>
+              </select>
+            </div>
+            
+            <div>
+              <label for="SUBJECT_AREA">科目领域</label>
+              <select id="SUBJECT_AREA" name="SUBJECT_AREA" required>
+                <option value="ELA">ELA</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Science">Science</option>
+                <option value="Social Studies">Social Studies</option>
+                <option value="Computer Sciences">Computer Sciences</option>
+                <option value="Second Languages">Second Languages</option>
+                <option value="Fine and Performing Arts">Fine and Performing Arts</option>
+                <option value="Business and Marketing">Business and Marketing</option>
+                <option value="Global Studies">Global Studies</option>
+                <option value="Religious Education">Religious Education</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            
+            <div>
+              <label for="GRADE_LEVEL">年级</label>
+              <select id="GRADE_LEVEL" name="GRADE_LEVEL" required>
+                <option value="9th Grade">9th Grade</option>
+                <option value="10th Grade">10th Grade</option>
+                <option value="11th Grade">11th Grade</option>
+                <option value="12th Grade">12th Grade</option>
+                <option value="Not HS">Not HS</option>
+              </select>
+            </div>
+            
+            <button type="submit" class="btn primary" style="margin-top: 0.5rem;">预测达标率</button>
+          </form>
+        </div>
+        
+        <div class="result-panel">
+          <h3>预测结果</h3>
+          <div id="predictionResult" style="min-height: 200px;">
+            <p>填写表单并提交以查看预测结果</p>
+          </div>
+          <div id="predictionChart" style="margin-top: 2rem; min-height: 300px;"></div>
+          <div id="nyStateMap" style="margin-top: 2rem; min-height: 400px; border-radius: 0.75rem; overflow: hidden; background: var(--card, #131a24); border: 1px solid var(--border, rgba(255, 255, 255, 0.08));">
+            <div style="padding: 1rem; border-bottom: 1px solid var(--border, rgba(255, 255, 255, 0.08)); display: flex; justify-content: space-between; align-items: center;">
+              <h4 style="margin: 0; color: var(--text, #f5f7fb); font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em;">纽约州各县分布</h4>
+              <p style="margin: 0; color: var(--text-muted, #8da0c5); font-size: 0.85rem; font-style: italic;">点击地图上的县可自动填充县代码</p>
+            </div>
+            <svg id="nyStateMapSvg" style="width: 100%; height: 400px;"></svg>
+            <div id="nyStateMapTooltip" class="nyc-tooltip" hidden></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper footer__inner">
+      <p>由 HTML、CSS 与 JavaScript 构建。</p>
+      <p>Chronicle Desk · 2025</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/prediction.js') }}"></script>
+</body>
+</html>

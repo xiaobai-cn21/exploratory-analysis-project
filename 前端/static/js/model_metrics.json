@@ -1,0 +1,45 @@
+{
+  "models": [
+    {
+      "name": "RandomForest",
+      "mse": 0.0339,
+      "rmse": 0.1840,
+      "mae": 0.1404,
+      "r2": 0.5960
+    },
+    {
+      "name": "XGBoost",
+      "mse": 0.0355,
+      "rmse": 0.1883,
+      "mae": 0.1483,
+      "r2": 0.5768
+    },
+    {
+      "name": "Ridge",
+      "mse": 0.0466,
+      "rmse": 0.2159,
+      "mae": 0.1715,
+      "r2": 0.4437
+    },
+    {
+      "name": "LinearRegression",
+      "mse": 0.0466,
+      "rmse": 0.2160,
+      "mae": 0.1714,
+      "r2": 0.4436
+    },
+    {
+      "name": "Lasso",
+      "mse": 0.0553,
+      "rmse": 0.2352,
+      "mae": 0.1919,
+      "r2": 0.3399
+    }
+  ],
+  "best_model": "RandomForest",
+  "data_info": {
+    "total_samples": 79884,
+    "train_samples": 63907,
+    "test_samples": 15977
+  }
+}

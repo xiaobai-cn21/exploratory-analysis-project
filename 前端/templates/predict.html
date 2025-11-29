@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP/IB 达标率预测助手</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/midnight-styles.css">
+  <link rel="stylesheet" href="css/ny-student-test.css">
+</head>
+<body class="ny-site">
+  <header class="hero">
+    <div class="wrapper hero__inner">
+      <nav class="hero__nav">
+        <a class="logo" href="./research1.html">GTD Heritage</a>
+        <div class="hero__links">
+          <a class="btn ghost" href="./">回首页</a>
+          <a class="btn ghost" href="./schools.html">学校查询</a>
+        </div>
+      </nav>
+      <div class="hero__content">
+        <p class="eyebrow">Prediction lab</p>
+        <h1>AP / IB 达标率预测助手</h1>
+        <p class="lede">
+          选择学校层子群体特征，实时调用 logistic regression 模型，
+          预估该组合学生是否可能达到州标准（AP≥3 / IB≥4）。
+        </p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#predict-form">开始预测</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="panel" id="predict-form">
+      <header class="section-heading">
+        <p class="eyebrow">Input deck</p>
+        <h2>填写特征</h2>
+        <p>所有字段均来自学校层评估数据，可根据需要选择或输入。</p>
+      </header>
+
+      <form class="form-grid" id="predictionForm">
+        <div class="form-group">
+          <label for="aggregation_index">Aggregation Index (0=Statewide, 4=School)</label>
+          <input type="number" id="aggregation_index" name="aggregation_index" min="0" max="4" step="1" required value="4">
+        </div>
+
+        <div class="form-group">
+          <label for="aggregation_type">Aggregation Type</label>
+          <select id="aggregation_type" name="aggregation_type" required>
+            <option value="Public School">Public School</option>
+            <option value="District">District</option>
+            <option value="County">County</option>
+            <option value="Statewide">Statewide</option>
+            <option value="BOCES">BOCES</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="NRC_CODE">N/RC Code (1-7)</label>
+          <input type="number" id="NRC_CODE" name="NRC_CODE" min="0" max="7" step="1" required value="3">
+        </div>
+
+        <div class="form-group">
+          <label for="COUNTY_CODE">County Code</label>
+          <input type="number" id="COUNTY_CODE" name="COUNTY_CODE" min="1" max="70" step="1" required value="1">
+        </div>
+
+        <div class="form-group">
+          <label for="NYC_IND">NYC Indicator (1=NYC,0=其他)</label>
+          <select id="NYC_IND" name="NYC_IND" required>
+            <option value="0">0 · 非 NYC</option>
+            <option value="1">1 · NYC</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="tested_student_cnt">测试人数</label>
+          <input type="number" id="tested_student_cnt" name="tested_student_cnt" min="5" max="500" step="1" required value="30">
+        </div>
+
+        <div class="form-group">
+          <label for="SUBGROUP_NAME">学生群体</label>
+          <select id="SUBGROUP_NAME" name="SUBGROUP_NAME" required>
+            <option value="All Students">All Students</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Nonbinary">Nonbinary</option>
+            <option value="Economically Disadvantaged Students">Economically Disadvantaged Students</option>
+            <option value="Not Economically Disadvantaged">Not Economically Disadvantaged</option>
+            <option value="Students with Disabilities">Students with Disabilities</option>
+            <option value="English Language Learner">English Language Learner</option>
+            <option value="Black or African American">Black or African American</option>
+            <option value="Hispanic or Latino">Hispanic or Latino</option>
+            <option value="White">White</option>
+            <option value="Asian or Native Hawaiian/Other Pacific Islander">Asian or Native Hawaiian/Other Pacific Islander</option>
+            <option value="Multiracial">Multiracial</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="APIB_IND">项目类型</label>
+          <select id="APIB_IND" name="APIB_IND" required>
+            <option value="AP">AP</option>
+            <option value="IB">IB</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="SUBJECT_AREA">科目领域</label>
+          <select id="SUBJECT_AREA" name="SUBJECT_AREA" required>
+            <option value="Math">Math</option>
+            <option value="Science">Science</option>
+            <option value="ELA">ELA</option>
+            <option value="Social Studies">Social Studies</option>
+            <option value="Computer Sciences">Computer Sciences</option>
+            <option value="World Languages">World Languages</option>
+            <option value="Arts">Arts</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="GRADE_LEVEL">年级</label>
+          <select id="GRADE_LEVEL" name="GRADE_LEVEL" required>
+            <option value="9th Grade">9th Grade</option>
+            <option value="10th Grade">10th Grade</option>
+            <option value="11th Grade">11th Grade</option>
+            <option value="12th Grade">12th Grade</option>
+            <option value="Not HS">Not HS</option>
+          </select>
+        </div>
+
+        <div class="form-group full-width">
+          <button type="submit" class="btn primary">预测</button>
+          <button type="reset" class="btn ghost" id="resetBtn">清空</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel" id="predict-result">
+      <header class="section-heading">
+        <p class="eyebrow">Result</p>
+        <h2>预测结果</h2>
+      </header>
+      <div class="result-card" id="resultCard">
+        <p>提交表单后将显示预测概率与判定结果。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper footer__inner">
+      <p>Built with GTD Midnight Series · Powered by logistic regression</p>
+      <p>Last refresh: November 2025</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/predict.js"></script>
+</body>
+</html>
+

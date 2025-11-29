@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地理分布与资源配置 | 纽约州 AP/IB 数据分析项目</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/selectize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/midnight-styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ny-student-test.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/research2.css') }}">
+</head>
+<body class="ny-site">
+    <header class="hero" id="top">
+        <div class="wrapper hero__inner">
+            <div class="hero__nav" data-nav>
+                <a class="logo" href="{{ url_for('index') }}">
+                    <span aria-hidden="true">🗽</span>
+                    <span>NY 教育数据分析</span>
+                </a>
+                <div class="hero__links">
+                    <a class="btn ghost" href="{{ url_for('research') }}">Research 01</a>
+                    <a class="btn ghost" href="{{ url_for('schools') }}">Schools Explorer</a>
+                    <a class="btn ghost" href="{{ url_for('equity') }}">Equity Deck</a>
+                </div>
+            </div>
+            <div class="hero__content">
+                <p class="research-badge">Research 02 · Geographic Distribution</p>
+                <h1>地理分布与资源配置</h1>
+                <p class="lede">
+                    面向纽约州 AP/IB 项目，重塑城乡、N/RC 以及 NYC vs 非 NYC 的资源画像，识别高覆盖区与薄弱区，
+                    以便在下一轮资源配置中优先补齐“灰度地带”。
+                </p>
+                <div class="hero__actions">
+                    <a class="btn primary" href="#regional-insights" data-scroll>查看城乡 / N/RC 对比</a>
+                    <a class="btn secondary" href="#coverage-map" data-scroll>跳至地理热力图</a>
+                    <a class="btn link" href="{{ url_for('index') }}">← 返回首页</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <section class="section-block" data-animate>
+            <div class="section-heading">
+                <h2>研究目标</h2>
+                <p>以“覆盖率 · 参与率 · 达标率”三指标监测区域公平性，建立可解释的资源配置面板。</p>
+            </div>
+            <div class="stats-grid goal-grid">
+                <article class="stat-card goal-card">
+                    <div class="goal-icon" aria-hidden="true">🗺️</div>
+                    <div class="stat-label">地区覆盖率分析</div>
+                    <div class="stat-value">County / District</div>
+                    <p class="stat-footnote">识别 AP/IB 覆盖度较低的县域与学区，为资源倾斜列出优先清单。</p>
+                </article>
+                <article class="stat-card goal-card">
+                    <div class="goal-icon" aria-hidden="true">🏙️</div>
+                    <div class="stat-label">城乡差异洞察</div>
+                    <div class="stat-value">Urban vs Rural</div>
+                    <p class="stat-footnote">衡量课程供给、学生参与与达标质量之间的结构性差异。</p>
+                </article>
+                <article class="stat-card goal-card">
+                    <div class="goal-icon" aria-hidden="true">📈</div>
+                    <div class="stat-label">N/RC 信号</div>
+                    <div class="stat-value">Needs Resource Capacity</div>
+                    <p class="stat-footnote">将 N/RC 代码映射为“潜在资源缺口”，定位高需求区域。</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-block" data-animate>
+            <div class="section-heading">
+                <h2>分析方法</h2>
+                <p>融合空间与结构化分析，确保宏观趋势与微观案例都被看见。</p>
+            </div>
+            <div class="split-layout">
+                <article class="table-card">
+                    <h3>1. 地理空间分析</h3>
+                    <ul>
+                        <li>县级热力图：覆盖度指数 = 课程供给 × 参与规模</li>
+                        <li>学区分布：对比资源集中与稀缺区域</li>
+                        <li>空间聚类：捕捉 AP/IB 项目聚集带</li>
+                    </ul>
+                </article>
+                <article class="table-card">
+                    <h3>2. 对比分析</h3>
+                    <ul>
+                        <li>城市 vs 农村：课程、参与、成绩的组合差异</li>
+                        <li>NYC vs 非 NYC：大都市与全州平均的距离</li>
+                        <li>高 N/RC vs 低 N/RC：资源与成果的错位</li>
+                    </ul>
+                </article>
+                <article class="table-card">
+                    <h3>3. 多层级分析</h3>
+                    <ul>
+                        <li>州级：整体资源覆盖与缺口提示</li>
+                        <li>县级：优先干预清单，配合地图直观呈现</li>
+                        <li>学区 / 学校级：锁定具体改进案例</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-block" data-animate>
+            <div class="section-heading">
+                <h2>关键数据字段</h2>
+                <p>联合 cleaned_data 中的地理标识、资源能力与学生行为数据，构建指标矩阵。</p>
+            </div>
+            <div class="split-layout">
+                <article class="table-card">
+                    <h3>地理标识</h3>
+                    <ul>
+                        <li><code>COUNTY_CODE</code>：县代码</li>
+                        <li><code>COUNTY_NAME</code>：县名称</li>
+                        <li><code>NYC_IND</code>：是否 NYC（0/1）</li>
+                        <li><code>aggregation_type</code>：县 / 学区 / 学校</li>
+                    </ul>
+                </article>
+                <article class="table-card">
+                    <h3>资源配置指标</h3>
+                    <ul>
+                        <li><code>NRC_CODE</code> / <code>NRC_DESC</code>：需求资源等级</li>
+                        <li><code>COURSE_ID</code>：AP/IB 课程数量</li>
+                        <li>覆盖度指数：课程供给 × 参与规模归一化</li>
+                    </ul>
+                </article>
+                <article class="table-card">
+                    <h3>参与与成效</h3>
+                    <ul>
+                        <li><code>STUDENT_COUNT</code>：注册学生</li>
+                        <li><code>TESTED_STUDENT_CNT</code>：考试参与</li>
+                        <li>参与率 = 注册 / 全体学生</li>
+                        <li>达标率：考试达标 / 已测试</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-block" data-animate>
+            <div class="section-heading">
+                <h2>预期发现</h2>
+                <p>基于样本数据形成的假设，后续将用可视化结果验证或修正。</p>
+            </div>
+            <div class="highlights">
+                <article class="highlight-card">
+                    <h3>🔍 假设 01</h3>
+                    <p class="highlight-value">NYC > Others</p>
+                    <p class="highlight-change">纽约市覆盖率显著高于其他地区，但参与率增益有限。</p>
+                </article>
+                <article class="highlight-card">
+                    <h3>🔍 假设 02</h3>
+                    <p class="highlight-value">N/RC 信号</p>
+                    <p class="highlight-change">高 N/RC 区域的课程供给与参与率存在双重缺口。</p>
+                </article>
+                <article class="highlight-card">
+                    <h3>🔍 假设 03</h3>
+                    <p class="highlight-value">Rural Quality</p>
+                    <p class="highlight-change">农村区域覆盖度较低，但达标率或优于城市。</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-block" id="lorenz-curve" data-animate>
+            <div class="section-heading">
+                <h2>累计分布曲线 · Lorenz</h2>
+                <p>以县域学生规模作为“人口”基准，衡量 AP/IB 资源（覆盖度 × 学生规模）的集中程度，检验资源公平性。</p>
+            </div>
+            <div class="plot-card">
+                <div class="plot-card__meta">
+                    <h3>资源集中度 Lorenz 曲线</h3>
+                    <p class="plot-note">数据来源：cleaned_data/county_coverage.json</p>
+                </div>
+                <div id="lorenz-curve-chart" class="line-chart" role="img" aria-label="Lorenz 曲线" style="width: 100%; height: 420px;"></div>
+                <p class="chart-note">曲线越靠近对角线表示越均衡；当前 Gini 系数约 <span data-lorenz-gini>--</span>。</p>
+            </div>
+        </section>
+
+        <section class="section-block" id="nyc-donut" data-animate>
+            <div class="section-heading">
+                <h2>NYC vs 非 NYC · 资源构成</h2>
+                <p>用圆环图观察纽约市与其他地区在“学生规模、课程供给、覆盖权重”三项指标上的占比，辅助判断是否需要进一步分流资源。</p>
+            </div>
+            <div class="plot-card">
+                <div class="plot-card__meta">
+                    <h3>Metropolitan Share Donut</h3>
+                    <p class="plot-note">数据来源：cleaned_data/county_coverage.json（以县级聚合 NYC 指标）</p>
+                </div>
+                <div class="chart-pills" data-nyc-metric role="tablist" aria-label="NYC 指标切换">
+                    <button type="button" class="pill is-active" data-metric="tested" role="tab" aria-selected="true">学生规模</button>
+                    <button type="button" class="pill" data-metric="course_count" role="tab" aria-selected="false">课程供给</button>
+                    <button type="button" class="pill" data-metric="coverage_mass" role="tab" aria-selected="false">覆盖权重</button>
+                </div>
+                <div class="donut-panel">
+                    <div id="nyc-donut-chart" class="donut-chart" role="img" aria-label="NYC vs 非 NYC 圆环图"></div>
+                    <div class="donut-insights">
+                        <div class="donut-stat">
+                            <p class="stat-label">NYC 占比</p>
+                            <p class="stat-value" data-nyc-share>--</p>
+                            <p class="stat-note" data-nyc-metric-label>—</p>
+                        </div>
+                        <div class="donut-detail" data-nyc-detail>
+                            正在计算中...
+                        </div>
+                    </div>
+                </div>
+                <p class="chart-note">圆环中心显示 NYC 份额，可通过 pill 交互切换不同指标；覆盖权重 = 覆盖度得分 × 参与规模。</p>
+            </div>
+        </section>
+
+        <section class="section-block" id="regional-insights" data-animate>
+            <div class="section-heading">
+                <h2>城乡与 N/RC · 多维对比</h2>
+                <p>针对 2023-24 学年（SUBGROUP = All Students），聚焦覆盖率、参与率、达标率的三维堆叠条形图。</p>
+            </div>
+            <div class="regional-panel">
+                <div class="trend-panel">
+                    <div class="trend-panel__header">
+                        <div>
+                            <h3>多维对比堆叠条形图</h3>
+                            <p class="trend-note">数据单位：%</p>
+                        </div>
+                        <span class="research-badge">N/RC · NYC · 城乡</span>
+                    </div>
+                    <div id="regional-comparison-chart" class="regional-chart" role="img" aria-label="N/RC 与城乡对比堆叠条形图"></div>
+                    <p class="regional-note">
+                        同一行仅比较对应区域组合；条形长度表示绝对水平，颜色为低饱和“盐系”配色。
+                    </p>
+                </div>
+                <div class="insights-card">
+                    <h3>关键洞察</h3>
+                    <ul class="insight-list">
+                        <li><strong>低 N/RC 区域</strong>覆盖与参与均高于高 N/RC（92% vs 83%，57% vs 43%），达标率差距最大（74% vs 57%）。</li>
+                        <li><strong>NYC</strong>课程供给最集中（56% 覆盖率），但非 NYC 在参与与达标上分别高出 13～15 个百分点。</li>
+                        <li><strong>农村区域</strong>参与规模较小（34%），达标率却达到 76%，呈现“量少但质优”。</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block" id="resource-performance" data-animate>
+            <div class="section-heading">
+                <h2>资源-成绩双轴散点图</h2>
+                <p>以 county 维度的覆盖指数为排序基准，左轴跟踪 AP/IB 课程供给强度，右轴同步展示考试达标率，快速识别“资源-成效”错位区域。</p>
+            </div>
+            <div class="scatter-panel">
+                <div class="scatter-card">
+                    <div class="scatter-card__header">
+                        <div>
+                            <h3>资源覆盖 vs 成绩达标（Top 35 Counties）</h3>
+                            <p class="trend-note">X 轴为资源指数排名，双 Y 轴观察供给与表现</p>
+                        </div>
+                        <button id="resource-chart-toggle" class="chart-toggle" type="button">切换为经典样式</button>
+                    </div>
+                    <div id="resource-performance-chart" class="scatter-chart" role="img" aria-label="资源与成绩双轴散点图"></div>
+                    <p class="chart-note">
+                        数据来源：<code>cleaned_data/resource_outcome_scatter.json</code>。
+                        资源覆盖指数 =（测试规模 z-score + 课程多样性 z-score）/ 2，经 0-100 归一化。
+                    </p>
+                </div>
+                <div class="insights-card">
+                    <h3>散点图洞察</h3>
+                    <ul class="insight-list">
+                        <li><strong>Nassau / Suffolk / Westchester</strong> 资源指数 ≥80，达标率稳定在 75% 附近，边际收益开始递减。</li>
+                        <li><strong>Onondaga、Tompkins、Saratoga</strong> 等上州县资源指数仅 15-25，却能把达标率抬到 79%-83%，说明“以质取胜”的样板区。</li>
+                        <li><strong>Queens 与 Bronx</strong> 坐标位于右侧但低 Y 值（53%-54%），揭示资源投入未能等比例转化为成绩的都市区短板。</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block" id="coverage-map" data-animate>
+            <div class="section-heading">
+                <h2>纽约州 AP/IB 地理覆盖率</h2>
+                <p>县级热力图联合课程供给与测试参与，颜色越深代表覆盖度越高。</p>
+            </div>
+            <div class="plot-card">
+                <div class="plot-card__meta">
+                    <h3>County Coverage Index</h3>
+                    <p class="plot-note">数据来源：cleaned_data/county_coverage.json & ny-counties.geojson</p>
+                </div>
+                <div id="ny-coverage-map" class="geo-chart" role="img" aria-label="纽约州县级覆盖热力图"></div>
+                <p class="map-note">提示：鼠标悬停显示测试人数与课程数量。</p>
+            </div>
+        </section>
+
+        <section class="section-block" id="hierarchical-treemap" data-animate>
+            <div class="section-heading">
+                <h2>多层级资源分布树形图</h2>
+                <p>展示全州 → N/RC → 县的层级结构，矩形大小表示学生数量，颜色深度表示达标率。</p>
+            </div>
+            <div class="plot-card">
+                <div class="plot-card__meta">
+                    <h3>Hierarchical Resource Distribution</h3>
+                    <p class="plot-note">数据来源：cleaned_data/treemap_data.json</p>
+                </div>
+                <div id="treemap-chart" class="treemap-chart" role="img" aria-label="多层级资源分布树形图" style="width: 100%; height: 600px;"></div>
+                <div class="treemap-legend">
+                    <div class="legend-item">
+                        <span class="legend-color" style="background: linear-gradient(to right, #d4ecff, #0057b7);"></span>
+                        <span>颜色表示达标率（浅=低，深=高）</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-size">📦</span>
+                        <span>矩形大小表示学生数量</span>
+                    </div>
+                </div>
+                <p class="map-note">提示：点击矩形可查看详细信息，矩形越大表示该地区学生数量越多。</p>
+            </div>
+        </section>
+
+        <div class="back-link" data-animate>
+            <a href="{{ url_for('index') }}">← 返回首页</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper footer__inner">
+            <span>纽约州 AP/IB 数据分析 · Research 02</span>
+            <span>数据驱动的教育公平洞察</span>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js" 
+            onerror="this.onerror=null; this.src='https://unpkg.com/echarts@5/dist/echarts.min.js';"></script>
+    <script src="{{ url_for('static', filename='js/regional-stacked-chart.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lorenz-curve.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/nyc-donut-chart.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/resource-performance-scatter.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/geo-map.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/treemap-chart.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/research2-page.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>纽约州 AP/IB 学校查询面板</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/ny-student-test.css') }}">
+</head>
+<body class="ny-site">
+  <header class="hero">
+    <div class="wrapper hero__inner">
+      <nav class="hero__nav">
+        <a class="logo" href="{{ url_for('index') }}">School Intelligence Desk</a>
+        <div class="hero__links">
+          <a class="btn ghost" href="{{ url_for('equity') }}">Equity Deck</a>
+          <a class="btn ghost" href="{{ url_for('index') }}">Crime Briefing</a>
+        </div>
+      </nav>
+      <div class="hero__content">
+        <p class="eyebrow">AP/IB School Explorer</p>
+        <h1>逐校审视 AP / IB 参与与成绩</h1>
+        <p class="lede">从县到学校、从课程到子群体，快速组合筛选条件，洞察每所学校的参加人数、通过率与等级分布。</p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#controls">设置筛选器</a>
+          <button class="btn secondary" id="scroll-table">跳转到表格</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="plotly-lab" id="school-filters">
+      <header class="section-heading">
+        <p class="eyebrow">Filters</p>
+        <h2>筛选条件</h2>
+        <p class="lede">从县、学校、课程和学生子群体自由组合条件，点击下方按钮即可刷新统计与表格。</p>
+      </header>
+      <div class="performance">
+        <div class="control-grid">
+          <label>
+            学年
+            <select id="schoolYearSelect">
+              <option value="All">全部</option>
+            </select>
+          </label>
+          <label>
+            县名
+            <select id="countySelect">
+              <option value="All">全部</option>
+            </select>
+          </label>
+          <label>
+            学校
+            <select id="schoolSelect">
+              <option value="All">全部</option>
+            </select>
+          </label>
+          <label>
+            项目类型
+            <select id="programSelect">
+              <option value="All">全部</option>
+            </select>
+          </label>
+          <label>
+            科目领域
+            <select id="subjectSelect">
+              <option value="All">全部</option>
+            </select>
+          </label>
+          <label>
+            课程
+            <select id="courseSelect">
+              <option value="All">全部</option>
+            </select>
+          </label>
+          <label>
+            年级
+            <select id="gradeSelect">
+              <option value="All">全部</option>
+            </select>
+          </label>
+        </div>
+
+        <p class="control-note">勾选可选人群以缩小范围，若不勾选则默认“全部学生”。</p>
+
+        <div class="checkbox-groups">
+          <fieldset>
+            <legend>性别</legend>
+            <label><input type="checkbox" value="Female" class="demographic gender"> Female</label>
+            <label><input type="checkbox" value="Male" class="demographic gender"> Male</label>
+            <label><input type="checkbox" value="Nonbinary" class="demographic gender"> Nonbinary</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>族裔</legend>
+            <label><input type="checkbox" value="American Indian or Alaska Native" class="demographic ethnicity"> American Indian or Alaska Native</label>
+            <label><input type="checkbox" value="Asian or Native Hawaiian/Other Pacific Islander" class="demographic ethnicity"> Asian or Native Hawaiian/Other Pacific Islander</label>
+            <label><input type="checkbox" value="Black or African American" class="demographic ethnicity"> Black or African American</label>
+            <label><input type="checkbox" value="Hispanic or Latino" class="demographic ethnicity"> Hispanic or Latino</label>
+            <label><input type="checkbox" value="White" class="demographic ethnicity"> White</label>
+            <label><input type="checkbox" value="Multiracial" class="demographic ethnicity"> Multiracial</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>其他群体</legend>
+            <label><input type="checkbox" value="Students with Disabilities" class="demographic other"> Students with Disabilities</label>
+            <label><input type="checkbox" value="Economically Disadvantaged Students" class="demographic other"> Economically Disadvantaged Students</label>
+            <label><input type="checkbox" value="English Language Learner" class="demographic other"> English Language Learner</label>
+          </fieldset>
+        </div>
+
+        <div class="hero__actions">
+          <button class="btn primary" id="applyFilters" type="button">更新视图</button>
+          <button class="btn secondary" id="resetFilters" type="button">重置筛选</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="plotly-lab" id="school-summary">
+      <header class="section-heading">
+        <p class="eyebrow">Snapshot</p>
+        <h2>当前筛选的核心指标</h2>
+      </header>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <p class="stat-label">筛选样本</p>
+          <p class="stat-value" id="statTotalRows">--</p>
+          <p class="stat-footnote">记录条目</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">测试人数</p>
+          <p class="stat-value" id="statTested">--</p>
+          <p class="stat-footnote">累计测试人数</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">通过人数 / 率</p>
+          <p class="stat-value" id="statProficient">--</p>
+          <p class="stat-footnote" id="statRate">--</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="plotly-lab" id="school-table">
+      <header class="section-heading">
+        <p class="eyebrow">Detailed table</p>
+        <h2>AP/IB 课程详情</h2>
+        <p>列出符合条件的全部记录，包含测试/通过人数与 Level 1–7 统计。最多显示 1500 条，建议继续细分条件以更快定位学校。</p>
+      </header>
+      <div class="table-card">
+        <div class="table-toolbar">
+          <h3>详细列表</h3>
+          <span id="tableStatus">加载中...</span>
+        </div>
+        <div class="table-wrapper">
+          <table class="dark-table">
+            <thead>
+              <tr>
+                <th>学校</th>
+                <th>县</th>
+                <th>子群体</th>
+                <th>项目</th>
+                <th>科目</th>
+                <th>课程</th>
+                <th>年级</th>
+                <th>测试人数</th>
+                <th>通过人数</th>
+                <th>通过率</th>
+                <th>一级</th>
+                <th>二级</th>
+                <th>三级</th>
+                <th>四级</th>
+                <th>五级</th>
+                <th>六级</th>
+                <th>七级</th>
+              </tr>
+            </thead>
+            <tbody id="schoolTableBody">
+              <tr><td colspan="17">数据加载中...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper footer__inner">
+      <p>由 HTML、CSS 与 JavaScript 构建。</p>
+      <p>School Intelligence Desk · 2025</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("scroll-table")?.addEventListener("click", () => {
+      document.querySelector(".school-table")?.scrollIntoView({ behavior: "smooth" });
+    });
+  </script>
+
+  <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+  <script src="{{ url_for('static', filename='js/schools.js') }}"></script>
+</body>
+</html>
+
