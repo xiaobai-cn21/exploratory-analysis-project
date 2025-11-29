@@ -78,8 +78,11 @@
 <body class="ny-site">
     <header class="hero" id="top">
         <div class="wrapper hero__inner">
-            <nav class="hero__nav">
-                <a class="logo" href="./index.html">GTD Heritage</a>
+            <nav class="hero__nav" data-nav>
+                <a class="logo" href="{{ url_for('index') }}">
+                    <span aria-hidden="true">🗽</span>
+                    <span>NY 教育数据分析</span>
+                </a>
                 <div class="hero__links">
                     <a class="btn ghost" href="https://www.nysed.gov/state-assessment/advanced-placement" target="_blank" rel="noopener">NYS AP Guidance</a>
                     <a class="btn ghost" href="https://www.ibo.org/programmes/diploma-programme/curriculum" target="_blank" rel="noopener">IB Diploma Brief</a>
@@ -297,22 +300,42 @@
                 <article class="timeline-card">
                     <p class="timeline-date">学生特征</p>
                     <h3>人口统计因素的影响</h3>
-                    <p>不同子组（性别、种族、经济状况等）对达标率的影响程度和方向</p>
+                    <p><strong>关键发现：</strong></p>
+                    <ul style="margin: 0.5rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
+                        <li>经济状况是强预测因子，经济困难组与不困难组的差距约19个百分点</li>
+                        <li>种族/族裔是强预测因子，Black组与Asian组的差距约32个百分点</li>
+                        <li>残疾状态显著影响达标率，残疾学生与普通教育学生的差距约25个百分点</li>
+                    </ul>
                 </article>
                 <article class="timeline-card">
                     <p class="timeline-date">地区特征</p>
                     <h3>地理因素的影响</h3>
-                    <p>县、N/RC分类、NYC标识等地区特征对达标率的影响</p>
+                    <p><strong>关键发现：</strong></p>
+                    <ul style="margin: 0.5rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
+                        <li>县名称（COUNTY_NAME）是重要的地区特征，最大重要性29.10</li>
+                        <li>NYC标识（NYC_IND）是重要的地区特征，NYC和非NYC的达标率可能存在差异</li>
+                        <li>地区特征的平均重要性14.73，是第二重要的特征组</li>
+                    </ul>
                 </article>
                 <article class="timeline-card">
                     <p class="timeline-date">资源特征</p>
                     <h3>学校资源的影响</h3>
-                    <p>资源能力（N/RC）与达标率的关系，识别资源-表现匹配情况</p>
+                    <p><strong>关键发现：</strong></p>
+                    <ul style="margin: 0.5rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
+                        <li>N/RC代码与达标率可能存在正相关关系</li>
+                        <li>资源特征的平均重要性较低（0.39），但仍然是有用的特征</li>
+                        <li>资源与表现的关系不是简单的线性关系，存在异常案例</li>
+                    </ul>
                 </article>
                 <article class="timeline-card">
                     <p class="timeline-date">学科特征</p>
                     <h3>学科差异的影响</h3>
-                    <p>不同学科领域的达标率差异，AP vs IB的表现对比</p>
+                    <p><strong>关键发现：</strong></p>
+                    <ul style="margin: 0.5rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
+                        <li>学科特征平均重要性最高（18.07），是强预测因子</li>
+                        <li>学科领域（SUBJECT_AREA）最大重要性43.30，是最重要的单个特征</li>
+                        <li>AP/IB标识（APIB_IND）也是重要的特征，AP和IB的表现不同</li>
+                    </ul>
                 </article>
             </div>
         </section>
